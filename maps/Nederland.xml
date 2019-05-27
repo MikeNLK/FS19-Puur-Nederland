@@ -23,7 +23,7 @@
     <splitShapes revision="1" />
     <tipCollision revision="1" />
 
-    <hotspots>
+    <coolemarker>
         <!-- Generic Map Markers -->
         <hotspot name="AnimalsShop" fullName="$l10n_animals_dealer" xMapPos="387" zMapPos="-185.5" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 8 240 240" />
         <!-- Miscellaneous -->
@@ -37,7 +37,7 @@
         <hotspot name="HorseRoofed_01" fullName="$l10n_animals_horseStable" xMapPos="369" zMapPos="3" showName="true" category="CATEGORY_TRIGGERS" imageUVs="264 264 240 240" />
         <hotspot name="PigRoofed_01" fullName="$l10n_animalPen_pig" xMapPos="-117" zMapPos="-154" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 8 240 240" />
         <hotspot name="SheepRoofed_01" fullName="Schafe" xMapPos="-253" zMapPos="447" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 264 240 240" />
-    </hotspots>
+    </coolemarker>
 	
 	<additionalFiles>
         <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
