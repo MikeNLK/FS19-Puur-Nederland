@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="42">
+    <author>Farmer_Andy/lsfarming-mods.com</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Greenhouse Pack</en>
+		<de>Gewächshaus Pack</de>
+    </title>
+    <description>
+        <en>Greenhouse Pack</en>
+		<de>Gewächshaus Pack</de>
+    </description>
+    <iconFilename>icon_greenhousePack.png</iconFilename>
+    <multiplayer supported="true"/>
+
+	<storeItems>
+		<storeItem xmlFilename="greenhouse01.xml"/>
+		<storeItem xmlFilename="greenhouse02.xml"/>
+	</storeItems>
+</modDesc>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="Textures/Rohr3_difuse.dds"/>
+    <File fileId="7" filename="Textures/rohr1_difuse.dds"/>
+    <File fileId="2" filename="Textures/bgashed.dds"/>
+    <File fileId="1" filename="Textures/bgashed1.dds"/>
+    <File fileId="3" filename="Textures/bgashednormal.dds"/>
+    <File fileId="4" filename="Textures/skylight.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Material.006" materialId="7" specularColor="0.2 1 0.2">
+      <Texture fileId="7"/>
+    </Material>
+    <Material name="skylight" materialId="4" alphaBlending="true">
+      <Texture fileId="4"/>
+    </Material>
+    <Material name="shed" materialId="6">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="Material.010" materialId="8" specularColor="0.2 1 0.2">
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="cladding-blue" materialId="9">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Schuur.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Schuur" static="true" nodeId="18">
+      <Shape shapeId="1" name="Shed" translation="0 -0.3 8.50777e-07" rotation="0 180 0" scale="1 1.5 1.9" static="true" clipDistance="500" nodeId="19" materialIds="6,9,4" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="Downpipes" nodeId="28">
+        <TransformGroup name="Downpipe" translation="10.269 0.0548477 -18.0019" nodeId="29">
+          <Shape shapeId="2" name="rohr2" translation="0 0.51137 2.23527e-08" rotation="90 0 0" scale="1 1 0.42" static="true" nodeId="30" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="rohr_L1" translation="-0.0854487 0.129122 0.149976" rotation="90 0 0" scale="1.1 1.1 1.1" static="true" nodeId="31" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="Downpipe" translation="-10.2555 0.0548477 -18.0019" rotation="0 180 0" nodeId="32">
+          <Shape shapeId="2" name="rohr2" translation="0 0.51137 2.23527e-08" rotation="90 0 0" scale="1 1 0.42" static="true" nodeId="33" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="rohr_L1" translation="-0.0854487 0.129122 0.149976" rotation="90 0 0" scale="1.1 1.1 1.1" static="true" nodeId="34" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="Downpipe" translation="-10.1276 0.0548477 18.5554" rotation="0 220 0" nodeId="35">
+          <Shape shapeId="2" name="rohr2" translation="0 0.51137 2.23527e-08" rotation="90 0 0" scale="1 1 0.42" static="true" nodeId="36" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="rohr_L1" translation="-0.0854487 0.129122 0.149976" rotation="90 0 0" scale="1.1 1.1 1.1" static="true" nodeId="37" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="Downpipe" translation="10.2702 0.929717 18.5157" rotation="0 -90 0" nodeId="38">
+          <Shape shapeId="2" name="rohr2" translation="0 0.51137 2.23527e-08" rotation="90 0 0" scale="1 1 0.38" static="true" nodeId="39" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="rohr_L1" translation="-0.0854487 0.129122 0.149976" rotation="90 0 0" scale="1.2 1.2 1.2" static="true" nodeId="40" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="3" name="rohr_L1" translation="1.65606 0.192119 0.149976" rotation="90 7.74463e-06 180" scale="1.2 1.2 1.2" static="true" nodeId="44" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

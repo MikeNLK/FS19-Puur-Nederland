@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="42">
+	<author>FedAction</author>
+	<version>1.0</version>
+	
+	<title>
+		<en>NF Mod Map Windmuehle</en>
+		<de>NF Mod Map Windmuehle</de>
+	
+	</title>
+	
+	<description>
+		<en>
+			<![CDATA[• Windmuehle
+Price: 680.000 €
+Income per hour:
+Easy Mode: 750 €
+Normal Mode: 650 €
+Hard Mode: 400 €
+Maintenance: 1000 € / day]]>
+		</en>
+		
+		<de>
+			<![CDATA[• Windmuehle
+Preise: 680.000 €
+Einkommen pro Stunde:
+Leicht: 750 €
+Normal: 650 €
+Schwer: 400 €
+Unterhaltskosten: 1000 € / Tag]]>
+		</de>
+	
+	</description>
+	
+	<iconFilename>icon_windmuehle.png</iconFilename>
+	<multiplayer supported="true" />
+
+	<l10n>
+		<text name="shopItem_Windmuehle">
+			<en>Windmuehle</en>
+			<de>Windmuehle</de>
+					</text>		
+	</l10n>
+
+	<storeItems>
+		<storeItem xmlFilename="Windmuehle.xml"/>		
+	</storeItems>
+
+	<brands>
+		<brand name="FEDMODS" title="FedMods" image="store/FedMods.png"/>
+	</brands>
+</modDesc>

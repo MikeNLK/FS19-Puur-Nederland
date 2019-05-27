@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="kalbReady" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="animalEartags_diffuse.dds"/>
+    <File fileId="2" filename="calf_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="calf_mat" materialId="5">
+      <Texture fileId="2"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="acmat_0" materialId="4">
+      <Texture fileId="1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="calf.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="skeleton" nodeId="13">
+      <TransformGroup name="Bip01" translation="-0.0006526 0.717938 -0.390034" rotation="0 -90 0" static="true" nodeId="14">
+        <TransformGroup name="Bip01 Footsteps" translation="0 -0.715601 0" rotation="0 90 0" static="true" nodeId="15"/>
+        <TransformGroup name="Bip01 Pelvis" rotation="-89.9999 1.19528e-05 89.9999" static="true" nodeId="16">
+          <TransformGroup name="Bip01 L Thigh" translation="-2e-07 0.10004 -2e-07" rotation="0.684637 26.5095 175.448" visibility="false" static="true" nodeId="17">
+            <TransformGroup name="Bip01 L Calf" translation="0.219636 0 -1e-07" rotation="5e-07 -61.2355 -1.3e-06" visibility="false" static="true" nodeId="18">
+              <TransformGroup name="Bip01 L HorseLink" translation="0.256847 0 0" rotation="-4e-07 27.3793 -6e-07" visibility="false" static="true" nodeId="19">
+                <TransformGroup name="Bip01 L Foot" translation="0.215882 -1e-07 -1e-07" rotation="0.0150827 7.37046 4.89808" visibility="false" static="true" nodeId="20">
+                  <TransformGroup name="Bip01 L Toe0" translation="0.0961481 -1e-07 -0.0989893" rotation="-2.6e-06 90 0" visibility="false" static="true" nodeId="21">
+                    <TransformGroup name="Bip01 L Toe0Nub" translation="0.0100961 0 -1e-07" rotation="180 -8.65142e-06 180" visibility="false" static="true" nodeId="22"/>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Bip01 R Thigh" translation="1e-07 -0.10004 1e-07" rotation="-0.708375 26.4663 -175.28" visibility="false" static="true" nodeId="23">
+            <TransformGroup name="Bip01 R Calf" translation="0.219636 0 0" rotation="-1e-07 -61.1543 -7e-07" visibility="false" static="true" nodeId="24">
+              <TransformGroup name="Bip01 R HorseLink" translation="0.256847 -1e-07 0" rotation="2e-07 27.343 -5.01285e-14" visibility="false" static="true" nodeId="25">
+                <TransformGroup name="Bip01 R Foot" translation="0.215882 0 -1e-07" rotation="-0.0163076 7.37045 -5.07697" visibility="false" static="true" nodeId="26">
+                  <TransformGroup name="Bip01 R Toe0" translation="0.0961481 -1e-07 -0.0989893" rotation="2.5e-06 90 0" visibility="false" static="true" nodeId="27">
+                    <TransformGroup name="Bip01 R Toe0Nub" translation="0.0100961 0 0" visibility="false" static="true" nodeId="28"/>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Bip01 Spine" translation="0.0133677 -3e-07 -0.0713456" rotation="180 79.9544 180" static="true" nodeId="29">
+            <TransformGroup name="Bip01 Spine1" translation="0.203339 -1e-07 0.0001503" rotation="-1.35e-05 -5 -3.53e-05" static="true" nodeId="30">
+              <TransformGroup name="Bip01 Spine2" translation="0.189444 -1e-07 0.0001397" rotation="-2.16e-05 -10 -6.99e-05" static="true" nodeId="31">
+                <TransformGroup name="Bip01 Neck" translation="0.26885 1e-07 -0.0725816" rotation="4.72e-05 -21.3648 2.27e-05" static="true" nodeId="32">
+                  <TransformGroup name="Bip01 L Clavicle" translation="-0.105049 0.0704739 -0.0267628" rotation="-132.039 45.9268 135.211" visibility="false" static="true" nodeId="33">
+                    <TransformGroup name="Bip01 L UpperArm" translation="0.0875 -1e-07 0" rotation="89.0237 -28.072 14.6862" visibility="false" static="true" nodeId="34">
+                      <TransformGroup name="Bip01 L Forearm" translation="0.206096 0 0" rotation="1.98803e-15 -0.788079 -4e-07" visibility="false" static="true" nodeId="35">
+                        <TransformGroup name="Bip01 L Hand" translation="0.187479 0 0" rotation="-179.954 4.68065 9.97381e-07" visibility="false" static="true" nodeId="36">
+                          <TransformGroup name="Bip01 L Finger0" translation="0.108744 0 -1e-07" rotation="-0.0456258 1.2e-06 -2e-07" visibility="false" static="true" nodeId="37">
+                            <TransformGroup name="Bip01 L Finger0Nub" translation="0.0362152 0 0" rotation="0 0 -2e-07" visibility="false" static="true" nodeId="38"/>
+                          </TransformGroup>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <TransformGroup name="Bip01 Neck1" translation="0.103012 -1e-07 8.59e-05" rotation="0 0 -1e-07" static="true" nodeId="39">
+                    <TransformGroup name="Bip01 Neck2" translation="0.107922 -1e-07 7.63e-05" rotation="-7.09e-05 14.2327 -1.98e-05" static="true" nodeId="40">
+                      <TransformGroup name="Bip01 Head" translation="0.0989071 0 0" rotation="0.0002949 -50.34 -0.0005622" static="true" nodeId="41">
+                        <TransformGroup name="Bip01 HeadNub" translation="0.164341 0 0" rotation="0 -1.8e-06 -1e-07" visibility="false" static="true" nodeId="42"/>
+                        <TransformGroup name="Bip01 Ponytail1" translation="-0.0036945 0.0007765 -0.181097" rotation="10.2997 86.5001 10.6973" visibility="false" static="true" nodeId="43">
+                          <TransformGroup name="Bip01 Ponytail1Nub" translation="0.117563 -1e-07 0" rotation="180 90 0" visibility="false" static="true" nodeId="44"/>
+                        </TransformGroup>
+                        <TransformGroup name="Bip01 Ponytail2" translation="0.113029 0.0015646 0.067996" rotation="0.331152 19.5892 2.49071" visibility="false" static="true" nodeId="45">
+                          <TransformGroup name="Bip01 Ponytail2Nub" translation="0.142551 -1e-07 0" rotation="-180 90 0" visibility="false" static="true" nodeId="46"/>
+                        </TransformGroup>
+                        <Shape shapeId="1" name="animalEartag" translation="0.117166 -0.17064 0.0245391" rotation="20.2217 -12.366 -94.9726" clipDistance="30" nodeId="47" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                        <Shape shapeId="2" name="animalEartag" translation="0.120837 0.177451 0.0291553" rotation="29.9835 8.61102 -91.33" clipDistance="30" nodeId="48" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <TransformGroup name="Bip01 R Clavicle" translation="-0.105049 -0.0704734 -0.026763" rotation="132.039 45.9269 -135.211" visibility="false" static="true" nodeId="49">
+                    <TransformGroup name="Bip01 R UpperArm" translation="0.0875 -1e-07 0" rotation="-87.3862 -26.606 -18.3557" visibility="false" static="true" nodeId="50">
+                      <TransformGroup name="Bip01 R Forearm" translation="0.206096 -1e-07 0" rotation="-1.11728e-14 -4.89898 3e-07" visibility="false" static="true" nodeId="51">
+                        <TransformGroup name="Bip01 R Hand" translation="0.187479 0 -1e-07" rotation="179.954 4.68065 -1.19753e-06" visibility="false" static="true" nodeId="52">
+                          <TransformGroup name="Bip01 R Finger0" translation="0.108744 -1e-07 0" rotation="0.0456257 -1e-07 -3e-07" visibility="false" static="true" nodeId="53">
+                            <TransformGroup name="Bip01 R Finger0Nub" translation="0.0362152 -1e-07 -1e-07" rotation="180 8.65142e-06 -180" visibility="false" static="true" nodeId="54"/>
+                          </TransformGroup>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Bip01 Tail" translation="0.116131 5e-07 0.145122" rotation="180 -29.3313 -180" visibility="false" static="true" nodeId="55">
+            <TransformGroup name="Bip01 Tail1" translation="0.142917 -1e-07 0.0001533" rotation="2.52e-05 -27.8515 -0.0001079" visibility="false" static="true" nodeId="56">
+              <TransformGroup name="Bip01 Tail2" translation="0.217786 -1e-07 0.0001611" rotation="1e-07 2.43506 6.7e-06" visibility="false" static="true" nodeId="57">
+                <TransformGroup name="Bip01 TailNub" translation="0.202554 0 0" rotation="180 90 0" visibility="false" static="true" nodeId="58"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+    <Shape shapeId="3" name="calfMesh" clipDistance="120" nodeId="59" materialIds="5" castsShadows="true" receiveShadows="true" skinBindNodeIds="45 41 43 40 31 32 30 50 29 23 16 55 24 25 26 49 51 52 39 56 57 34 17 18 19 20 33 35 36 47 48"/>
+    <Shape shapeId="4" name="calfProxy" visibility="false" kinematic="true" collisionMask="1048576" linearDamping="0.5" angularDamping="0.5" nodeId="60" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+    <Shape shapeId="5" name="calfTranslation" nodeId="61" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+  </Scene>
+
+
+  <Animation externalAnimFile="calf.i3d.anim" />
+</i3D>

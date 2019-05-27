@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="compositeHall" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="10" filename="compositeHallAddons_diffuse.dds"/>
+    <File fileId="11" filename="compositeHallAddons_normal.dds"/>
+    <File fileId="12" filename="compositeHallAddons_specular.dds"/>
+    <File fileId="1" filename="compositeHall_diffuse.dds"/>
+    <File fileId="5" filename="compositeHall_mask.dds"/>
+    <File fileId="2" filename="compositeHall_normal.dds"/>
+    <File fileId="3" filename="compositeHall_specular.dds"/>
+    <File fileId="16" filename="decals_diffuse.dds"/>
+    <File fileId="17" filename="decals_normal.dds"/>
+    <File fileId="18" filename="decals_specular.dds"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="19" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="14" filename="$data/shared/default_normal.dds"/>
+    <File fileId="13" filename="$data/shared/window_diffuse.dds"/>
+    <File fileId="15" filename="$data/shared/window_specular.dds"/>
+    <File fileId="23" filename="windowSectionaldoor_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="window_mat" materialId="5" alphaBlending="true">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+    </Material>
+    <Material name="compositeHall_mat" materialId="6" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+    </Material>
+    <Material name="compositeHallAddons_mat" materialId="7">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+    </Material>
+    <Material name="windowsSectionaldoor_mat" materialId="9" alphaBlending="true">
+      <Texture fileId="13"/>
+      <Normalmap fileId="23"/>
+      <Glossmap fileId="15"/>
+    </Material>
+    <Material name="lightIllum" materialId="11" emissiveColor="0.498039 0.498039 0.498039 1" specularColor="0.498039 1 0.498039">
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.498039 0.498039 0.498039 1">
+    </Material>
+    <Material name="trigger_mat" materialId="8" diffuseColor="0.498039 0.498039 0.498039 0">
+    </Material>
+    <Material name="decals_mat" materialId="10" alphaBlending="true" customShaderId="19">
+      <Texture fileId="16"/>
+      <Normalmap fileId="17"/>
+      <Glossmap fileId="18"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="compositeHall5.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="compositeHall_5" translation="2.22045e-16 0 1.77636e-15" static="true" clipDistance="300" nodeId="96">
+      <Shape shapeId="1" name="compositeHall_vis" translation="-4.76837e-07 0 -3.57628e-07" static="true" nodeId="97" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="addons" translation="-2.22045e-16 0 -1.77636e-15" static="true" collision="false" clipDistance="150" nodeId="98" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="windows" translation="1.81523 7.03083 -0.000534054" static="true" clipDistance="300" nodeId="99" materialIds="5" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="4" name="decals" translation="-2.22045e-16 0 -1.77636e-15" clipDistance="300" nodeId="100" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+      <TransformGroup name="light" translation="-4.44089e-16 0 -1.77636e-15" nodeId="101">
+        <Shape shapeId="5" name="trigger" translation="-2.73291 6.66134e-16 16.9905" static="true" trigger="true" collisionMask="3145728" nodeId="102" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="6" name="trigger1" translation="2.22045e-16 2.95823e-31 -34.2043" static="true" trigger="true" collisionMask="3145728" nodeId="103" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </Shape>
+        <TransformGroup name="lightswitch1" translation="-2.71323 1 -17.0904" nodeId="104">
+          <Shape shapeId="7" name="lightswitch" translation="2.22045e-16 0.0398101 0" clipDistance="100" nodeId="105" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="lightswitch2" translation="-2.713 1 17.0918" rotation="0 180 0" nodeId="106">
+          <Shape shapeId="8" name="lightswitch" translation="-1.11022e-15 0.0391341 1.35963e-31" clipDistance="100" nodeId="107" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <TransformGroup name="illum" nodeId="108">
+          <Shape shapeId="9" name="glass" translation="-0.0881481 0 0" clipDistance="100" nodeId="109" materialIds="11" castsShadows="true" receiveShadows="true"/>
+          <Light name="spotLight1" translation="1 7 10.5" rotation="-90 0 0" nodeId="110" type="spot" color="1 1 0.769" emitDiffuse="true" emitSpecular="true" decayRate="1" range="12" coneAngle="150" dropOff="3"/>
+          <Light name="spotLight2" translation="1 7 3.5" rotation="-90 0 0" nodeId="111" type="spot" color="1 1 0.769" emitDiffuse="true" emitSpecular="true" decayRate="1" range="12" coneAngle="150" dropOff="3"/>
+          <Light name="spotLight3" translation="0 7 -3.5" rotation="-90 0 0" nodeId="112" type="spot" color="1 1 0.769" emitDiffuse="true" emitSpecular="true" decayRate="1" range="12" coneAngle="150" dropOff="3"/>
+          <Light name="spotLight4" translation="0 7 -10.5" rotation="-90 0 0" nodeId="113" type="spot" color="1 1 0.769" emitDiffuse="true" emitSpecular="true" decayRate="1" range="12" coneAngle="150" dropOff="3"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="sectionalDoors" translation="-4.44089e-16 0 -1.77636e-15" nodeId="114">
+        <TransformGroup name="sectionalDoorLeft" translation="-6.83815 0.0500002 -14.1411" nodeId="115">
+          <Shape shapeId="10" name="trigger" translation="2.76237 -0.0539159 -2.2694" static="true" trigger="true" collisionMask="3145728" nodeId="116" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="11" name="trigger" translation="-2.36651 1.0647 2.2694" static="true" trigger="true" collisionMask="3145728" nodeId="117" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <TransformGroup name="button" translation="2.58732 1.0009 -2.89068" nodeId="118">
+            <Shape shapeId="12" name="button" translation="-8.88178e-16 0 0" clipDistance="100" nodeId="119" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="13" name="light" translation="0.0372367 0.0622761 -0.0129846" clipDistance="100" nodeId="120" materialIds="4" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight" translation="-0.000700234 -0.000824736 0.0166645" clipDistance="100" nodeId="121" type="point" color="0.0544813 0.552005 0.000303452" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.2"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="door" translation="0.404953 0 0.401481" nodeId="122">
+            <Shape shapeId="14" name="segment1" translation="-0.0490906 4.5747 3.036" kinematic="true" clipDistance="300" nodeId="123" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="14" name="segment2" translation="-0.0490906 3.8147 3.036" kinematic="true" clipDistance="300" nodeId="124" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="15" name="segment3" translation="-0.0490906 3.05457 3.036" kinematic="true" clipDistance="300" nodeId="125" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="16" name="window" translation="0.0175753 0.0748981 -3.036" clipDistance="300" nodeId="126" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="15" name="segment4" translation="-0.0490906 2.2915 3.036" kinematic="true" clipDistance="300" nodeId="127" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="16" name="window" translation="0.0175753 0.0738397 -3.036" clipDistance="300" nodeId="128" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="17" name="segment5" translation="-0.0490906 1.5238 3.036" kinematic="true" clipDistance="300" nodeId="129" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="14" name="segment6" translation="-0.0490906 0.76372 3.036" kinematic="true" clipDistance="300" nodeId="130" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="14" name="segment7" translation="-0.0490906 0.00363782 3.036" kinematic="true" clipDistance="300" nodeId="131" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="sectionalDoorMidle1" translation="-6.83815 0.0500002 -7.28155" nodeId="132">
+          <Shape shapeId="18" name="trigger" translation="0.492535 -0.0523175 -3.21845" rotation="0 -90 0" static="true" trigger="true" collisionMask="3145728" nodeId="133" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="11" name="trigger" translation="3.21845 1.06311 0.0966727" rotation="0 90 0" static="true" trigger="true" collisionMask="3145728" nodeId="134" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <TransformGroup name="button" translation="0.465005 1.00319 -3.23177" rotation="0 90 0" nodeId="135">
+            <Shape shapeId="19" name="button" translation="1.77636e-15 0 6.21725e-15" clipDistance="100" nodeId="136" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="20" name="light" translation="0.0372367 0.0622761 -0.0129846" clipDistance="100" nodeId="137" materialIds="4" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight" translation="-0.000700234 -0.000824736 0.0166645" clipDistance="100" nodeId="138" type="point" color="0.0544813 0.552005 0.000303452" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.2"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="door" translation="0.404953 0 0.281549" nodeId="139">
+            <Shape shapeId="21" name="segment1" translation="-0.0490906 4.5747 3.3" kinematic="true" clipDistance="300" nodeId="140" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment2" translation="-0.0490906 3.8147 3.3" kinematic="true" clipDistance="300" nodeId="141" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="22" name="segment3" translation="-0.0490906 3.05457 3.3" kinematic="true" clipDistance="300" nodeId="142" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="23" name="window" translation="0.00551551 0.0738397 -3.3" clipDistance="300" nodeId="143" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="22" name="segment4" translation="-0.0490906 2.2915 3.3" kinematic="true" clipDistance="300" nodeId="144" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="23" name="window" translation="0.00551551 0.0738397 -3.3" clipDistance="300" nodeId="145" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="21" name="segment5" translation="-0.0490906 1.5238 3.3" kinematic="true" clipDistance="300" nodeId="146" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment6" translation="-0.0490906 0.76372 3.3" kinematic="true" clipDistance="300" nodeId="147" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment7" translation="-0.0490906 0.00363782 3.3" kinematic="true" clipDistance="300" nodeId="148" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="sectionalDoorRight" translation="-6.83815 0.0500002 14.1411" nodeId="149">
+          <Shape shapeId="24" name="trigger" translation="2.76237 -0.0488648 3.17859" static="true" trigger="true" collisionMask="3145728" nodeId="150" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="11" name="trigger" translation="-2.36651 1.05965 -3.17859" static="true" trigger="true" collisionMask="3145728" nodeId="151" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <TransformGroup name="button" translation="2.58732 1.0009 2.89021" rotation="0 180 0" nodeId="152">
+            <Shape shapeId="25" name="button" translation="-1.77636e-15 -6.93889e-18 -3.55271e-15" clipDistance="100" nodeId="153" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="26" name="light" translation="0.0372367 0.0622761 -0.0129846" clipDistance="100" nodeId="154" materialIds="4" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight" translation="-0.000700234 -0.000824736 0.0166645" clipDistance="100" nodeId="155" type="point" color="0.0544813 0.552005 0.000303452" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.2"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="door" translation="0.404953 0 -0.397623" nodeId="156">
+            <Shape shapeId="27" name="segment1" translation="-0.0490906 4.5747 3.036" kinematic="true" clipDistance="300" nodeId="157" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="27" name="segment2" translation="-0.0490906 3.8147 3.036" kinematic="true" clipDistance="300" nodeId="158" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="28" name="segment3" translation="-0.0490906 3.05457 3.036" kinematic="true" clipDistance="300" nodeId="159" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="29" name="window" translation="0.0175753 0.0738397 -3.036" clipDistance="300" nodeId="160" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="28" name="segment4" translation="-0.0490906 2.2915 3.036" kinematic="true" clipDistance="300" nodeId="161" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="29" name="window" translation="0.0175753 0.0738397 -3.036" clipDistance="300" nodeId="162" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="30" name="segment5" translation="-0.0490906 1.5238 3.036" kinematic="true" clipDistance="300" nodeId="163" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="27" name="segment6" translation="-0.0490906 0.76372 3.036" kinematic="true" clipDistance="300" nodeId="164" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="31" name="segment7" translation="-0.0490906 0.00363782 3.036" kinematic="true" clipDistance="300" nodeId="165" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="sectionalDoorMidle2" translation="-6.83815 0.0500002 -0.28155" nodeId="166">
+          <Shape shapeId="32" name="trigger" translation="0.492535 -0.0523175 -3.21845" rotation="0 -90 0" static="true" trigger="true" collisionMask="3145728" nodeId="167" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="11" name="trigger" translation="3.21845 1.06311 0.0966727" rotation="0 90 0" static="true" trigger="true" collisionMask="3145728" nodeId="168" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <TransformGroup name="button" translation="0.465005 1.00319 -3.23177" rotation="0 90 0" nodeId="169">
+            <Shape shapeId="19" name="button" translation="1.11022e-14 -6.93889e-18 5.32907e-15" clipDistance="100" nodeId="170" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="20" name="light" translation="0.0372367 0.0622761 -0.0129846" clipDistance="100" nodeId="171" materialIds="4" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight" translation="-0.000700234 -0.000824736 0.0166645" clipDistance="100" nodeId="172" type="point" color="0.0544813 0.552005 0.000303452" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.2"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="door" translation="0.404953 0 0.281549" nodeId="173">
+            <Shape shapeId="21" name="segment1" translation="-0.0490906 4.5747 3.3" kinematic="true" clipDistance="300" nodeId="174" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment2" translation="-0.0490906 3.8147 3.3" kinematic="true" clipDistance="300" nodeId="175" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="22" name="segment3" translation="-0.0490906 3.05457 3.3" kinematic="true" clipDistance="300" nodeId="176" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="23" name="window" translation="0.00551551 0.0738397 -3.3" clipDistance="300" nodeId="177" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="22" name="segment4" translation="-0.0490906 2.2915 3.3" kinematic="true" clipDistance="300" nodeId="178" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="23" name="window" translation="0.00551551 0.0738397 -3.3" clipDistance="300" nodeId="179" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="21" name="segment5" translation="-0.0490906 1.5238 3.3" kinematic="true" clipDistance="300" nodeId="180" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment6" translation="-0.0490906 0.76372 3.3" kinematic="true" clipDistance="300" nodeId="181" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment7" translation="-0.0490906 0.00363782 3.3" kinematic="true" clipDistance="300" nodeId="182" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="sectionalDoorMidle3" translation="-6.83815 0.0500002 6.71845" nodeId="183">
+          <Shape shapeId="32" name="trigger" translation="0.492535 -0.0523175 -3.21845" rotation="0 -90 0" static="true" trigger="true" collisionMask="3145728" nodeId="184" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="11" name="trigger" translation="3.21845 1.06311 0.0966727" rotation="0 90 0" static="true" trigger="true" collisionMask="3145728" nodeId="185" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          </Shape>
+          <TransformGroup name="button" translation="0.465005 1.00319 -3.23177" rotation="0 90 0" nodeId="186">
+            <Shape shapeId="19" name="button" translation="1.24345e-14 -6.93889e-18 0" clipDistance="100" nodeId="187" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="33" name="light" translation="0.0372367 0.0622761 -0.0129846" clipDistance="100" nodeId="188" materialIds="4" castsShadows="true" receiveShadows="true">
+              <Light name="pointLight" translation="-0.000700234 -0.000824736 0.0166645" clipDistance="100" nodeId="189" type="point" color="0.0544813 0.552005 0.000303452" emitDiffuse="true" emitSpecular="true" decayRate="1" range="0.2"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="door" translation="0.404953 0 0.281549" nodeId="190">
+            <Shape shapeId="21" name="segment1" translation="-0.0490906 4.5747 3.3" kinematic="true" clipDistance="300" nodeId="191" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment2" translation="-0.0490906 3.8147 3.3" kinematic="true" clipDistance="300" nodeId="192" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="22" name="segment3" translation="-0.0490906 3.05457 3.3" kinematic="true" clipDistance="300" nodeId="193" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="34" name="window" translation="0.00551551 0.0738397 -3.3" clipDistance="300" nodeId="194" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="22" name="segment4" translation="-0.0490906 2.2915 3.3" kinematic="true" clipDistance="300" nodeId="195" materialIds="7" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="34" name="window" translation="0.00551551 0.0738397 -3.3" clipDistance="300" nodeId="196" materialIds="9" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="21" name="segment5" translation="-0.0490906 1.5238 3.3" kinematic="true" clipDistance="300" nodeId="197" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment6" translation="-0.0490906 0.76372 3.3" kinematic="true" clipDistance="300" nodeId="198" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="21" name="segment7" translation="-0.0490906 0.00363782 3.3" kinematic="true" clipDistance="300" nodeId="199" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="sideDoors" translation="-4.44089e-16 0 -1.77636e-15" nodeId="200">
+        <TransformGroup name="sideDoorLeft" translation="-5.19515 1.05813 -17.4979" nodeId="201">
+          <Shape shapeId="35" name="trigger" translation="2.22045e-16 -1.06815 -0.0649278" static="true" trigger="true" collisionMask="3145728" nodeId="202" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="36" name="door" translation="-0.519598 -0.0472721 -0.00765467" kinematic="true" clipDistance="300" nodeId="203" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="37" name="doorhandle" translation="0.924255 0.0309314 0.00765467" kinematic="true" collision="false" clipDistance="300" nodeId="204" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="38" name="decal" translation="0.537865 0.627956 0.00298482" clipDistance="300" nodeId="205" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="sideDoorRight" translation="-5.18029 1.05813 17.4976" rotation="0 180 0" nodeId="206">
+          <Shape shapeId="39" name="trigger" translation="-2.87663e-16 -1.06815 -0.0649278" static="true" trigger="true" collisionMask="3145728" nodeId="207" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="40" name="door" translation="-0.519598 -0.0472721 -0.00765467" kinematic="true" clipDistance="300" nodeId="208" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="37" name="doorhandle" translation="0.924255 0.0309314 0.00765467" kinematic="true" collision="false" clipDistance="300" nodeId="209" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="38" name="decal" translation="0.516183 0.627956 0.00349125" clipDistance="300" nodeId="210" materialIds="10" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          </Shape>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="clearArea" translation="-14 2.22045e-16 -20" nodeId="211">
+        <TransformGroup name="start" translation="-2.22045e-16 0 1.77636e-15" nodeId="212"/>
+        <TransformGroup name="width" translation="24 0 1.77636e-15" nodeId="213"/>
+        <TransformGroup name="height" translation="-2.22045e-16 0 40" nodeId="214"/>
+      </TransformGroup>
+      <Shape shapeId="41" name="tipCollusion" translation="1.6263 0.60002 0.0106727" static="true" collisionMask="524288" nodeId="215" materialIds="8" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="121">
+      <Attribute name="miLabel" type="integer" value="0"/>
+    </UserAttribute>
+    <UserAttribute nodeId="138">
+      <Attribute name="miLabel" type="integer" value="0"/>
+    </UserAttribute>
+    <UserAttribute nodeId="155">
+      <Attribute name="miLabel" type="integer" value="0"/>
+    </UserAttribute>
+    <UserAttribute nodeId="172">
+      <Attribute name="miLabel" type="integer" value="0"/>
+    </UserAttribute>
+    <UserAttribute nodeId="189">
+      <Attribute name="miLabel" type="integer" value="0"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="10" filename="steelshedAlpha_diffuse.dds"/>
+    <File fileId="11" filename="steelshedAlpha_normal.jpg"/>
+    <File fileId="1" filename="steelshed_diffuse.dds"/>
+    <File fileId="2" filename="steelshed_normal.dds"/>
+    <File fileId="3" filename="steelshed_specular.dds"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="steelshed" materialId="4" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="trigger_mat" materialId="5" diffuseColor="0.494118 0.494118 0.494118 0">
+    </Material>
+    <Material name="steelshed" materialId="6">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="shed3.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="shed3" clipDistance="300" nodeId="12">
+      <Shape shapeId="1" name="shed" translation="0 0 10.9451" static="true" clipDistance="300" nodeId="13" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="alpha" translation="0 0 10.9451" clipDistance="80" nodeId="14" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="guttering" translation="0 0 10.9451" static="true" clipDistance="80" nodeId="15" materialIds="4" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="clearArea" clipDistance="500" nodeId="16">
+        <TransformGroup name="start" translation="12 0 -18" nodeId="17">
+          <TransformGroup name="width" translation="-24 0 0" nodeId="18"/>
+          <TransformGroup name="height" translation="0 0 36" nodeId="19"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="levelArea" clipDistance="500" nodeId="20">
+        <TransformGroup name="start" translation="12 0 -18" nodeId="21">
+          <TransformGroup name="width" translation="-24 0 0" nodeId="22"/>
+          <TransformGroup name="height" translation="0 0 36" nodeId="23"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="4" name="tipCollusion" static="true" collisionMask="524288" clipDistance="100" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

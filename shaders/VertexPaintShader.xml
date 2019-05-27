@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="4">
+    <Parameters>
+        <Parameter name="uvScaleCB"   target="uvScaleCB"   type="float4"   defaultValue = "4.0 4.0 2.0 2.0"/>
+    </Parameters>
+    <Textures>
+        <Texture name = "mBlendedCenter"    defaultColorProfile = "sRGB"   defaultFilename = "../maps/textures/terrain/grass_diffuse155.png"/>
+        <Texture name = "mBlendedBorders"   defaultColorProfile = "sRGB"   defaultFilename = "../maps/textures/terrain/moss_diffuse11.png"/>
+    </Textures>
+    <Variations>
+        <Variation name = "USE_TRI_PLANAR_B">
+<![CDATA[
+    #define USE_TRI_PLANAR_B
+]]>
+        </Variation>
+        <Variation name = "USE_TRI_PLANAR_R">
+<![CDATA[
+    #define USE_TRI_PLANAR_R
+]]>
+        </Variation>
+    </Variations>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+            <CodeInjection position="NUM_TEXCOORDS">
+<![CDATA[
+#ifdef ALPHA_TESTED
+    #undef ALPHA_TESTED
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="MATERIALINFO">
+<![CDATA[
+    uniform float4 uvScaleCB;
+]]>
+            </CodeInjection>
+            <CodeInjection position = "SAMPLERS">
+<![CDATA[
+sampler2D mBlendedCenter;
+sampler2D mBlendedBorders;
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_OUTPUT">
+<![CDATA[
+#if ( defined( USE_TRI_PLANAR_B ) || defined( USE_TRI_PLANAR_R ) )
+    float2        albedoMapTexCoordsX   :           TEXCOORDn;
+    float2        albedoMapTexCoordsY   :           TEXCOORDn;
+    float2        albedoMapTexCoordsZ   :           TEXCOORDn;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_END">
+<![CDATA[
+#if ( defined( USE_TRI_PLANAR_B ) || defined( USE_TRI_PLANAR_R ) )
+    float3 fullWorldPosition = worldPosition + float3(invViewMatrix[0][3], invViewMatrix[1][3], invViewMatrix[2][3]);
+    Out.albedoMapTexCoordsX = fullWorldPosition.yz;
+    Out.albedoMapTexCoordsY = fullWorldPosition.xz;
+    Out.albedoMapTexCoordsZ = fullWorldPosition.xy;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "FS_GLOBALS">
+<![CDATA[
+/*
+globals.gVertexColor.r - opacity  for mBlendedCenter   [ 0 - mBlendedCenter  not visible, 1 - fully visible ]
+globals.gVertexColor.g - softness for mBlendedCenter and mBlendedBorders  [ 0 - sharp transition, 1 - soft transition ]
+globals.gVertexColor.b - opacity  for mBlendedBorders  [ 0 - mBlendedBorders not visible, 1 - fully visible ]
+globals.gVertexColor.a - normalMap Intensity [ 0 - flat, 1 - bumpy ]
+*/
+    float4 gVertexColor;
+    float  gMaskCenter;
+    float  gMaskBorders;
+    float  gMaskNormal;
+    float3 gBlendedCenter;
+    float3 gBlendedBorders;
+]]>
+            </CodeInjection>
+            <CodeInjection position = "START_FS">
+<![CDATA[
+    globals.gVertexColor     = In.vs.vertexColor.rgba;
+    globals.gBlendedCenter   = float3( 0.0, 0.0, 0.0 );
+    globals.gBlendedBorders  = float3( 0.0, 0.0, 0.0 );
+    globals.gBlendedCenter   = tex2D( mBlendedCenter , uvScaleCB.xy * In.vs.ALBEDOMAP_TEXCOORD ).rgb;
+    globals.gBlendedBorders  = tex2D( mBlendedBorders, uvScaleCB.zw * In.vs.ALBEDOMAP_TEXCOORD ).rgb;
+
+    float3 mTexX = float3( 0.0, 0.0, 0.0 );
+    float3 mTexY = float3( 0.0, 0.0, 0.0 );
+    float3 mTexZ = float3( 0.0, 0.0, 0.0 );
+
+    float3 mAbsNormal = abs(In.vs.worldNormal);
+#if defined( USE_TRI_PLANAR_R )
+    mTexX = tex2D( mBlendedCenter, uvScaleCB.xy * In.vs.albedoMapTexCoordsX );
+    mTexY = tex2D( mBlendedCenter, uvScaleCB.xy * In.vs.albedoMapTexCoordsY );
+    mTexZ = tex2D( mBlendedCenter, uvScaleCB.xy * In.vs.albedoMapTexCoordsZ );
+    globals.gBlendedCenter = lerp( mTexX, mTexZ, mAbsNormal.z );
+    globals.gBlendedCenter = lerp( globals.gBlendedCenter, mTexY, mAbsNormal.y );
+#elif defined( USE_TRI_PLANAR_B )
+    mTexX = tex2D( mBlendedBorders, uvScaleCB.zw * In.vs.albedoMapTexCoordsX );
+    mTexY = tex2D( mBlendedBorders, uvScaleCB.zw * In.vs.albedoMapTexCoordsY );
+    mTexZ = tex2D( mBlendedBorders, uvScaleCB.zw * In.vs.albedoMapTexCoordsZ );
+    globals.gBlendedBorders = lerp( mTexX, mTexZ, mAbsNormal.z );
+    globals.gBlendedBorders = lerp( globals.gBlendedBorders, mTexY, mAbsNormal.y );
+#endif
+    float4 mBaseMap      = float4( 1, 1, 1, 1 );
+#if defined( ALBEDO_MAP )
+    mBaseMap             = tex2D( baseMap, In.vs.ALBEDOMAP_TEXCOORD).rgba;
+#endif
+    float4 mTmp          = saturate( ( globals.gVertexColor.rgba - mBaseMap.aaaa ) / ( 0.01 + globals.gVertexColor.g ) );
+    globals.gMaskCenter  = mTmp.r;
+    globals.gMaskBorders = mTmp.b;
+    globals.gMaskNormal  = mTmp.a;
+]]>
+            </CodeInjection>
+            <CodeInjection position = "GET_UNNORMALIZED_TANGENT_SPACE_NORMAL_FS">
+<![CDATA[
+ #if defined( NORMAL_MAP )
+    float3 mNormal   = tex2D( normalMap, In.vs.NORMALMAP_TEXCOORD).xyz - 0.5;
+    return lerp( float3(0.0, 0.0, 0.5), mNormal, globals.gMaskNormal );
+ #endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "POST_DIFFUSE_COLOR_FS">
+<![CDATA[
+#if defined( VERTEX_COLOR )
+    #undef VERTEX_COLOR
+#endif
+#if defined(ALBEDO_MAP)
+    diffuseColor.rgb            = lerp( diffuseColor.rgb, globals.gBlendedCenter,  globals.gMaskCenter );
+    diffuseColor.rgb            = lerp( diffuseColor.rgb, globals.gBlendedBorders, globals.gMaskBorders );
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="FINAL_POS_FS">
+<![CDATA[
+#if defined( DEBUG_SHOW_PARALLAX )
+    oColor.rgb  = (float3)( globals.gMaskNormal );
+#endif
+#if defined( DEBUG_SHOW_ALPHA )
+    oColor.rgb  = (float3)( globals.gMaskBorders );
+#endif
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

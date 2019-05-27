@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="5" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="6" filename="$data/maps/textures/shared/warningStripes_specular.png"/>
+    <File fileId="1" filename="$data/placeables/animalHusbandry/liquidManure_diffuse.dds"/>
+    <File fileId="2" filename="$data/placeables/animalHusbandry/liquidManure_normal.dds"/>
+    <File fileId="3" filename="$data/placeables/animalHusbandry/liquidManure_specular.dds"/>
+    <File fileId="8" filename="$data/shared/default_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="default_mat" materialId="140702" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="8"/>
+    </Material>
+    <Material name="lambert2" materialId="292" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="warningStripes_mat" materialId="553">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="liquidManure_mat" materialId="575">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Drijfmestput.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Drijfmestput" nodeId="140711">
+      <Shape shapeId="1" name="liquidManure" translation="-3.64175 -4.05216 17.1699" rotation="1.37991e-06 14.818 3.86376e-07" scale="1.7 1 1.7" nodeId="140712" materialIds="575" castsShadows="true" receiveShadows="true"/>
+      <TransformGroup name="transform" translation="-0.671997 -0.0687317 -0.0441284" nodeId="140713"/>
+      <TransformGroup name="warningStripes" translation="-18.7976 -0.146813 0.596981" rotation="1.39082e-06 16.4317 4.2689e-07" scale="0.927796 0.927796 0.927796" nodeId="140714">
+        <Shape shapeId="2" name="warningStripesCorner1" translation="-0.328 2.27374e-15 0.638" clipDistance="200" nodeId="140715" materialIds="553" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="3" name="warningStripesCorner2" translation="3.323 0 0.638" clipDistance="200" nodeId="140716" materialIds="553" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="2" name="warningStripesCorner3" translation="3.323 2.27374e-15 3.77054" rotation="0 180 0" clipDistance="200" nodeId="140717" materialIds="553" receiveShadows="true" decalLayer="1"/>
+        <Shape shapeId="3" name="warningStripesCorner4" translation="-0.328 1.13687e-15 3.771" rotation="0 180 0" clipDistance="200" nodeId="140718" materialIds="553" receiveShadows="true" decalLayer="1"/>
+      </TransformGroup>
+      <TransformGroup name="transform" nodeId="140719"/>
+      <TransformGroup name="gameplay" translation="-4.47303 -4.42741 14.926" rotation="1.37991e-06 14.818 3.86376e-07" nodeId="140720">
+        <TransformGroup name="IN" translation="-8.82825 4.31753 -4.46396" nodeId="140721">
+          <TransformGroup name="unloadingStation" nodeId="140722">
+            <TransformGroup name="unloadingTriggers" nodeId="140723">
+              <Shape shapeId="4" name="exactFillRootNode" translation="-0.251313 -0.0633031 -11.115" rotation="-1.04022e-05 90 -1.03964e-05" static="true" collisionMask="1073741824" nodeId="140724" materialIds="292" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="OUT" translation="-18.5667 4.83108 -15.9169" nodeId="140725">
+          <TransformGroup name="loadingStation" nodeId="140726">
+            <TransformGroup name="loadingTriggers" nodeId="140727">
+              <Shape shapeId="5" name="loadingTrigger" translation="10.0281 4.985 -0.223" static="true" trigger="true" collisionMask="1080033280" nodeId="140728" materialIds="292" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <TransformGroup name="dischargeNode" translation="8.954 5 0.945" nodeId="140729"/>
+              <TransformGroup name="dischargeEffect" translation="8.94909 5 0.914" nodeId="140730">
+                <Shape shapeId="6" name="pipeEffect" translation="-0.0118048 -0.012 0.022" rotation="90 0 0" visibility="false" clipDistance="300" nodeId="140731" materialIds="140702" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="7" name="pipeEffectSmoke" translation="0 -4.168 0" visibility="false" clipDistance="100" nodeId="140732" materialIds="140702" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="storage_LM" nodeId="140733"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>

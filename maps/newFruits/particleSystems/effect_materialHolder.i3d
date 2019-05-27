@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="effect_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="../fillPlanes/carrot_diffuse.png"/>
+    <File fileId="6" filename="../fillPlanes/onion_diffuse.png"/>
+    <File fileId="2" filename="$data/fillPlanes/sugarBeets_normal.png"/>
+    <File fileId="11" filename="$data/shaders/cultivatorSoilShader.xml"/>
+    <File fileId="8" filename="$data/shaders/grainSmokeShader.xml"/>
+    <File fileId="3" filename="$data/shaders/grainUnloadingShader.xml"/>
+    <File fileId="10" filename="$data/shaders/morphTargetShader.xml"/>
+    <File fileId="9" filename="$data/shaders/pipeUnloadingShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="onion_mat203" materialId="11" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3 -2 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="carrot_mat208" materialId="13" customShaderId="9" customShaderVariation="BEND_PARABOLA">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.1 6 3 0"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    </Material>
+    <Material name="carrot_mat207" materialId="15" alphaBlending="true" customShaderId="11" customShaderVariation="LEVELER">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 5"/>
+    </Material>
+    <Material name="onion_mat207" materialId="16" alphaBlending="true" customShaderId="11" customShaderVariation="LEVELER">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="VertxoffsetVertexdeformMotionUVscale" value="-35 1 0 5"/>
+    </Material>
+    <Material name="smoke_woodChips" materialId="17" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="8">
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="0.75 0.1 -0.3 0"/>
+      <CustomParameter name="ColorAlpha" value="0.26 0.177 0.099 2"/>
+    </Material>
+    <Material name="onion_mat204" materialId="18" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3 -2 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="carrot_mat" materialId="5" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3 -2 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="carrot_mat205" materialId="7" customShaderId="10" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="0 1 1 0"/>
+      <CustomParameter name="offsetUV" value="0 0 -100 100"/>
+      <CustomParameter name="alphaRemap" value="0.2 1 0 0"/>
+      <CustomParameter name="uvScale" value="1.5 1.5 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
+    </Material>
+    <Material name="onion_mat205" materialId="8" customShaderId="10" customShaderVariation="ALPHA_DISABLE">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="morphPosition" value="0 1 1 0"/>
+      <CustomParameter name="offsetUV" value="0 0 -100 100"/>
+      <CustomParameter name="alphaRemap" value="0.2 1 0 0"/>
+      <CustomParameter name="uvScale" value="1.5 1.5 1 1"/>
+      <CustomParameter name="vertexAnim" value="20 20 0.05 1"/>
+    </Material>
+    <Material name="carrot_mat203" materialId="14" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3 -2 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.05"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="onion_mat208" materialId="9" customShaderId="9" customShaderVariation="BEND_PARABOLA">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.1 6 3 0"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    </Material>
+    <Material name="onion_mat206" materialId="4" customShaderId="9">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.1 6 3 0"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    </Material>
+    <Material name="onion_mat" materialId="10" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="6"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3 -2 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.025"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+    <Material name="carrot_mat206" materialId="12" customShaderId="9">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="uvScaleSpeedFreqAmp" value="1.1 6 3 0"/>
+      <CustomParameter name="shapeScaleSpread" value="0.4 0.2 1 0"/>
+      <CustomParameter name="controlPoint" value="10 0 0 0"/>
+      <CustomParameter name="alphaRemap" value="0.25 1 0 0"/>
+    </Material>
+    <Material name="carrot_mat204" materialId="6" customShaderId="3" customShaderVariation="CUSTOM_ALPHA_TEST">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="fadeProgress" value="1 1 0 0"/>
+      <CustomParameter name="UVScaleSpeed" value="3 -2 0 0"/>
+      <CustomParameter name="ColorAlpha" value="1 1 1 1"/>
+      <CustomParameter name="vSpeedFrequencyAmplitudeFadescale" value="10 5 0.25 -0.15"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 -0.0005 0.1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="effect_materialHolder.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="unloading" clipDistance="10" nodeId="24">
+      <TransformGroup name="carrot" clipDistance="10" nodeId="25">
+        <Shape shapeId="1" name="carrot0_025_materialHolder" clipDistance="10" nodeId="26" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="carrot0_05_materialHolder" clipDistance="10" nodeId="27" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="carrot0_15_materialHolder" clipDistance="10" nodeId="28" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="onion" clipDistance="10" nodeId="29">
+        <Shape shapeId="1" name="onion0_025_materialHolder" clipDistance="10" nodeId="30" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="onion0_05_materialHolder" clipDistance="10" nodeId="31" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="onion0_15_materialHolder" clipDistance="10" nodeId="32" materialIds="18" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="beetroot" clipDistance="10" nodeId="63">
+        <Shape shapeId="1" name="beetroot0_025_materialHolder" clipDistance="10" nodeId="64" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="beetroot0_05_materialHolder" clipDistance="10" nodeId="65" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="1" name="beetroot0_15_materialHolder" clipDistance="10" nodeId="66" materialIds="18" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="smoke" clipDistance="10" nodeId="33">
+      <TransformGroup name="carrot" clipDistance="10" nodeId="34">
+        <Shape shapeId="2" name="carrot_materialHolder" clipDistance="10" nodeId="35" materialIds="17" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="onion" clipDistance="10" nodeId="36">
+        <Shape shapeId="2" name="onion_materialHolder" clipDistance="10" nodeId="37" materialIds="17" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="beetroot" clipDistance="10" nodeId="67">
+        <Shape shapeId="2" name="beetroot_materialHolder" clipDistance="10" nodeId="68" materialIds="17" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="straw" clipDistance="10" nodeId="38"/>
+    <TransformGroup name="chopper" clipDistance="10" nodeId="39"/>
+    <TransformGroup name="soil" clipDistance="10" nodeId="40"/>
+    <TransformGroup name="sprayer" clipDistance="10" nodeId="41"/>
+    <TransformGroup name="spreader" clipDistance="10" nodeId="42"/>
+    <TransformGroup name="pipe" clipDistance="10" nodeId="43">
+      <TransformGroup name="carrot" nodeId="44">
+        <Shape shapeId="3" name="carrot_1_materialHolder" clipDistance="10" nodeId="45" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="carrot_2_materialHolder" clipDistance="10" nodeId="46" materialIds="13" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="onion" nodeId="47">
+        <Shape shapeId="3" name="onion_1_materialHolder" clipDistance="10" nodeId="48" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="onion_2_materialHolder" clipDistance="10" nodeId="49" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="beetroot" nodeId="69">
+        <Shape shapeId="3" name="beetroot_1_materialHolder" clipDistance="10" nodeId="70" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="3" name="beetroot_2_materialHolder" clipDistance="10" nodeId="71" materialIds="9" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="mower" clipDistance="10" nodeId="50"/>
+    <TransformGroup name="belt" clipDistance="10" nodeId="51">
+      <TransformGroup name="carrot" clipDistance="10" nodeId="52">
+        <Shape shapeId="4" name="carrot0_materialHolder" clipDistance="10" nodeId="53" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="onion" clipDistance="10" nodeId="54">
+        <Shape shapeId="4" name="onion0_materialHolder" clipDistance="10" nodeId="55" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+      <TransformGroup name="beetroot" clipDistance="10" nodeId="72">
+        <Shape shapeId="4" name="beetroot0_materialHolder" clipDistance="10" nodeId="73" materialIds="8" castsShadows="true" receiveShadows="true"/>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="leveler" nodeId="56">
+      <Shape shapeId="3" name="carrot" clipDistance="10" nodeId="57" materialIds="15" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="onion" clipDistance="10" nodeId="58" materialIds="16" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="3" name="beetroot" clipDistance="10" nodeId="74" materialIds="16" castsShadows="true" receiveShadows="true"/>
+    </TransformGroup>
+    <TransformGroup name="washer" nodeId="59"/>
+    <TransformGroup name="pickup" clipDistance="10" nodeId="60"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="26">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="27">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="28">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="3"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="30">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="31">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="32">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="3"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="64">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="65">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="66">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="3"/>
+      <Attribute name="materialType" type="string" value="unloading"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="35">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="37">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="68">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="smoke"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="45">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="46">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="48">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="49">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="70">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="71">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="2"/>
+      <Attribute name="materialType" type="string" value="PIPE"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="53">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="55">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="73">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="belt"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="57">
+      <Attribute name="fillType" type="string" value="carrot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="58">
+      <Attribute name="fillType" type="string" value="onion"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+    <UserAttribute nodeId="74">
+      <Attribute name="fillType" type="string" value="beetroot"/>
+      <Attribute name="materialIndex" type="string" value="1"/>
+      <Attribute name="materialType" type="string" value="LEVELER"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateMaterial"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

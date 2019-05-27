@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="10" filename="$data/maps/textures/european/props/antennaSet_diffuse.png"/>
+        <File fileId="11" filename="$data/maps/textures/european/props/antennaSet_normal.png"/>
+        <File fileId="12" filename="$data/maps/textures/european/props/antennaSet_specular.png"/>
+        <File fileId="1" filename="$data/maps/textures/european/props/industrialWallLight_diffuse.png"/>
+        <File fileId="2" filename="$data/maps/textures/european/props/industrialWallLight_normal.png"/>
+        <File fileId="3" filename="$data/maps/textures/european/props/industrialWallLight_specular.png"/>
+        <File fileId="8" filename="$data/maps/textures/european/props/lightPoleSet_emissive.png"/>
+        <File fileId="7" filename="$data/shaders/dashboardLightsShader.xml"/>
+        <File fileId="5" filename="$data/shared/default_normal.png"/>
+        <File fileId="4" filename="$data/shared/window02_diffuse.png"/>
+        <File fileId="6" filename="$data/shared/window02_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="UnnamedMaterial" materialId="81" diffuseColor="1 1 1 1"/>
+        <Material name="lambert1" materialId="55" diffuseColor="0.494118 0.494118 0.494118 1"/>
+        <Material name="industrialWallLight_mat" materialId="482">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+            <Glossmap fileId="3"/>
+        </Material>
+        <Material name="antennaSet_mat" materialId="70856">
+            <Texture fileId="10"/>
+            <Normalmap fileId="11"/>
+            <Glossmap fileId="12"/>
+        </Material>
+        <Material name="window02_mat" materialId="974" alphaBlending="true" customShaderId="7">
+            <Texture fileId="4"/>
+            <Normalmap fileId="5"/>
+            <Glossmap fileId="6"/>
+            <Custommap name="mEmissiveMap" fileId="8"/>
+            <CustomParameter name="lightControl" value="1 0 0 0"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="farmHouse.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="farmHouse" nodeId="70864">
+            <TransformGroup name="lights" translation="0 -0.06 0" nodeId="70865">
+                <Shape shapeId="1" name="industrialWallLight" translation="468.969 157.839 -69.068" rotation="0 0 -90" clipDistance="80" nodeId="70866" materialIds="482" castsShadows="true" receiveShadows="true">
+                    <TransformGroup name="illum" nodeId="70867">
+                        <Shape shapeId="2" name="glass" clipDistance="40" nodeId="70868" materialIds="974" castsShadows="true" receiveShadows="true"/>
+                        <Light name="pointLight1" translation="0 0 0.052" visibility="false" clipDistance="75" nodeId="70869" type="point" color="0.15 0.15 0.1" emitDiffuse="true" emitSpecular="true" decayRate="1" range="6"/>
+                    </TransformGroup>
+                    <Shape shapeId="3" name="col" visibility="false" static="true" density="0.0001" nodeId="70870" materialIds="55" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <TransformGroup name="interiorLights" translation="5 -115.973 -3" nodeId="70871">
+                    <Light name="interiorSpotLight01" translation="-48.8006 132.219 -8.87652" rotation="-90 -0 0" nodeId="70872" type="spot" color="0.6 0.6 0.4" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="5" coneAngle="120" dropOff="4"/>
+                    <Light name="interiorSpotLight02" translation="-56.4609 136.004 -6.77176" rotation="-90 -0 0" nodeId="70873" type="spot" color="0.8 0.6 0.4" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="5" coneAngle="120" dropOff="4"/>
+                    <Light name="interiorSpotLight03" translation="-48.0421 134.097 -4.8485" rotation="-90 7.59675e-06 179.794" nodeId="70874" type="spot" color="0.6 0.6 0.4" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" decayRate="4" range="8" coneAngle="150" dropOff="4"/>
+                    <Light name="interiorPointLight01" translation="-49.8545 136.004 -10.0928" rotation="-90 -0 0" nodeId="70875" type="point" color="0.5 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="4" range="4"/>
+                    <Light name="interiorPointLight02" translation="-52.6162 132.943 -13.147" rotation="-90 -0 0" nodeId="70876" type="point" color="0.5 0.5 0.3" emitDiffuse="true" emitSpecular="true" decayRate="4" range="3"/>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="farmProps" translation="0 -0.06 0" clipDistance="200" nodeId="70877">
+                <Shape shapeId="4" name="antennaSatelliteTV" translation="461.736 163.203 -71.6945" rotation="-180 18.6708 -180" clipDistance="120" nodeId="70878" materialIds="70856" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="antennaSatelliteTV" translation="-149.256 162.739 -782.55" rotation="5.12706e-12 -74.6948 -3.09599e-05" clipDistance="120" nodeId="70884" materialIds="70856" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="antennaTV01" translation="471.795 165.615 -76.7021" rotation="-2.18948e-13 90 0" clipDistance="120" nodeId="70879" materialIds="70856" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="antennaTV01" translation="-151.399 164.751 -769.678" rotation="-2.18948e-13 90 0" clipDistance="120" nodeId="70885" materialIds="70856" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="transform" nodeId="70880"/>
+            <Shape shapeId="6" name="sleepTrigger" translation="468.863 160.746 -77.1946" rotation="180 -90 -180" scale="15.0621 2.90368 17.4744" static="true" trigger="true" nodeId="70881" materialIds="81" nonRenderable="true" distanceBlending="false"/>
+            <Camera name="sleepCamera" translation="409.554 191.705 -110.498" rotation="166.457 -53.9272 -180" nodeId="70882" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+            <TransformGroup name="spawnPoint" translation="472.721 155.063 -80.548" rotation="0 -90 0" nodeId="70883"/>
+        </TransformGroup>
+    </Scene>
+</i3D>

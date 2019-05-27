@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+    </Asset>
+    <Files>
+        <File fileId="3" filename="tex/beton10_3.dds"/>
+        <File fileId="4" filename="tex/beton10_3_normal.dds"/>
+        <File fileId="1" filename="tex/beton_ground_5.dds"/>
+        <File fileId="2" filename="tex/beton_ground_5_normal.dds"/>
+        <File fileId="5" filename="tex/fertilizer_diffuse.dds"/>
+        <File fileId="9" filename="tex/pfogr.dds"/>
+        <File fileId="10" filename="tex/pfogr_specular.dds"/>
+        <File fileId="7" filename="tex/rootFruits_diffuse.dds"/>
+        <File fileId="6" filename="tex/seeds_diffuse.dds"/>
+        <File fileId="8" filename="tex/siloFruits_diffuse.dds"/>
+    </Files>
+    <Materials>
+        <Material name="mat" materialId="316">
+            <Texture fileId="8"/>
+        </Material>
+        <Material name="mat" materialId="818">
+            <Texture fileId="9"/>
+            <Glossmap fileId="10"/>
+        </Material>
+        <Material name="mat" materialId="1035">
+            <Texture fileId="6"/>
+        </Material>
+        <Material name="mat" materialId="1054">
+            <Texture fileId="7"/>
+        </Material>
+        <Material name="mat" materialId="931">
+            <Texture fileId="1"/>
+            <Normalmap fileId="2"/>
+        </Material>
+        <Material name="mat" materialId="963">
+            <Texture fileId="3"/>
+            <Normalmap fileId="4"/>
+        </Material>
+        <Material name="mat" materialId="164">
+            <Texture fileId="5"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="BGround1.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="BGround1" translation="1762.21 120.524 -658.107" rotation="0.798887 -76.1192 -0.825674" static="true" clipDistance="250" nodeId="100999" materialIds="931,963,164,1035,1054,316,818" castsShadows="true" receiveShadows="true"/>
+    </Scene>
+</i3D>

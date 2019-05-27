@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="solarPanel" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.0.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="10" filename="$data/shaders/dashboardSymbolsShader.xml"/>
+    <File fileId="7" filename="$data/shared/assets/dashboardSymbols_diffuse.png"/>
+    <File fileId="8" filename="$data/shared/default_normal.png"/>
+    <File fileId="9" filename="$data/shared/default_specular.png"/>
+    <File fileId="2" filename="../../shaders/meshRotateShader.xml"/>
+    <File fileId="5" filename="textures/asphalt2_diffuse.dds"/>
+    <File fileId="4" filename="textures/wka_diffuse.dds"/>
+    <File fileId="1" filename="textures/wka_diffuse3.dds"/>
+    <File fileId="3" filename="textures/wka_logo.dds"/>
+    <File fileId="6" filename="windTurbine.ogg"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert10" materialId="10">
+      <Texture fileId="4"/>
+    </Material>
+    <Material name="lambert10" materialId="6" customShaderId="2">
+      <Texture fileId="1"/>
+      <CustomParameter name="rotationSpeed" value="0 0 1 1"/>
+    </Material>
+    <Material name="dashboardPowerON_mat" materialId="11" alphaBlending="true" customShaderId="10">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="lightControl" value="0.5 0 0 0"/>
+      <CustomParameter name="baseColor" value="0.01 0.01 0.01 0"/>
+      <CustomParameter name="emitColor" value="0 1 0 0"/>
+    </Material>
+    <Material name="lambert17" materialId="9">
+      <Emissivemap fileId="4"/>
+    </Material>
+    <Material name="lambert15" materialId="8">
+      <Texture fileId="5"/>
+    </Material>
+    <Material name="dashboardPowerAlarmOFF_mat" materialId="4" alphaBlending="true" customShaderId="10">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="lightControl" value="0 0 0 0"/>
+      <CustomParameter name="baseColor" value="0.01 0.01 0.01 0"/>
+      <CustomParameter name="emitColor" value="0.01 0.01 0.01 0"/>
+    </Material>
+    <Material name="dashboardPowerOFF_mat" materialId="13" alphaBlending="true" customShaderId="10">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="lightControl" value="0.5 0 0 0"/>
+      <CustomParameter name="baseColor" value="0.01 0.01 0.01 0"/>
+      <CustomParameter name="emitColor" value="1 0 0 0"/>
+    </Material>
+    <Material name="lambert14" materialId="5">
+      <Texture fileId="3"/>
+    </Material>
+    <Material name="lambert_mat" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="dashboardPowerAlarmON_mat" materialId="12" alphaBlending="true" customShaderId="10" customShaderVariation="BLINK">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <CustomParameter name="blinkOffset" value="1 0 0 0"/>
+      <CustomParameter name="lightControl" value="0.75 0 0 0"/>
+      <CustomParameter name="baseColor" value="0.01 0.01 0.01 0"/>
+      <CustomParameter name="emitColor" value="1 0 0 0"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Windmuehle.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="Windkraft" nodeId="23">
+      <TransformGroup name="WKA" rotation="0 0 -1.63819e-05" clipDistance="850" nodeId="24">
+        <Shape shapeId="1" name="rotors" translation="0 75.481 3.967" rotation="7.1717e-05 -9.64764e-05 129.376" scale="1.1 1.1 1.1" nodeId="25" materialIds="6">
+          <Shape shapeId="2" name="rotors_lod" nodeId="26" materialIds="6"/>
+        </Shape>
+        <TransformGroup name="WKA" nodeId="27" lodDistance="0 250">
+          <Shape shapeId="3" name="WKA" static="true" nodeId="28" materialIds="5,10,9,8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="4" name="WKA_lod" nodeId="29" materialIds="5,10,9,8" castsShadows="true" receiveShadows="true"/>
+        </TransformGroup>
+        <AudioSource name="Windradsound" nodeId="30" fileId="6" range="100" innerRange="50" volume="1" loops="0"/>
+        <TransformGroup name="illumDay" translation="-0.608771 -0.00756111 2.66514" rotation="-180 0 -180" nodeId="32">
+          <Shape shapeId="5" name="decal_powerON" translation="-0.011 1.695 -0.27" clipDistance="50" nodeId="33" materialIds="11" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="6" name="decal_powerAlarmOFF" translation="-0.011 1.6 -0.27" clipDistance="50" nodeId="34" materialIds="4" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        </TransformGroup>
+        <TransformGroup name="illumNight" translation="-0.283782 0.0361434 2.567" rotation="-180 0 -180" nodeId="35">
+          <Shape shapeId="7" name="decal_powerOFF" translation="-0.011 1.695 -0.27" clipDistance="50" nodeId="36" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="6" name="decal_powerAlarmON" rotation="180 27.448 180" scale="2 1 2" clipDistance="50" nodeId="37" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape shapeId="8" name="tipBlocker" visibility="false" static="true" collisionMask="524288" nodeId="38" materialIds="7" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="clearArea" nodeId="39">
+        <TransformGroup name="start" translation="-15 0 -14.275" nodeId="40"/>
+        <TransformGroup name="width" translation="15 0 -14.275" nodeId="41"/>
+        <TransformGroup name="height" translation="-15 0 15" nodeId="42"/>
+      </TransformGroup>
+      <TransformGroup name="levelArea" nodeId="43">
+        <TransformGroup name="start" translation="-15 0 -14.275" nodeId="44"/>
+        <TransformGroup name="width" translation="15 0 -14.275" nodeId="45"/>
+        <TransformGroup name="height" translation="-15 0 15" nodeId="46"/>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+</i3D>
