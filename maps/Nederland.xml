@@ -22,6 +22,7 @@
     <terrainLodTexture revision="1" />
     <splitShapes revision="1" />
     <tipCollision revision="1" />
+
     <!-- juuhten tach -->
     <hotspots>
         <!-- Generic Map Markers -->
