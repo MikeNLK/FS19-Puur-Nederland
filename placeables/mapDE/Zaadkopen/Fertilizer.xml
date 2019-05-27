@@ -28,6 +28,7 @@
         
 		<fillType name="lime" priceScale="0.3"/>
 		<fillType name="fertilizer" priceScale="0.5"/>
+		<fillType name="liquidfertilizer" priceScale="0.4"/>
 	</buyingStation>
 
 </placeable>

@@ -2,19 +2,19 @@
 <placeable>
     <storeData>
         <name>Biogas</name>
-        <image>$data/store/store_empty.png</image>
+        <image>$data/store/store_empty.dds</image>
         <price>1</price>
         <canBeSold>false</canBeSold>
         <showInStore>false</showInStore>
+        <dailyUpkeep>0</dailyUpkeep>
         <lifetime>1000</lifetime>
-		<boughtWithFarmland>true</boughtWithFarmland>
         <rotation>0</rotation>
         <brand>LIZARD</brand>
         <species>placeable</species>
         <category>placeableMisc</category>
-        <vertexBufferMemoryUsage>25248</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>3336</indexBufferMemoryUsage>
-        <textureMemoryUsage>1179768</textureMemoryUsage>
+        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+        <textureMemoryUsage>0</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
@@ -53,21 +53,6 @@
             <work file="$data/sounds/maps/details/shared/biogas_loop.wav" linkNode="0|2" innerRadius="10" outerRadius="50" loops="0" fadeIn="0.5" fadeOut="0.7" />
         </sounds>
     </bga>
-
-    <bunkerSilos>
-        <bunkerSilo acceptedFillTypes="chaff grass_windrow dryGrass_windrow" inputFillType="chaff" outputFillType="silage" fermentingHours="6" distanceToCompactedFillLevel="100" openingLength="5" >
-            <area startNode="2|0|1|0" widthNode="2|0|1|1" heightNode="2|0|1|2" />
-            <interactionTrigger node="2|0|0" />
-        </bunkerSilo>
-        <bunkerSilo acceptedFillTypes="chaff grass_windrow dryGrass_windrow" inputFillType="chaff" outputFillType="silage" fermentingHours="6" distanceToCompactedFillLevel="100" openingLength="5" >
-            <area startNode="2|1|1|0" widthNode="2|1|1|1" heightNode="2|1|1|2" />
-            <interactionTrigger node="2|1|0" />
-        </bunkerSilo>
-		<bunkerSilo acceptedFillTypes="chaff grass_windrow dryGrass_windrow" inputFillType="chaff" outputFillType="silage" fermentingHours="6" distanceToCompactedFillLevel="100" openingLength="5" >
-            <area startNode="2|2|1|0" widthNode="2|2|1|1" heightNode="2|2|1|2" />
-            <interactionTrigger node="2|2|0" />
-        </bunkerSilo>
-    </bunkerSilos>
 
     <dayNightObjects>
         <dayNightObject node="0|3" visibleDay="false" visibleNight="true" />

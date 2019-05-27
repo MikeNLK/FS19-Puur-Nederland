@@ -12,8 +12,8 @@
         </functions>
         <price>35000</price>
         <dailyUpkeep>35</dailyUpkeep>
-        <canBeSold>true</canBeSold>
-        <showInStore>true</showInStore>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
         <rotation>0</rotation>
         <brand>LIZARD</brand>

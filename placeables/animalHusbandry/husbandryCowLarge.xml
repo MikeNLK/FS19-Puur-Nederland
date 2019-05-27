@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
     <storeData>
-        <name><en>Cows milk farm polder</en></name>
+        <name><en>$l10n_production_cow</en></name>
         <image>placeables/animalHusbandry/store_husbandryCowLarge.png</image>
         <price>300000</price>
         <functions>
             <function>$l10n_function_animalPenCow</function>
         </functions>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
         <dailyUpkeep>300</dailyUpkeep>
         <rotation>0</rotation>
@@ -39,9 +41,7 @@
     <triggerMarkers>
         <triggerMarker node="0|14" />
     </triggerMarkers>
-    <hotspots>
-        <hotspot name="Cow barn" fullName="Cows milk farm polder" imageName="COW_BARN" hidable="true" category="CATEGORY_TRIGGERS" />
-    </hotspots>
+
     <husbandry saveId="Animals_COW" hasStatistics="false">
         <modules>
             <module name="animals">

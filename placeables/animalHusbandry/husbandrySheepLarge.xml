@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
     <storeData>
-        <name>Sheep Pasture</name>
+        <name>$l10n_production_sheep</name>
         <image>$data/placeables/animalHusbandry/store_husbandrySheepLarge.png</image>
         <price>180000</price>
         <functions>
             <function>$l10n_function_animalPenSheep</function>
         </functions>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
         <dailyUpkeep>180</dailyUpkeep>>
         <rotation>0</rotation>
@@ -51,10 +53,6 @@
     <triggerMarkers>
         <triggerMarker node="0|11" />
     </triggerMarkers>
-
-    <hotspots>
-        <hotspot name="Sheep meadow" fullName="Sheep Pasture" imageName="SHEEP_MEADOW" hidable="true" category="CATEGORY_TRIGGERS" />
-    </hotspots>
 
     <husbandry saveId="Animals_SHEEP" hasStatistics="false">
         <modules>

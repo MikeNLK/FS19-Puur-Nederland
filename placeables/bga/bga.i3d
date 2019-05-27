@@ -15,17 +15,17 @@
 
 
   <Materials>
-    <Material name="weightDisplay_mat" materialId="4">
-      <Texture fileId="2"/>
-      <Normalmap fileId="3"/>
-      <Glossmap fileId="4"/>
-    </Material>
-    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
-    </Material>
     <Material name="numbers_mat" materialId="6" customShaderId="6">
       <Texture fileId="5"/>
       <CustomParameter name="number" value="-1 0 0 0"/>
       <CustomParameter name="numberColor" value="1 0.5 0.25 1"/>
+    </Material>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="weightDisplay_mat" materialId="4">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
     </Material>
   </Materials>
 
@@ -65,32 +65,6 @@
           <TransformGroup name="dischargeNode" translation="0 -4.3 0" nodeId="39"/>
         </TransformGroup>
         <TransformGroup name="storage" nodeId="40"/>
-      </TransformGroup>
-      <TransformGroup name="bunkerSilos" translation="4.50663 0 -40.814" rotation="-0 90 0" clipDistance="800" nodeId="41">
-        <TransformGroup name="bunkerSilo01" translation="-97.1017 1.924 -22.3555" scale="0.75 1 1.15" clipDistance="800" objectMask="65534" nodeId="42">
-          <Shape shapeId="9" name="interactionTrigger" translation="0 0 -3.59513" static="true" trigger="true" collisionMask="15736832" nodeId="43" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <TransformGroup name="bunkerSiloArea" translation="29.9156 -1.918 -7.18468" nodeId="44">
-            <TransformGroup name="start" nodeId="45"/>
-            <TransformGroup name="width" translation="0 0 13.1983" nodeId="46"/>
-            <TransformGroup name="height" translation="-59.7874 0 0" nodeId="47"/>
-          </TransformGroup>
-        </TransformGroup>
-        <TransformGroup name="bunkerSilo02" translation="-97.1444 1.924 -3.11316" scale="0.75 1 1.15" clipDistance="800" objectMask="65534" nodeId="48">
-          <Shape shapeId="10" name="interactionTrigger" static="true" trigger="true" collisionMask="15736832" nodeId="49" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <TransformGroup name="bunkerSiloArea" translation="30 -0.17 -9.25" nodeId="50">
-            <TransformGroup name="start" nodeId="51"/>
-            <TransformGroup name="width" translation="0 0 17.8" nodeId="52"/>
-            <TransformGroup name="height" translation="-60 0 0" nodeId="53"/>
-          </TransformGroup>
-        </TransformGroup>
-        <TransformGroup name="bunkerSilo03" translation="-97.1307 1.924 12.6322" scale="0.75 1 1.15" clipDistance="800" objectMask="65534" nodeId="54">
-          <Shape shapeId="10" name="interactionTrigger" static="true" trigger="true" collisionMask="15736832" nodeId="55" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <TransformGroup name="bunkerSiloArea" translation="30 -0.17 -9.25" nodeId="56">
-            <TransformGroup name="start" nodeId="57"/>
-            <TransformGroup name="width" translation="0 0 17.8" nodeId="58"/>
-            <TransformGroup name="height" translation="-60 0 0" nodeId="59"/>
-          </TransformGroup>
-        </TransformGroup>
       </TransformGroup>
     </TransformGroup>
   </Scene>

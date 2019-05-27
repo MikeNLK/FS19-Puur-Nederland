@@ -8,6 +8,8 @@
         <image>$data/placeables/bunkerSilo/store_bunkerSiloMedium.png</image>
         <price>25000</price>
         <dailyUpkeep>40</dailyUpkeep>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
         <rotation>0</rotation>
         <brand>LIZARD</brand>

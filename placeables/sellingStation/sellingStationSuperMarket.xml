@@ -22,11 +22,11 @@
     <filename>$data/placeables/mapDE/sellingStationGeneric/sellingStationGeneric.i3d</filename>
     <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
 
-    <sellingStation stationName="SuperMarket" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48" hotspotTextOffset="0px 36px">
+    <sellingStation stationName="SuperMarket" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48" hotspotTextOffset="0px 0px">
         <unloadTrigger exactFillRootNode="0|0|0|0|0" baleTriggerNode="0|0|0|0|1" />
-		<fillType name="carrot"           priceScale="1.1" supportsGreatDemand="true" disablePriceDrop="false" />
-		<fillType name="onion"           priceScale="1.2" supportsGreatDemand="true" disablePriceDrop="false" />
-        <fillType name="milk"             priceScale="1.4" supportsGreatDemand="true" disablePriceDrop="false" />   
-        <fillType name="egg"              priceScale="1.07" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="carrot" priceScale="1.1" supportsGreatDemand="true" disablePriceDrop="false" />
+		<fillType name="onion" priceScale="1.2" supportsGreatDemand="true" disablePriceDrop="false" />
+        <fillType name="milk" priceScale="1.4" supportsGreatDemand="true" disablePriceDrop="false" />   
+        <fillType name="egg" priceScale="1.07" supportsGreatDemand="true" disablePriceDrop="false" />
     </sellingStation>
 </placeable>

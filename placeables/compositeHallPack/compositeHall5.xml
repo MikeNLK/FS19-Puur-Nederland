@@ -7,6 +7,8 @@
         </functions>
         <image>placeables/compositeHallPack/store_compositeHall5.png</image>
         <price>44000</price>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
         <rotation>0</rotation>
         <brand>LIZARD</brand>

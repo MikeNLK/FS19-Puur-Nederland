@@ -19,7 +19,7 @@
     </storeData>
 
     <placeableType>buyingStation</placeableType>
-    <filename>placeables/mapDE/gasStation/gasStation.i3d</filename>
+    <filename>placeables/mapDE/gasStation/gasStation03.i3d</filename>
     <placement testSizeX="5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
 
     <buyingStation stationName="FarmHouse DieselTank" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01" hotspotTextOffset="12px 17px" hotspotImageName="GAS_STATION" showHotspotText="false">

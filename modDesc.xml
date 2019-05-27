@@ -1,175 +1,279 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="40">
+﻿ <?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="43">
     <author>Mike / www.mike-modding.com</author>
-    <version>1.0.0.0</version>
+    <version>2.0</version>
 	
-<!-- 	Regels / Rules / Regeln
-	
-	**********************************************************************************
-	             Dutch/Nederlands:
-				 Wie er spullen uit de map steelt, moet niet komen klachen als er iets niet werkt.
-				 Dit geldt ook voor aanpassingen aan de map.
-				 
-				 Het kost een hoop tijd, het maken van een map. Ik steek al mijn vrije tijd hier in.
+	<!--	
+	*****************************
+	* Copyright by Mike Modding *
+	*****************************
+	-->	
 
-                 Ik ben niet aansprakelijk, van problemen onder andere patch mods die niet goed werken. En dergelijke problemen.			 
-	**********************************************************************************
-	             Englisch:
-	             Who there stuff out the map steal, must not come complain as there something not work.
-				 This also applies to changes to the map.
-				 
-				 It takes a lot of time, It make from a map. I stop all my free time here in. 
-				 
-				 I am not liable, from problems under others patch mods that not good work.
-	
-	***********************************************************************************
-	            Deutsch:
-				Wer Sachen aus die Karte stiehlt, Muss nicht komm beschwerden als dort etwas nicht funktionen.
-				Dies gilt auch für Änderungen am Karte.
-				
-				Es braucht viel Zeit, um ein Kart zu machen. Ich hör auf meine ganze Freizeit hier in.
-				
-				Ich hafte nicht für Probleme, einschließlich Patch-Mods, die nicht richtig funktionieren. Und solche Probleme.
-				
-	*********************************************************************************** -->
-	
-    <title>
-        <en>Pure Netherlands from Mike-Modding</en>
-        <de>Reine Niederlande von von Mike-Modding</de>
+	<title>
+		<en>Pure Netherlands by Mike-Modding</en>
+		<de>Reine Niederlande von Mike-Modding</de>
 		<nl>Puur Nederland van Mike-Modding</nl>
-		<fr>Pure Pays-Bas dès Mike-Modding</fr>
-		<pl>Czysty Holender od Mike-Modding</pl>
-		<es>Puro Los países bajos de Mike-Modding</es>
-		<it>Paesi Bassi puri da Mike-Modding</it>
-    </title>
-    <description>
-        <en>Welcome to the Pure Netherlands.</en>
-        <de>Willkommen auf der Reine Niederlande.</de>
+	</title>
+
+	<description>
+		<en>Welcome to Pure Netherlands.</en>
+		<de>Willkommen auf Reine Niederlande.</de>
 		<nl>Welkom bij Puur Nederland.</nl>
-		<fr>Bienvenue chez Pure Pays-Bas.</fr>
-		<pl>Witamy przez Czysty Holender.</pl>
-		<es>Bienvenido por Puro Los países bajos.</es>
-		<it>Benvenuto da Paesi Bassi puri.</it>
-    </description>
-    <iconFilename>Nederland_icon.png</iconFilename>
-    <multiplayer supported="true"/>
+	</description>
+
+	<iconFilename>Nederland_icon.png</iconFilename>
+	<multiplayer supported="true"/>
 	
 	<l10n>
-	    <!--Animated Objects-->
-	    <text name="input_ANIMATED_OBJECT_OPEN_DOOR"><en>Open door</en><de>Tür öffnen</de><nl>Open deur</nl><fr>Ouvrir la porte</fr></text>
-		<text name="input_ANIMATED_OBJECT_CLOSE_DOOR"><en>Close door</en><de>Tür schließen</de><nl>Sluit deur</nl><fr>Fermer la porte</fr></text>
-		<text name="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR"><en>Open rolldoor</en><de>Rolltor öffnen</de><nl>Roldeur openen</nl><fr>Ouvrir porte coulissante</fr></text>
-        <text name="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"><en>Close rolldoor</en><de>Rolltor schließen</de><nl>Rolldeur sluiten</nl><fr>Fermer porte coulissante</fr></text>
-		<text name="input_ANIMATED_OBJECT_OPEN_ROLLDOOR"><en>Open rolldoor</en><de>Rolltor öffnen</de><nl>Roldeur openen</nl><fr>Ouvrir porte coulissante</fr></text>
-		<text name="input_ANIMATED_OBJECT_CLOSE_ROLLDOOR"><en>Close rolldoor</en><de>Rolltor schließen</de><nl>Rolldeur sluiten</nl><fr>Fermer porte coulissante</fr></text>
-		<text name="input_ANIMATED_OBJECT_OPENCLOSE_GATE"><en>open/close gate</en><de>Tor öffnen/schliessen</de><nl>Open/sluit poort</nl><fr>ouvrir/fermer la porte</fr></text>
-		<text name="input_COVER"><en>open/close Cover</en><de>Deckel öffnen/schließen</de><nl>Open/sluit het deksel</nl><fr>Ouvrir / fermer couvercle</fr></text>
-		<text name="input_ANIMATED_OBJECT_OPEN_STABLEGUTTER"><en>Open Stable gutter</en><de>Stallgosse öffnen</de><nl>Open de put</nl><fr>Ouvrez la gouttière stable</fr></text>
-        <text name="input_ANIMATED_OBJECT_CLOSE_STABLEGUTTER"><en>Close Stable gutter</en><de>Stallgosse schließen</de><nl>Sluit de put</nl><fr>Fermer gouttière stable</fr></text>
-		<text name="input_LIGHTSWITCH_CLICK"><en>Light on/off</en><de>Licht ein/aus</de><nl>Licht aan/uit</nl><fr>Lumière allumée/éteinte</fr></text>
-	    
-		<text name="carrot"><nl>Wortels</nl><en>Carrots</en><de>Karotten</de><fr>Carottes</fr></text>
-		<text name="onion"><nl>Uien</nl><en>Onions</en><de>Zwiebeln</de><fr>Oignons</fr></text>
-		<text name="redbeet"><nl>Rode Beet</nl><en>redbeet</en><de>rootbeet</de><fr>Morsure rouge</fr></text>
-		<text name="carrot_haulm"><nl>Wortel haulm</nl><en>carrot haulm</en><de>Karottenkraut</de><fr>Carottes haulm</fr></text>
-		<text name="redbeet_haulm"><nl>Rode Beet haulm</nl><en>redbeet haulm</en><de>rootbeet haulm</de><fr>Morsure rouge haulm</fr></text>
-	
-	    <text name="closedText_Klaerwerk">
-            <en>Closed, Opening Time 6am - 6pm </en>
-            <de> <![CDATA[Geschlossen, Öffnungszeiten: 6:00 - 18:00 Uhr]]></de>
-			<nl>Gesloten, openingstijden van 6:00 tot 18:00 uur </nl>
-			<fr>Fermé, heure d'ouverture de 6h à 18h </fr>
+		<!-- Map Markers -->
+		<text name="production_biogas">
+			<en><![CDATA[Biogas]]></en>
+			<de><![CDATA[BGA]]></de>
+			<nl><![CDATA[BGA]]></nl>
+		</text>
+
+		<text name="production_cow">
+			<en><![CDATA[Dairy Cattle]]></en>
+			<de><![CDATA[Milchvieh]]></de>
+			<nl><![CDATA[Melkvee]]></nl>
+		</text>
+
+		<text name="production_chicken">
+			<en><![CDATA[Chicken Farm]]></en>
+			<de><![CDATA[Hühnerfarm]]></de>
+			<nl><![CDATA[Kippenboerderij]]></nl>
+		</text>
+		
+		<text name="production_pig">
+			<en><![CDATA[Pig Fattening]]></en>
+			<de><![CDATA[Schweinemast]]></de>
+			<nl><![CDATA[Varkenshouderij]]></nl>
+		</text>
+		
+		<text name="production_horse">
+			<en><![CDATA[Studded Horses]]></en>
+			<de><![CDATA[Zuchtpferde]]></de>
+			<nl><![CDATA[Paardenmanege]]></nl>
+		</text>
+		
+		<text name="production_sheep">
+			<en><![CDATA[Sheepfold]]></en>
+			<de><![CDATA[Schafhof]]></de>
+			<nl><![CDATA[Schapenhouderij]]></nl>
+		</text>
+
+		<!-- Animated Objects -->
+		<text name="input_ANIMATED_OBJECT_OPEN_DOOR">
+			<en><![CDATA[Open door]]></en>
+			<de><![CDATA[Tür öffnen]]></de>
+			<nl><![CDATA[Open deur]]></nl>
+			<fr><![CDATA[Ouvrir la porte]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_CLOSE_DOOR">
+			<en><![CDATA[Close door]]></en>
+			<de><![CDATA[Tür schließen]]></de>
+			<nl><![CDATA[Sluit deur]]></nl>
+			<fr><![CDATA[Fermer la porte]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR">
+			<en><![CDATA[Open rolldoor]]></en>
+			<de><![CDATA[Rolltor öffnen]]></de>
+			<nl><![CDATA[Roldeur openen]]></nl>
+			<fr><![CDATA[Ouvrir porte coulissante]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR">
+			<en><![CDATA[Close rolldoor]]></en>
+			<de><![CDATA[Rolltor schließen]]></de>
+			<nl><![CDATA[Rolldeur sluiten]]></nl>
+			<fr><![CDATA[Fermer porte coulissante]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_OPEN_ROLLDOOR">
+			<en><![CDATA[Open rolldoor]]></en>
+			<de><![CDATA[Rolltor öffnen]]></de>
+			<nl><![CDATA[Roldeur openen]]></nl>
+			<fr><![CDATA[Ouvrir porte coulissante]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_CLOSE_ROLLDOOR">
+			<en><![CDATA[Close rolldoor]]></en>
+			<de><![CDATA[Rolltor schließen]]></de>
+			<nl><![CDATA[Rolldeur sluiten]]></nl>
+			<fr><![CDATA[Fermer porte coulissante]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_OPENCLOSE_GATE">
+			<en><![CDATA[open/close gate]]></en>
+			<de><![CDATA[Tor öffnen/schliessen]]></de>
+			<nl><![CDATA[Open/sluit poort]]></nl>
+			<fr><![CDATA[ouvrir/fermer la porte]]></fr>
+		</text>
+
+		<text name="input_COVER">
+			<en><![CDATA[open/close Cover]]></en>
+			<de><![CDATA[Deckel öffnen/schließen]]></de>
+			<nl><![CDATA[Open/sluit het deksel]]></nl>
+			<fr><![CDATA[Ouvrir / fermer couvercle]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_OPEN_STABLEGUTTER">
+			<en><![CDATA[Open Stable gutter]]></en>
+			<de><![CDATA[Stallgosse öffnen]]></de>
+			<nl><![CDATA[Open de put]]></nl>
+			<fr><![CDATA[Ouvrez la gouttière stable]]></fr>
+		</text>
+
+		<text name="input_ANIMATED_OBJECT_CLOSE_STABLEGUTTER">
+			<en><![CDATA[Close Stable gutter]]></en>
+			<de><![CDATA[Stallgosse schließen]]></de>
+			<nl><![CDATA[Sluit de put]]></nl>
+			<fr><![CDATA[Fermer gouttière stable]]></fr>
+		</text>
+
+		<text name="input_LIGHTSWITCH_CLICK">
+			<en><![CDATA[Light on/off]]></en>
+			<de><![CDATA[Licht ein/aus]]></de>
+			<nl><![CDATA[Licht aan/uit]]></nl>
+			<fr><![CDATA[Lumière allumée/éteinte]]></fr>
+		</text>
+
+		<!-- Misc -->
+		<text name="carrot">
+			<en><![CDATA[Carrots]]></en>
+			<de><![CDATA[Karotten]]></de>
+			<nl><![CDATA[Wortels]]></nl>
+			<fr><![CDATA[Carottes]]></fr>
+		</text>
+
+		<text name="onion">
+			<en><![CDATA[Onions]]></en>
+			<de><![CDATA[Zwiebeln]]></de>
+			<nl><![CDATA[Uien]]></nl>
+			<fr><![CDATA[Oignons]]></fr>
+		</text>
+
+		<text name="redbeet">
+			<en><![CDATA[redbeet]]></en>
+			<de><![CDATA[rootbeet]]></de>
+			<nl><![CDATA[Rode Beet]]></nl>
+			<fr><![CDATA[Morsure rouge]]></fr>
+		</text>
+
+		<text name="carrot_haulm">
+			<en><![CDATA[carrot haulm]]></en>
+			<de><![CDATA[Karottenkraut]]></de>
+			<nl><![CDATA[Wortel haulm]]></nl>
+			<fr><![CDATA[Carottes haulm]]></fr>
+		</text>
+
+		<text name="redbeet_haulm">
+			<en><![CDATA[redbeet haulm]]></en>
+			<de><![CDATA[rootbeet haulm]]></de>
+			<nl><![CDATA[Rode Beet haulm]]></nl>
+			<fr><![CDATA[Morsure rouge haulm]]></fr>
+		</text>
+
+		<!-- Shop Texts -->
+		<text name="closedText_Klaerwerk">
+			<en><![CDATA[Closed, Opening Time 6am - 6pm]]></en>
+			<de><![CDATA[Geschlossen, Öffnungszeiten: 6:00 - 18:00 Uhr]]></de>
+			<nl><![CDATA[Gesloten, openingstijden van 6:00 tot 18:00 uur]]></nl>
+			<fr><![CDATA[Fermé, heure d'ouverture de 6h à 18h]]></fr>
 		</text>
 		
 		<text name="closedText_cornerShop">
-            <en>Closed, Opening Time 8am - 8pm </en>
-            <de> <![CDATA[Geschlossen, Öffnungszeiten: 8:00 - 20:00 Uhr]]></de>
-			<nl>Gesloten, openingstijden van 8:00 tot 20:00 uur </nl>
-			<fr>Fermé, heure d'ouverture de 8h à 20h </fr>
+			<en><![CDATA[Closed, Opening Time 8am - 8pm]]></en>
+			<de><![CDATA[Geschlossen, Öffnungszeiten: 8:00 - 20:00 Uhr]]></de>
+			<nl><![CDATA[Gesloten, openingstijden van 8:00 tot 20:00 uur]]></nl>
+			<fr><![CDATA[Fermé, heure d'ouverture de 8h à 20h]]></fr>
 		</text>
 		
 		<text name="closedText_cornerShopGate">
-            <en>Closed, Opening Time 8am - 8pm </en>
-            <de> <![CDATA[Geschlossen, Öffnungszeiten: 8:00 - 20:00 Uhr]]></de>
-			<nl>Gesloten, openingstijden van 8:00 tot 20:00 uur </nl>
-			<fr>Fermé, heure d'ouverture de 8h à 20h </fr>
+			<en><![CDATA[Closed, Opening Time 8am - 8pm]]></en>
+			<de><![CDATA[Geschlossen, Öffnungszeiten: 8:00 - 20:00 Uhr]]></de>
+			<nl><![CDATA[Gesloten, openingstijden van 8:00 tot 20:00 uur]]></nl>
+			<fr><![CDATA[Fermé, heure d'ouverture de 8h à 20h]]></fr>
 		</text>
 	</l10n>
 	
 	
 	<maps>
-        <map id="Nederland" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/Nederland.xml" defaultVehiclesXMLFilename="NederlandVehicles.xml" defaultItemsXMLFilename="NederlandItems.xml">
-            <title>
-                <en>Pure Netherlands from Mike-Modding</en>
-                <de>Reine Niederlande von von Mike-Modding</de>
-		        <nl>Puur Nederland van Mike-Modding</nl>
-		        <fr>Pure Pays-Bas dès Mike-Modding</fr>
-		        <pl>Czysty Holender od Mike-Modding</pl>
-		        <es>Puro Los países bajos de Mike-Modding</es>
-		        <it>Paesi Bassi puri da Mike-Modding</it>
-            </title>
-            <description>
-                <en>The map is based on the Dutch territory and landscape. There are many stuff to do on the map, like it east from the crops, and for the animals take care. There are five farms and a big storage where more crops in on beaten can become.</en>
-                <de>Die Karte basiert auf dem niederländischen Territorium und der Landschaft. Es gibt viele Dinge auf der Karte zu tun, wie Osten Und für die Tiere sorgen. Dort sind fünf Farmen und ein großer Lagerung für wahr mehr gewaschen in gerettet kann sein.</de>
-				<nl>De map is gebaseerd op het Nederlandse grondgebied en landschap. Er zijn veel verschillende dingen te doen, zoals oosten tot dieren verzorgen. Er zijn 5 boerderijen en een grote opslag waar meer gewassen in opgeslagen kan worden.</nl>
-            </description>
-            <iconFilename>Nederland_preview.png</iconFilename>
-        </map>
-    </maps>
+		<map id="Nederland" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/Nederland.xml" defaultVehiclesXMLFilename="NederlandVehicles.xml" defaultItemsXMLFilename="NederlandItems.xml">
+			<title>
+				<en>Pure Netherlands from Mike-Modding</en>
+				<de>Reine Niederlande von Mike-Modding</de>
+				<nl>Puur Nederland van Mike-Modding</nl>				
+			</title>
+			<description>
+				<en>The base of the map is a beautiful dutch landscape. There are five animal farms here: |1.BGA & cattle breeding, 2.dairy cattle & chicken farm, 3.pig farm, 4.horse stud, 5.sheep farm|</en>
+				<de>Die Basis der Karte ist eine schöne niederländische Landschaft. Es gibt hier fünf Tierbetriebe: |1.BGA & Viehzucht, 2.Milchvieh & Hühnerfarm, 3.Schweinemast, 4.Pferdegestüt, 5.Schafhof|</de>
+				<nl>De basis van de kaart is een prachtig Nederlands landschap. Er zijn hier vijf dierenfokkerijen: |1.BGA & veeteelt, 2.melkvee- & kippenfokkerij, 3.varkenshouderij, 4.horse stud, 5.sheep farm|</nl>
+			</description>
+			<iconFilename>Nederland_preview.png</iconFilename>
+		</map>
+	</maps>
 	
 	<inputBindings>
 		<input name="ANIMATED_OBJECT_OPEN_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
-        <input name="ANIMATED_OBJECT_CLOSE_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
-	    <input name="LIGHTSWITCH_CLICK" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
+		<input name="ANIMATED_OBJECT_CLOSE_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT" />
+		<input name="LIGHTSWITCH_CLICK" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT" />
 	</inputBindings>
 	
 	<storeItems>
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryChickenLarge.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCowSmall.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCowSmall2.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCowLarge.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCowLarge2.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryHorseSmall.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryPigSmall.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandryPigSmall2.xml" />
+		<storeItem xmlFilename="placeables/animalHusbandry/husbandrySheepLarge.xml" />
+
+		<storeItem xmlFilename="placeables/baleShed/shed2.xml" />
+		<storeItem xmlFilename="placeables/baleShed/shed3.xml" />
+
 		<storeItem xmlFilename="placeables/bga/bga.xml" />
-		<storeItem xmlFilename="placeables/bga/bga2.xml" />
-		<storeItem xmlFilename="placeables/farmSilos/SiloPuurNederlands.xml"/>
+		<storeItem xmlFilename="placeables/bga/bga1.xml" />
+
+		<storeItem xmlFilename="placeables/bunkerSilo/bunkerSiloMedium.xml" />
+
 		<storeItem xmlFilename="placeables/compositeHallPack/compositeHall4.xml"/>
 		<storeItem xmlFilename="placeables/compositeHallPack/compositeHall5.xml"/>
-		<storeItem xmlFilename="placeables/compositeHallPack/compositeHall5LB.xml"/>
-		<storeItem xmlFilename="placeables/bunkerSilo/bunkerSiloMedium.xml"/>
-		<storeItem xmlFilename="placeables/bunkerSilo/bunkerSiloMedium2.xml"/>
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCow.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCow2.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCow3.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryPig.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryPig2.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryCowLarge.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandrySheepLarge.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryChickenLarge.xml" />
-		<storeItem xmlFilename="placeables/animalHusbandry/husbandryHorse.xml" />
-		<!-- <storeItem xmlFilename="placeables/DP/Drijfmestput.xml" /> -->
-		<storeItem xmlFilename="placeables/sellingStation/limeStation.xml" />
-		<storeItem xmlFilename="placeables/sellingStation/sellingStationGrainhandel.xml" />
-		<storeItem xmlFilename="placeables/sellingStation/sellingStationMilkhandel.xml" />
-		<storeItem xmlFilename="placeables/sellingStation/sellingStationAlbertHeijnShop.xml" />
-		<storeItem xmlFilename="placeables/sellingStation/sellingStationMill.xml" />
-		<storeItem xmlFilename="placeables/sellingStation/sellingStationGrainMill.xml" />
-		<storeItem xmlFilename="placeables/sellingStation/sellingStationSuperMarket.xml" />
-		<storeItem xmlFilename="placeables/mapDE/sellingStationBales/sellingStationBales.xml" />
-		<storeItem xmlFilename="placeables/sellingStation/sellingStationGardenCenter.xml" />
+
+		<storeItem xmlFilename="placeables/farmBuildings/farmHouse.xml" />
+		<storeItem xmlFilename="placeables/farmSilos/SiloPuurNederlands.xml"/>
+
+		<storeItem xmlFilename="placeables/greenhouse/greenhouse_lettuce.xml" />
+		<storeItem xmlFilename="placeables/greenhouse/greenhouse_tomatoes.xml" />
+
 		<storeItem xmlFilename="placeables/mapDE/gasStation/gasStation01.xml" />
 		<storeItem xmlFilename="placeables/mapDE/gasStation/gasStation02.xml" />
 		<storeItem xmlFilename="placeables/mapDE/gasStation/gasStation03.xml" />
-		<storeItem xmlFilename="placeables/waterTank/waterTank.xml" />
-		<storeItem xmlFilename="placeables/waterTank/waterTank02.xml" />
-		<storeItem xmlFilename="placeables/waterTank/waterTank03.xml" />
-		<storeItem xmlFilename="placeables/waterTank/waterTank04.xml" />
-		<storeItem xmlFilename="placeables/waterTank/waterTank05.xml" />
-		<storeItem xmlFilename="placeables/mapDE/Zaadkopen/Seeds.xml" />
+
+		<storeItem xmlFilename="placeables/mapDE/sellingStationBales/sellingStationBales.xml" />
+		<storeItem xmlFilename="placeables/mapDE/sellingStationVehicles/Werkstatt.xml" />
+
+		<storeItem xmlFilename="placeables/mapDE/Zaadkopen/Crops.xml" />
 		<storeItem xmlFilename="placeables/mapDE/Zaadkopen/Fertilizer.xml" />
 		<storeItem xmlFilename="placeables/mapDE/Zaadkopen/rootcrops.xml" />
-		<storeItem xmlFilename="placeables/mapDE/Zaadkopen/Crops.xml" />
-		<storeItem xmlFilename="placeables/mapDE/Zaadkopen/Crops.xml" />
-		<storeItem xmlFilename="placeables/baleShed/shed2.xml" />
-		<storeItem xmlFilename="placeables/baleShed/shed3.xml" />
-		<storeItem xmlFilename="placeables/greenhouse/greenhouse01.xml" />
-		<storeItem xmlFilename="placeables/greenhouse/greenhouse02.xml" />
-		<storeItem xmlFilename="placeables/greenhouse/greenhouse03.xml" />
-		<storeItem xmlFilename="placeables/greenhouse/greenhouse04.xml" />
+		<storeItem xmlFilename="placeables/mapDE/Zaadkopen/Seeds.xml" />
+
+		<storeItem xmlFilename="placeables/sellingStation/limeStation.xml" />
+		<storeItem xmlFilename="placeables/sellingStation/sellingStationAlbertHeijnShop.xml" />
+		<storeItem xmlFilename="placeables/sellingStation/sellingStationGardenCenter.xml" />
+		<storeItem xmlFilename="placeables/sellingStation/sellingStationGrainhandel.xml" />
+		<storeItem xmlFilename="placeables/sellingStation/sellingStationGrainMill.xml" />
+		<storeItem xmlFilename="placeables/sellingStation/sellingStationMilkhandel.xml" />
+		<storeItem xmlFilename="placeables/sellingStation/sellingStationMill.xml" />
+		<storeItem xmlFilename="placeables/sellingStation/sellingStationSuperMarket.xml" />
+
+		<storeItem xmlFilename="placeables/waterTank/waterTank.xml" />
+
+		<storeItem xmlFilename="placeables/Windmolen/Windmuehle.xml"/>
 	</storeItems>
 	
 </modDesc>

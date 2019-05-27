@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_shopItem_greenhouseLettuce</name>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore> 
+		<image>placeables/greenhouse/store_greenhouseLettuce.png</image>
+        <price>25000</price>
+        <functions>
+            <function>$l10n_function_greenHouse</function>
+        </functions>
+		<dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>placeableMisc</category>
+    </storeData>
+
+    <placeableType>greenhouse</placeableType>
+    <filename>placeables/greenhouse/greenhouse_lettuce.i3d</filename>
+
+	<incomePerHour1>90</incomePerHour1>
+    <incomePerHour2>60</incomePerHour2>
+    <incomePerHour3>40</incomePerHour3>
+	
+	<dayNightObjects>
+       	<dayNightObject node="2|0|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="2|0|0|1" visibleDay="false" visibleNight="true" />
+		<dayNightObject node="2|1|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="2|1|0|1" visibleDay="false" visibleNight="true" />
+		<dayNightObject node="2|2|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="2|2|0|1" visibleDay="false" visibleNight="true" />
+		<dayNightObject node="2|3|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="2|3|0|1" visibleDay="false" visibleNight="true" />
+		<dayNightObject node="2|4|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="2|4|0|1" visibleDay="false" visibleNight="true" />
+		<dayNightObject node="2|5|0|0" intensityDay="0" intensityNight="1" />
+        <dayNightObject node="2|5|0|1" visibleDay="false" visibleNight="true" />
+	</dayNightObjects>
+	
+    <placement testSizeX="12.0" testSizeZ="30.0" sizeX="12" sizeZ="30" useRandomYRotation="false" useManualYRotation="true" />
+
+    <clearAreas>
+        <clearArea startNode="9|0" widthNode="9|0|0" heightNode="9|0|1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="20" maxSlope="75" maxEdgeAngle="20">
+        <levelAreas>
+            <levelArea startNode="10|0" widthNode="10|0|0" heightNode="10|0|1" groundType="dirt"/>
+            <levelArea startNode="10|1" widthNode="10|1|0" heightNode="10|1|1" groundType="asphalt"/>
+            <levelArea startNode="10|2" widthNode="10|2|0" heightNode="10|2|1" groundType="grassRough"/>
+			<levelArea startNode="10|3" widthNode="10|3|0" heightNode="10|3|1" groundType="grassRough"/>
+        </levelAreas>
+	</leveling>
+
+    <foliageAreas>
+        <foliageArea fruitType="grass" state="3" rootNode="11|0" />
+    </foliageAreas>
+
+	<animatedObjects>
+        <animatedObject saveId="doors_01" >
+            <animation duration="1.5">
+                <part node="4|0">
+                    <keyFrame time="0.0" translation="-0.214 0 0"/>
+                    <keyFrame time="1.0" translation="1.238 0 0"/>
+                </part>
+                <part node="4|1">
+                    <keyFrame time="0.0" translation="-2.128 0 0"/>
+                    <keyFrame time="1.0" translation="-3.595 0 0"/>
+                </part>
+            </animation>
+            <controls triggerNode="4|2" posAction="ACTIVATE_HANDTOOL" posText="action_openGate" negText="action_closeGate" />
+            <sounds>
+                <moving file="placeables/greenhouse/sounds/slideGate01.ogg" loops="0" linkNode="4|2" volume="0.5" radius="25" innerRadius="3" fadeOut="0.25"/>
+            </sounds>
+        </animatedObject>
+    </animatedObjects>
+	
+	<greenhouse>
+		<interactionTrigger node="5" />
+		<fruit alive="6|0" dead="6|1" />
+			
+		<manureTank  capacity="3000" usagePerHour="22" >
+			<manurePlane node="3" minMaxY="-0.314 0" />
+			
+			<unloadingStation node="8|0|0" stationName="$l10n_station_greenhouseLettuce" appearsOnPDA="false" appearsOnStats="false" storageRadius="0" >
+                <unloadTrigger exactFillRootNode="0" />
+            </unloadingStation>			
+		</manureTank>
+		
+		<waterTank capacity="5000" usagePerHour="44" >
+			<unloadingStation node="8|1|0" stationName="$l10n_station_greenhouseLettuce" appearsOnPDA="false" appearsOnStats="false" storageRadius="0" >
+                <unloadTrigger exactFillRootNode="0" />
+            </unloadingStation>
+		</waterTank>
+	</greenhouse>	
+
+	<tipOcclusionUpdateArea sizeX="12" sizeZ="30" />
+	
+</placeable>

@@ -1,0 +1,506 @@
+﻿<items>
+    <item className="BuyingStationPlaceable" id="1" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml" position="-266.8140 154.9960 -162.4580" rotation="0.0000 0.0000 0.0000" age="0" price="5000.000000" farmId="0"/>
+    <item className="BuyingStationPlaceable" id="2" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/gasStation/gasStation03.xml" position="469.966 155.0650 -24.437" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="3"/>
+    <item className="BuyingStationPlaceable" id="3" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml" position="390.8860 154.9960 13.7760" rotation="-180.0000 -46.8270 -180.0000" age="0" price="5000.000000" farmId="0"/>
+    <item className="Placeable" id="4" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_lettuce.xml" position="352.7710 154.9960 -63.1520" rotation="0.0000 -90.0000 0.0000" age="0" price="25000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+    </item>
+    <item className="AnimalHusbandry" id="5" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryPigSmall2.xml" position="-130.7130 155.0000 -181.9520" rotation="-180.0000 0.0000 -180.0000" age="0" price="90000.000000" farmId="3" globalProductionFactor="0.000000">
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="manure" fillCapacity="0.000000" manureToDrop="0.000000" manureToRemove="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="liquidManure" fillCapacity="0.000000">
+            <fillLevel fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+        </module>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="WHEAT" fillLevel="0.000000"/>
+            <fillLevel fillType="BARLEY" fillLevel="0.000000"/>
+            <fillLevel fillType="CANOLA" fillLevel="0.000000"/>
+            <fillLevel fillType="SUNFLOWER" fillLevel="0.000000"/>
+            <fillLevel fillType="SOYBEAN" fillLevel="0.000000"/>
+            <fillLevel fillType="MAIZE" fillLevel="0.000000"/>
+            <fillLevel fillType="POTATO" fillLevel="0.000000"/>
+            <fillLevel fillType="SUGARBEET" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="Workshop" id="6" filename="data/placeables/mapDE/sellingStationVehicles/sellingStationVehicles.xml" position="422.7180 155.0040 -350.7300" rotation="0.0000 -90.0000 0.0000" age="0" price="0.000000" farmId="0" mapBoundId="sellingStationVehicles"/>
+    <item className="SellingStationPlaceable" id="7" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationGrainhandel.xml" position="233.8710 154.7100 -261.1150" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationGrainhandel">
+        <sellingStation>
+            <stats fillType="WHEAT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="45440792.000000">
+                <curveBaseCurve nominalAmplitude="0.068074" nominalAmplitudeVariation="0.051056" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.018606" period="58370596.000000" time="14592649.000000"/>
+                <curve1 nominalAmplitude="0.034037" nominalAmplitudeVariation="0.006807" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.036884" period="515216672.000000" time="429242336.000000"/>
+            </stats>
+            <stats fillType="BARLEY" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="14329951.000000">
+                <curveBaseCurve nominalAmplitude="0.075120" nominalAmplitudeVariation="0.056340" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.079997" period="91317320.000000" time="68487992.000000"/>
+                <curve1 nominalAmplitude="0.037560" nominalAmplitudeVariation="0.007512" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.042820" period="505617728.000000" time="269304832.000000"/>
+            </stats>
+            <stats fillType="OAT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="29654022.000000">
+                <curveBaseCurve nominalAmplitude="0.112600" nominalAmplitudeVariation="0.084450" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.099502" period="60080828.000000" time="45060624.000000"/>
+                <curve1 nominalAmplitude="0.056300" nominalAmplitudeVariation="0.011260" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.062911" period="556156416.000000" time="157347632.000000"/>
+            </stats>
+            <stats fillType="CANOLA" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="37397176.000000">
+                <curveBaseCurve nominalAmplitude="0.180900" nominalAmplitudeVariation="0.135675" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.197231" period="82210248.000000" time="61657688.000000"/>
+                <curve1 nominalAmplitude="0.090450" nominalAmplitudeVariation="0.018090" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.105023" period="480354272.000000" time="396911904.000000"/>
+            </stats>
+            <stats fillType="SUNFLOWER" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.174980" nominalAmplitudeVariation="0.131235" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.099554" period="50051624.000000" time="40261428.000000"/>
+                <curve1 nominalAmplitude="0.087490" nominalAmplitudeVariation="0.017498" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.099424" period="413620768.000000" time="188354944.000000"/>
+            </stats>
+            <stats fillType="SOYBEAN" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="48997044.000000">
+                <curveBaseCurve nominalAmplitude="0.163380" nominalAmplitudeVariation="0.122535" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.250921" period="51658628.000000" time="12914657.000000"/>
+                <curve1 nominalAmplitude="0.081690" nominalAmplitudeVariation="0.016338" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.094711" period="441311392.000000" time="29888378.000000"/>
+            </stats>
+            <stats fillType="MAIZE" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="12459026.000000">
+                <curveBaseCurve nominalAmplitude="0.076000" nominalAmplitudeVariation="0.057000" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.087614" period="92671936.000000" time="69503952.000000"/>
+                <curve1 nominalAmplitude="0.038000" nominalAmplitudeVariation="0.007600" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.037265" period="515302112.000000" time="261701648.000000"/>
+            </stats>
+            <stats fillType="SUGARCANE" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="39956928.000000">
+                <curveBaseCurve nominalAmplitude="0.024514" nominalAmplitudeVariation="0.018385" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.018838" period="77757456.000000" time="58318088.000000"/>
+                <curve1 nominalAmplitude="0.012257" nominalAmplitudeVariation="0.002451" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.013551" period="402460064.000000" time="280874592.000000"/>
+            </stats>
+            <stats fillType="ONION" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="12918167.000000">
+                <curveBaseCurve nominalAmplitude="0.109720" nominalAmplitudeVariation="0.082290" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.045979" period="56510552.000000" time="42382916.000000"/>
+                <curve1 nominalAmplitude="0.054860" nominalAmplitudeVariation="0.010972" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.052919" period="446047264.000000" time="159849024.000000"/>
+            </stats>
+            <stats fillType="BEETROOT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="45011892.000000">
+                <curveBaseCurve nominalAmplitude="0.118160" nominalAmplitudeVariation="0.088620" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.044845" period="67526784.000000" time="16881696.000000"/>
+                <curve1 nominalAmplitude="0.059080" nominalAmplitudeVariation="0.011816" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.057004" period="564414336.000000" time="49855944.000000"/>
+            </stats>
+            <stats fillType="CARROT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.084400" nominalAmplitudeVariation="0.063300" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.121382" period="49980440.000000" time="39007144.000000"/>
+                <curve1 nominalAmplitude="0.042200" nominalAmplitudeVariation="0.008440" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.048631" period="412732704.000000" time="204342816.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="Placeable" id="8" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/compositeHallPack/compositeHall4.xml" position="-340.0240 154.9560 -176.9020" rotation="-180.0000 0.0000 -180.0000" age="0" price="37500.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+    </item>
+    <item className="SellingStationPlaceable" id="9" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationAlbertHeijnShop.xml" position="126.8810 154.7100 -14.4850" rotation="0.0000 90.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationAlbertHeijnShop">
+        <sellingStation>
+            <stats fillType="EGG" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.390000" nominalAmplitudeVariation="0.292500" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.215185" period="76629984.000000" time="74728696.000000"/>
+                <curve1 nominalAmplitude="0.195000" nominalAmplitudeVariation="0.039000" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.201760" period="528607008.000000" time="523017312.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="Placeable" id="10" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_tomatoes.xml" position="389.9010 154.9960 -63.1520" rotation="0.0000 -90.0000 0.0000" age="0" price="25000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+    </item>
+    <item className="BuyingStationPlaceable" id="11" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/Fertilizer.xml" position="268.5940 155.0160 -244.8090" rotation="0.0000 0.0000 0.0000" age="0" price="0.000000" farmId="0"/>
+    <item className="Placeable" id="12" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_lettuce.xml" position="352.7710 154.9960 -78.9780" rotation="0.0000 -90.0000 0.0000" age="0" price="25000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+    </item>
+    <item className="Placeable" id="13" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/Windmolen/Windmuehle.xml" position="-302.3630 155.0000 607.7550" rotation="-180.0000 7.5260 -180.0000" age="0" price="0.000000" farmId="2"/>
+    <item className="SellingStationPlaceable" id="14" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationMill.xml" position="-591.4280 154.8200 -686.9160" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationMill">
+        <sellingStation>
+            <stats fillType="WHEAT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="10712275.000000">
+                <curveBaseCurve nominalAmplitude="0.074140" nominalAmplitudeVariation="0.055605" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.036971" period="45982964.000000" time="34487224.000000"/>
+                <curve1 nominalAmplitude="0.037070" nominalAmplitudeVariation="0.007414" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.034578" period="475923360.000000" time="70741424.000000"/>
+            </stats>
+            <stats fillType="BARLEY" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="45160480.000000">
+                <curveBaseCurve nominalAmplitude="0.081380" nominalAmplitudeVariation="0.061035" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.060069" period="56789476.000000" time="14197369.000000"/>
+                <curve1 nominalAmplitude="0.040690" nominalAmplitudeVariation="0.008138" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.046366" period="450845024.000000" time="430788352.000000"/>
+            </stats>
+            <stats fillType="OAT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="20782504.000000">
+                <curveBaseCurve nominalAmplitude="0.113726" nominalAmplitudeVariation="0.085294" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.110889" period="86811336.000000" time="65108504.000000"/>
+                <curve1 nominalAmplitude="0.056863" nominalAmplitudeVariation="0.011373" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.060331" period="517282848.000000" time="444360384.000000"/>
+            </stats>
+            <stats fillType="SUNFLOWER" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.141330" nominalAmplitudeVariation="0.105997" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.152064" period="64041744.000000" time="1187435.750000"/>
+                <curve1 nominalAmplitude="0.070665" nominalAmplitudeVariation="0.014133" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.067723" period="591826880.000000" time="170169984.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="Placeable" id="15" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/compositeHallPack/compositeHall5.xml" position="-609.0510 154.9960 -627.0710" rotation="-180.0000 90.0000 -180.0000" age="0" price="44000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+    </item>
+    <item className="Placeable" id="16" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/Windmolen/Windmuehle.xml" position="-247.0720 155.0000 629.3170" rotation="-180.0000 7.5260 -180.0000" age="0" price="0.000000" farmId="1"/>
+    <item className="AnimalHusbandry" id="17" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowSmall2.xml" position="649.4250 154.4620 -712.2540" rotation="180.0000 -90.0000 180.0000" age="0" price="100000.000000" farmId="1" globalProductionFactor="0.000000">
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="milk" fillCapacity="0.000000">
+            <fillLevel fillType="MILK" fillLevel="0.000000"/>
+        </module>
+        <module name="manure" fillCapacity="0.000000" manureToDrop="0.000000" manureToRemove="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="liquidManure" fillCapacity="0.000000">
+            <fillLevel fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+        </module>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="WHEAT" fillLevel="0.000000"/>
+            <fillLevel fillType="BARLEY" fillLevel="0.000000"/>
+            <fillLevel fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="SILAGE" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="Workshop" id="18" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/sellingStationVehicles/Werkstatt.xml" position="-281.3950 155.0090 -133.8440" rotation="0.0000 0.0000 0.0000" age="0" price="0.000000" farmId="1" mapBoundId="sellingStationVehicles"/>
+    <item className="AnimalHusbandry" id="19" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryHorseSmall.xml" position="374.1440 155.0000 -13.3040" rotation="0.0000 0.0000 0.0000" age="0" price="50000.000000" farmId="4" globalProductionFactor="0.000000">
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="OAT" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="BuyingStationPlaceable" id="20" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml" position="772.2380 154.9960 -673.9950" rotation="0.0000 -90.0000 0.0000" age="0" price="5000.000000" farmId="0"/>
+    <item className="Placeable" id="21" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_tomatoes.xml" position="389.9010 154.9960 -78.9620" rotation="0.0000 -90.0000 0.0000" age="0" price="25000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+    </item>
+    <item className="HighPressureWasher" id="22" filename="data/placeables/highPressureWasher/kaercher/kaercherHDS918-4M.xml" position="696.9680 154.9922 -699.8670" rotation="180.0000 -56.5022 180.0000" age="0" price="4500.000000" farmId="0"/>
+    <item className="BuyingStationPlaceable" id="23" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/Seeds.xml" position="264.6680 155.0160 -244.8090" rotation="0.0000 0.0000 0.0000" age="0" price="0.000000" farmId="0"/>
+    <item className="FarmhousePlaceable" id="24" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/farmBuildings/farmHouse.xml" position="0.0000 0.0000 0.0000" rotation="0.0000 0.0000 0.0000" age="0" price="0.000000" farmId="1"/>
+    <item className="BuyingStationPlaceable" id="25" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/limeStation.xml" position="433.1310 154.8250 -139.1630" rotation="0.0000 90.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="BuyingStation"/>
+    <item className="BunkerSiloPlaceable" id="26" filename="data/placeables/bunkerSilo/bunkerSiloLargeDouble.xml" position="-358.7900 154.8320 -105.3720" rotation="-180.0000 90.0000 -180.0000" age="0" price="90000.000000" farmId="1">
+        <bunkerSilo index="1" state="0" fillLevel="0.000000" compactedFillLevel="0.000000" fermentingTime="0.000000" openedAtFront="false" openedAtBack="false"/>
+        <bunkerSilo index="2" state="0" fillLevel="0.000000" compactedFillLevel="0.000000" fermentingTime="0.000000" openedAtFront="false" openedAtBack="false"/>
+    </item>
+    <item className="BuyingStationPlaceable" id="27" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml" position="-86.8820 154.9960 -155.7460" rotation="0.0000 -90.0000 0.0000" age="0" price="5000.000000" farmId="0"/>
+    <item className="SellingStationPlaceable" id="28" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationSuperMarket.xml" position="-546.3270 154.6600 -686.9160" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationSuperMarket">
+        <sellingStation>
+            <stats fillType="EGG" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.321000" nominalAmplitudeVariation="0.240750" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.138017" period="72920368.000000" time="15587417.000000"/>
+                <curve1 nominalAmplitude="0.160500" nominalAmplitudeVariation="0.032100" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.158541" period="448430624.000000" time="404771936.000000"/>
+            </stats>
+            <stats fillType="ONION" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="2522363.750000">
+                <curveBaseCurve nominalAmplitude="0.101280" nominalAmplitudeVariation="0.075960" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.034224" period="91524816.000000" time="68643616.000000"/>
+                <curve1 nominalAmplitude="0.050640" nominalAmplitudeVariation="0.010128" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.052116" period="480818528.000000" time="163757440.000000"/>
+            </stats>
+            <stats fillType="MILK" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="27031418.000000">
+                <curveBaseCurve nominalAmplitude="0.140000" nominalAmplitudeVariation="0.105000" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.035526" period="87080072.000000" time="65310056.000000"/>
+                <curve1 nominalAmplitude="0.070000" nominalAmplitudeVariation="0.014000" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.064342" period="438909024.000000" time="225101440.000000"/>
+            </stats>
+            <stats fillType="CARROT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="37611636.000000">
+                <curveBaseCurve nominalAmplitude="0.092840" nominalAmplitudeVariation="0.069630" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.089535" period="92293768.000000" time="69220320.000000"/>
+                <curve1 nominalAmplitude="0.046420" nominalAmplitudeVariation="0.009284" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.047642" period="410483712.000000" time="266052576.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="AnimalHusbandry" id="29" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowLarge.xml" position="725.5980 154.9920 -717.0210" rotation="0.0000 -90.0000 0.0000" age="0" price="300000.000000" farmId="1" globalProductionFactor="0.000000">
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="milk" fillCapacity="0.000000">
+            <fillLevel fillType="MILK" fillLevel="0.000000"/>
+        </module>
+        <module name="manure" fillCapacity="0.000000" manureToDrop="0.000000" manureToRemove="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="liquidManure" fillCapacity="0.000000">
+            <fillLevel fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+        </module>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="FORAGE" fillLevel="0.000000"/>
+            <fillLevel fillType="GRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="SUGARBEET" fillLevel="0.000000"/>
+            <fillLevel fillType="SILAGE" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="SellingStationPlaceable" id="30" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationGrainMill.xml" position="500.5690 154.7700 -812.5560" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationGrainMill">
+        <sellingStation>
+            <stats fillType="WHEAT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="45047968.000000">
+                <curveBaseCurve nominalAmplitude="0.074140" nominalAmplitudeVariation="0.055605" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.086675" period="77567064.000000" time="19391766.000000"/>
+                <curve1 nominalAmplitude="0.037070" nominalAmplitudeVariation="0.007414" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.039284" period="585344960.000000" time="217950288.000000"/>
+            </stats>
+            <stats fillType="BARLEY" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="28249198.000000">
+                <curveBaseCurve nominalAmplitude="0.081380" nominalAmplitudeVariation="0.061035" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.024291" period="53109436.000000" time="39832076.000000"/>
+                <curve1 nominalAmplitude="0.040690" nominalAmplitudeVariation="0.008138" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.032578" period="438110720.000000" time="286886432.000000"/>
+            </stats>
+            <stats fillType="OAT" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="19805814.000000">
+                <curveBaseCurve nominalAmplitude="0.113726" nominalAmplitudeVariation="0.085294" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.125509" period="44255664.000000" time="11063916.000000"/>
+                <curve1 nominalAmplitude="0.056863" nominalAmplitudeVariation="0.011373" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.048210" period="532073536.000000" time="56999932.000000"/>
+            </stats>
+            <stats fillType="CANOLA" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="35524604.000000">
+                <curveBaseCurve nominalAmplitude="0.192960" nominalAmplitudeVariation="0.144720" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.115479" period="51031044.000000" time="38273280.000000"/>
+                <curve1 nominalAmplitude="0.096480" nominalAmplitudeVariation="0.019296" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.083788" period="598733504.000000" time="41432572.000000"/>
+            </stats>
+            <stats fillType="SUNFLOWER" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="40554304.000000">
+                <curveBaseCurve nominalAmplitude="0.141330" nominalAmplitudeVariation="0.105997" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.129194" period="64786816.000000" time="16196704.000000"/>
+                <curve1 nominalAmplitude="0.070665" nominalAmplitudeVariation="0.014133" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.073944" period="483879520.000000" time="113369680.000000"/>
+            </stats>
+            <stats fillType="SOYBEAN" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.186720" nominalAmplitudeVariation="0.140040" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.261971" period="85097208.000000" time="16030062.000000"/>
+                <curve1 nominalAmplitude="0.093360" nominalAmplitudeVariation="0.018672" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.102286" period="418776672.000000" time="375253504.000000"/>
+            </stats>
+            <stats fillType="MAIZE" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="43949044.000000">
+                <curveBaseCurve nominalAmplitude="0.106400" nominalAmplitudeVariation="0.079800" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.087633" period="60685568.000000" time="45514176.000000"/>
+                <curve1 nominalAmplitude="0.053200" nominalAmplitudeVariation="0.010640" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.061454" period="432356576.000000" time="341013440.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="AnimalHusbandry" id="31" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryPigSmall.xml" position="-103.7280 155.0000 -181.9520" rotation="-180.0000 0.0000 -180.0000" age="0" price="90000.000000" farmId="3" globalProductionFactor="0.000000">
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="manure" fillCapacity="0.000000" manureToDrop="0.000000" manureToRemove="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="liquidManure" fillCapacity="0.000000">
+            <fillLevel fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+        </module>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="WHEAT" fillLevel="0.000000"/>
+            <fillLevel fillType="BARLEY" fillLevel="0.000000"/>
+            <fillLevel fillType="CANOLA" fillLevel="0.000000"/>
+            <fillLevel fillType="SUNFLOWER" fillLevel="0.000000"/>
+            <fillLevel fillType="SOYBEAN" fillLevel="0.000000"/>
+            <fillLevel fillType="MAIZE" fillLevel="0.000000"/>
+            <fillLevel fillType="POTATO" fillLevel="0.000000"/>
+            <fillLevel fillType="SUGARBEET" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="BuyingStationPlaceable" id="32" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml" position="-256.3530 154.9960 432.2270" rotation="0.0000 90.0000 0.0000" age="0" price="5000.000000" farmId="0"/>
+    <item className="BgaPlaceable" id="33" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/bga/bga1.xml" position="657.3760 155.0000 -666.1830" rotation="180.0000 -64.0020 -180.0000" age="0" price="1.000000" farmId="1" mapBoundId="bga2">
+        <bga money="0.000000">
+            <digestateSilo>
+                <storage index="1" farmId="1"/>
+            </digestateSilo>
+            <slot index="1">
+                <fillType fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+                <fillType fillType="MANURE" fillLevel="0.000000"/>
+                <fillType fillType="GRASS_WINDROW" fillLevel="0.000000"/>
+                <fillType fillType="SILAGE" fillLevel="0.000000"/>
+                <fillType fillType="SUGARBEET" fillLevel="0.000000"/>
+                <fillType fillType="POTATO" fillLevel="0.000000"/>
+            </slot>
+            <slot index="2">
+                <fillType fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+            </slot>
+        </bga>
+    </item>
+    <item className="BuyingStationPlaceable" id="34" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/gasStation/gasStation01.xml" position="-294.5020 155.0650 -145.8330" rotation="180.0000 90.0000 180.0000" age="0" price="1.000000" farmId="1"/>
+    <item className="Workshop" id="35" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/sellingStationVehicles/Werkstatt.xml" position="727.5200 155.0170 -649.6940" rotation="180.0000 -90.0000 -180.0000" age="0" price="0.000000" farmId="0" mapBoundId="sellingStationVehicles"/>
+    <item className="SellingStationPlaceable" id="36" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationBales.xml" position="402.3120 154.9960 -148.4670" rotation="180.0000 90.0000 180.0000" age="0" price="0.000000" farmId="0" mapBoundId="sellingStationBales">
+        <sellingStation>
+            <stats fillType="GRASS_WINDROW" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="34402156.000000">
+                <curveBaseCurve nominalAmplitude="0.009000" nominalAmplitudeVariation="0.006750" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.004120" period="72173264.000000" time="18043316.000000"/>
+                <curve1 nominalAmplitude="0.004500" nominalAmplitudeVariation="0.000900" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.004845" period="480542304.000000" time="458106272.000000"/>
+            </stats>
+            <stats fillType="DRYGRASS_WINDROW" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.011200" nominalAmplitudeVariation="0.008400" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.007547" period="69166456.000000" time="13118903.000000"/>
+                <curve1 nominalAmplitude="0.005600" nominalAmplitudeVariation="0.001120" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.006474" period="578467584.000000" time="250123440.000000"/>
+            </stats>
+            <stats fillType="STRAW" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="false" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="0.000000">
+                <curveBaseCurve nominalAmplitude="0.008200" nominalAmplitudeVariation="0.006150" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.008118" period="70991944.000000" time="50141952.000000"/>
+                <curve1 nominalAmplitude="0.004100" nominalAmplitudeVariation="0.000820" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.004699" period="596571712.000000" time="12578616.000000"/>
+            </stats>
+            <stats fillType="SILAGE" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="27855096.000000">
+                <curveBaseCurve nominalAmplitude="0.034200" nominalAmplitudeVariation="0.025650" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.013945" period="81234056.000000" time="60925544.000000"/>
+                <curve1 nominalAmplitude="0.017100" nominalAmplitudeVariation="0.003420" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.014340" period="470863648.000000" time="236334000.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="Placeable" id="37" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/baleShed/shed2.xml" position="407.6270 154.9960 -38.5970" rotation="-180.0000 0.0000 -180.0000" age="0" price="28000.000000" farmId="1"/>
+    <item className="Placeable" id="38" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/compositeHallPack/compositeHall5.xml" position="341.4420 154.9960 284.0490" rotation="0.0000 -90.0000 0.0000" age="0" price="44000.000000" farmId="1">
+        <animatedObjects>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+            <animatedObject time="0.000000" direction="0"/>
+        </animatedObjects>
+    </item>
+    <item className="HighPressureWasher" id="39" filename="data/placeables/highPressureWasher/kaercher/kaercherHDS918-4M.xml" position="467.4280 154.9961 -49.2890" rotation="180.0000 30.9802 180.0000" age="0" price="4500.000000" farmId="0"/>
+    <item className="AnimalHusbandry" id="40" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowSmall.xml" position="-215.5300 155.0020 -123.9550" rotation="0.0000 -90.0000 0.0000" age="0" price="100000.000000" farmId="2" globalProductionFactor="0.000000">
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="milk" fillCapacity="0.000000">
+            <fillLevel fillType="MILK" fillLevel="0.000000"/>
+        </module>
+        <module name="manure" fillCapacity="0.000000" manureToDrop="0.000000" manureToRemove="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="liquidManure" fillCapacity="0.000000">
+            <fillLevel fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+        </module>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="FORAGE" fillLevel="0.000000"/>
+            <fillLevel fillType="GRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="SUGARBEET" fillLevel="0.000000"/>
+            <fillLevel fillType="SILAGE" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="BuyingStationPlaceable" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/rootcrops.xml" position="259.511 155.016 -244.809" rotation="0.0000 0.0000 0.0000" farmId="0"/>
+    <item className="BuyingStationPlaceable" id="41" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/Crops.xml" position="255.2890 155.0160 -244.8090" rotation="0.0000 0.0000 0.0000" age="0" price="0.000000" farmId="0"/>
+    <item className="SellingStationPlaceable" id="42" filename="data/placeables/mapDE/sellingStationWool/sellingStationWool.xml" position="135.5220 154.9960 -16.9540" rotation="180.0000 0.0000 -180.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationWool">
+        <sellingStation>
+            <stats fillType="WOOL" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="19223514.000000">
+                <curveBaseCurve nominalAmplitude="0.120000" nominalAmplitudeVariation="0.090000" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.030378" period="67958224.000000" time="50968668.000000"/>
+                <curve1 nominalAmplitude="0.060000" nominalAmplitudeVariation="0.012000" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.058544" period="494418080.000000" time="157485680.000000"/>
+            </stats>
+            <stats fillType="COTTON" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="29092056.000000">
+                <curveBaseCurve nominalAmplitude="0.250400" nominalAmplitudeVariation="0.187800" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.337554" period="50792436.000000" time="38094328.000000"/>
+                <curve1 nominalAmplitude="0.125200" nominalAmplitudeVariation="0.025040" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.115916" period="479244192.000000" time="330308736.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="BuyingStationPlaceable" id="43" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/gasStation/gasStation02.xml" position="-643.1940 155.0000 -544.8240" rotation="-180.0000 -90.0000 -180.0000" age="0" price="1.000000" farmId="2"/>
+    <item className="BgaPlaceable" id="44" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/bga/bga.xml" position="322.3920 154.9960 323.9720" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="15" mapBoundId="bga">
+        <bga money="0.000000">
+            <digestateSilo>
+                <storage index="1" farmId="1"/>
+            </digestateSilo>
+            <slot index="1">
+                <fillType fillType="MANURE" fillLevel="0.000000"/>
+                <fillType fillType="GRASS_WINDROW" fillLevel="0.000000"/>
+                <fillType fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+                <fillType fillType="SILAGE" fillLevel="0.000000"/>
+            </slot>
+            <slot index="2">
+                <fillType fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+            </slot>
+        </bga>
+    </item>
+    <item className="SellingStationPlaceable" id="45" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationMilkhandel.xml" position="234.5380 154.7100 -220.9350" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationGrainhandel">
+        <sellingStation>
+            <stats fillType="MILK" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="27551654.000000">
+                <curveBaseCurve nominalAmplitude="0.120000" nominalAmplitudeVariation="0.090000" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.069182" period="57433956.000000" time="43075464.000000"/>
+                <curve1 nominalAmplitude="0.060000" nominalAmplitudeVariation="0.012000" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.071034" period="450154016.000000" time="166691264.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="BunkerSiloPlaceable" id="46" filename="data/placeables/bunkerSilo/bunkerSiloSmall.xml" position="-695.0030 154.9700 -184.9140" rotation="0.0000 0.0000 0.0000" age="0" price="15000.000000" farmId="1">
+        <bunkerSilo index="1" state="0" fillLevel="0.000000" compactedFillLevel="0.000000" fermentingTime="0.000000" openedAtFront="false" openedAtBack="false"/>
+    </item>
+    <item className="Placeable" id="47" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/baleShed/shed3.xml" position="-342.7690 155.0040 -146.0560" rotation="-180.0000 -90.0000 -180.0000" age="0" price="35000.000000" farmId="1"/>
+    <item className="BunkerSiloPlaceable" id="48" filename="data/placeables/bunkerSilo/bunkerSiloLargeDouble.xml" position="732.1230 154.8320 -674.5670" rotation="-180.0000 90.0000 -180.0000" age="0" price="90000.000000" farmId="1">
+        <bunkerSilo index="1" state="0" fillLevel="0.000000" compactedFillLevel="0.000000" fermentingTime="0.000000" openedAtFront="false" openedAtBack="false"/>
+        <bunkerSilo index="2" state="0" fillLevel="0.000000" compactedFillLevel="0.000000" fermentingTime="0.000000" openedAtFront="false" openedAtBack="false"/>
+    </item>
+    <item className="Placeable" id="49" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/Windmolen/Windmuehle.xml" position="-259.1590 155.0000 569.5370" rotation="-180.0000 7.5260 -180.0000" age="0" price="0.000000" farmId="3"/>
+    <item className="AnimalHusbandry" id="50" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandrySheepLarge.xml" position="-273.0510 155.0000 436.3820" rotation="-180.0000 -90.0000 -180.0000" age="0" price="180000.000000" farmId="5" globalProductionFactor="0.000000">
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="pallets" fillCapacity="0.000000" palletFillDelta="0.000000"/>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="WHEAT" fillLevel="0.000000"/>
+            <fillLevel fillType="BARLEY" fillLevel="0.000000"/>
+            <fillLevel fillType="GRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="SILAGE" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="SiloPlaceable" id="51" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/farmSilos/SiloPuurNederlands.xml" position="-10.8310 154.2700 57.1120" rotation="0.0000 0.0000 0.0000" age="0" price="150000.000000" farmId="1">
+        <storage index="1" farmId="1">
+            <node fillType="WHEAT" fillLevel="15488.000000"/>
+            <node fillType="BARLEY" fillLevel="15157.000000"/>
+            <node fillType="OAT" fillLevel="10621.000000"/>
+            <node fillType="CANOLA" fillLevel="14347.000000"/>
+            <node fillType="SUNFLOWER" fillLevel="12015.000000"/>
+            <node fillType="SOYBEAN" fillLevel="11487.000000"/>
+            <node fillType="MAIZE" fillLevel="9932.000000"/>
+        </storage>
+    </item>
+    <item className="WoodSellStationPlaceable" id="52" filename="data/placeables/mapDE/sellingStationWood/sellingStationWood.xml" position="-730.1560 155.0000 -337.4540" rotation="-180.0000 -89.8110 180.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationWood"/>
+    <item className="HighPressureWasher" id="53" filename="data/placeables/highPressureWasher/kaercher/kaercherHDS918-4M.xml" position="-258.4530 154.9841 -215.6180" rotation="-0.0002 -22.1528 -0.4476" age="0" price="4500.000000" farmId="0"/>
+    <item className="SellingStationPlaceable" id="54" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationGardenCenter.xml" position="388.5220 154.9960 -144.2840" rotation="0.0000 0.0000 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationGardenCenter">
+        <sellingStation>
+            <stats fillType="LIQUIDMANURE" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="0" plateauDuration="51840000" meanValue="0.000000" plateauTime="7768196.500000">
+                <curveBaseCurve nominalAmplitude="0.009240" nominalAmplitudeVariation="0.006930" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.005687" period="49724020.000000" time="12431005.000000"/>
+                <curve1 nominalAmplitude="0.004620" nominalAmplitudeVariation="0.000924" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.003733" period="476349632.000000" time="290623904.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="BunkerSiloPlaceable" id="55" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/bunkerSilo/bunkerSiloMedium.xml" position="320.3340 153.5740 380.3320" rotation="0.0000 0.0000 0.0000" age="0" price="25000.000000" farmId="1">
+        <bunkerSilo index="1" state="0" fillLevel="0.000000" compactedFillLevel="0.000000" fermentingTime="0.000000" openedAtFront="false" openedAtBack="false"/>
+    </item>
+    <item className="AnimalHusbandry" id="56" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryChickenLarge.xml" position="-272.6140 154.9840 -213.9970" rotation="0.0000 0.0000 0.0000" age="0" price="80000.000000" farmId="2" globalProductionFactor="0.000000">
+        <module name="pallets" fillCapacity="0.000000" palletFillDelta="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="manure" fillCapacity="0.000000" manureToDrop="0.000000" manureToRemove="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="WHEAT" fillLevel="0.000000"/>
+            <fillLevel fillType="BARLEY" fillLevel="0.000000"/>
+        </module>
+    </item>
+    <item className="SellingStationPlaceable" id="57" filename="data/placeables/mapDE/sellingStationWoodChips/sellingStationWoodChips.xml" position="-743.3390 155.0000 -335.7350" rotation="0.0000 17.9400 0.0000" age="0" price="1.000000" farmId="0" mapBoundId="sellingStationWoodChips">
+        <sellingStation>
+            <stats fillType="WOODCHIPS" received="0.000000" paid="0.000000" priceVersion="1" isInPlateau="true" nextPlateauNumber="1" plateauDuration="51840000" meanValue="0.000000" plateauTime="32400544.000000">
+                <curveBaseCurve nominalAmplitude="0.016000" nominalAmplitudeVariation="0.012000" amplitudeDistribution="2" nominalPeriod="172800000" nominalPeriodVariation="64800000" periodDistribution="1" amplitude="0.013971" period="68103176.000000" time="51077384.000000"/>
+                <curve1 nominalAmplitude="0.008000" nominalAmplitudeVariation="0.001600" amplitudeDistribution="1" nominalPeriod="604800000" nominalPeriodVariation="120960000" periodDistribution="1" amplitude="0.007395" period="545914496.000000" time="143606512.000000"/>
+            </stats>
+        </sellingStation>
+    </item>
+    <item className="AnimalHusbandry" id="58" modName="FS19_Puur_Nederland_byMikeModding" filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowLarge2.xml" position="-643.7460 154.9900 -167.8270" rotation="0.0000 0.0000 0.0000" age="0" price="100000.000000" farmId="2" globalProductionFactor="0.000000">
+        <module name="foodSpillage" fillCapacity="0.000000" cleanlinessFactor="0.000000" foodToDrop="0.000000"/>
+        <module name="straw" fillCapacity="0.000000">
+            <fillLevel fillType="STRAW" fillLevel="0.000000"/>
+        </module>
+        <module name="milk" fillCapacity="0.000000">
+            <fillLevel fillType="MILK" fillLevel="0.000000"/>
+        </module>
+        <module name="manure" fillCapacity="0.000000" manureToDrop="0.000000" manureToRemove="0.000000"/>
+        <module name="animals" fillCapacity="0.000000"/>
+        <module name="liquidManure" fillCapacity="0.000000">
+            <fillLevel fillType="LIQUIDMANURE" fillLevel="0.000000"/>
+        </module>
+        <module name="water" fillCapacity="0.000000">
+            <fillLevel fillType="WATER" fillLevel="0.000000"/>
+        </module>
+        <module name="food" fillCapacity="0.000000">
+            <fillLevel fillType="WHEAT" fillLevel="0.000000"/>
+            <fillLevel fillType="BARLEY" fillLevel="0.000000"/>
+            <fillLevel fillType="DRYGRASS_WINDROW" fillLevel="0.000000"/>
+            <fillLevel fillType="SILAGE" fillLevel="0.000000"/>
+        </module>
+    </item>
+</items>

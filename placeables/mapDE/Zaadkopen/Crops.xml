@@ -32,7 +32,6 @@
 		<fillType name="maize" priceScale="2.5"/>
 		<fillType name="barley" priceScale="2.5"/>
 		<fillType name="oat" priceScale="2.5"/>
-		<fillType name="sunflower" priceScale="2.5"/>
 	</buyingStation>
 
 </placeable>

@@ -10,7 +10,7 @@
         </functions>
         <specs>
             <capacity>500000</capacity>
-            <fillTypes>wheat barley oat maize canola potato sugarBeet sugarCane sunflower manure lime seeds pigFood woodChips soybean carrot onion dryGrass_windrow Grass_windrow straw chaff fertilizer silage forage</fillTypes>
+            <fillTypes>wheat barley oat maize canola potato sugarBeet sugarCane sunflower manure lime seeds pigFood woodChips soybean carrot onion dryGrass_windrow Grass_windrow straw chaff fertilizer silage forage beetroot</fillTypes>
         </specs>
         <image>placeables/farmSilos/store_farmSiloPuurNederlands.png</image>
         <price>150000</price>
@@ -45,7 +45,7 @@
     </unloadingStation>
 	
     <storages>
-        <storage node="0|2" fillTypes="wheat barley oat maize canola potato sugarBeet sugarCane sunflower manure lime seeds pigFood woodChips soybean carrot onion dryGrass_windrow Grass_windrow straw chaff fertilizer silage forage" capacityPerFillType="1000000"/>
+        <storage node="0|2" fillTypes="wheat barley oat maize canola potato sugarBeet sugarCane sunflower manure lime seeds pigFood woodChips soybean carrot onion dryGrass_windrow Grass_windrow straw chaff fertilizer silage forage beetroot" capacityPerFillType="1000000"/>
     </storages>
 
 </placeable>

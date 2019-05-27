@@ -22,7 +22,7 @@
     <filename>placeables/mapDE/gasStation/gasStation.i3d</filename>
     <placement testSizeX="5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
 
-    <buyingStation stationName="Farm DieselTank" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01" hotspotImageName="GAS_STATION" showHotspotText="false">
+    <buyingStation stationName="Farm DieselTank" appearsOnPDA="false" storageRadius="0" fillSoundIdentifier="fillSound01" hotspotImageName="GAS_STATION" showHotspotText="false">
         <loadTrigger triggerNode="0" fillLitersPerSecond="20" autoStart="true" infiniteCapacity="true"/>
         <fillType name="diesel" priceScale="1" />
     </buyingStation>

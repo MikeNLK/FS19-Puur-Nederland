@@ -14,7 +14,7 @@
     <multiplayer supported="true"/>
 
 	<storeItems>
-		<storeItem xmlFilename="greenhouse01.xml"/>
-		<storeItem xmlFilename="greenhouse02.xml"/>
+		<storeItem xmlFilename="greenhouse_lettuce.xml"/>
+		<storeItem xmlFilename="greenhouse_tomatoes.xml"/>
 	</storeItems>
 </modDesc>

@@ -3,13 +3,13 @@
     <farmlands densityMapFilename="maps/Nederland/Nederland_farmland.grle" numChannels="6" pricePerHa="60000">
         <farmland id="1"  priceScale="1" npcName="NPC_DE_01" />
         <farmland id="2"  priceScale="1" npcName="NPC_DE_01" />
-        <farmland id="3"  priceScale="1" npcName="NPC_DE_02" defaultFarmProperty="true" />
+        <farmland id="3"  priceScale="1" npcName="NPC_DE_02" />    <!--defaultFarmProperty="true" /> -->
         <farmland id="4"  priceScale="1" npcName="NPC_DE_03" />
         <farmland id="5"  priceScale="0.6" npcName="NPC_DE_04" /><!-- very big but pretty useless terrain -->
-        <farmland id="6"  priceScale="0.5" npcName="NPC_DE_05" defaultFarmProperty="true" />
-        <farmland id="7"  priceScale="1" npcName="NPC_DE_05" defaultFarmProperty="true" />
-        <farmland id="8"  priceScale="1" npcName="NPC_DE_03" defaultFarmProperty="true" />
-        <farmland id="9"  priceScale="1" npcName="NPC_DE_10" defaultFarmProperty="true" />
+        <farmland id="6"  priceScale="0.5" npcName="NPC_DE_05" />    <!--defaultFarmProperty="true" /> -->
+        <farmland id="7"  priceScale="1" npcName="NPC_DE_05" />    <!--defaultFarmProperty="true" /> -->
+        <farmland id="8"  priceScale="1" npcName="NPC_DE_03" />    <!--defaultFarmProperty="true" /> -->
+        <farmland id="9"  priceScale="1" npcName="NPC_DE_10" />    <!--defaultFarmProperty="true" /> -->
         <farmland id="10" priceScale="1" npcName="NPC_DE_06" />
         <farmland id="11" priceScale="1" npcName="NPC_DE_06" />
         <farmland id="12" priceScale="1" npcName="NPC_DE_06" />
@@ -27,8 +27,8 @@
         <farmland id="24" priceScale="1" npcName="NPC_DE_11" />
         <farmland id="25" priceScale="1" npcName="NPC_DE_12" />
         <farmland id="26" priceScale="1" npcName="NPC_DE_12" />
-        <farmland id="27" priceScale="1" npcName="NPC_DE_12" defaultFarmProperty="true" />
-        <farmland id="28" priceScale="1" npcName="NPC_DE_13" defaultFarmProperty="true" />
+        <farmland id="27" priceScale="1" npcName="NPC_DE_12" />    <!--defaultFarmProperty="true" /> -->
+        <farmland id="28" priceScale="1" npcName="NPC_DE_13" />    <!--defaultFarmProperty="true" /> -->
         <farmland id="29" priceScale="1" npcName="NPC_DE_13" />
         <farmland id="30" priceScale="1" npcName="NPC_DE_13" />
         <farmland id="31" priceScale="1" npcName="NPC_DE_14" />
@@ -55,13 +55,8 @@
         <farmland id="52" priceScale="4" npcName="NPC_DE_20" /> <!-- mountain, small field, castle -->
         <farmland id="53" priceScale="1" npcName="NPC_DE_20" /> <!-- forest -->
         <farmland id="54" priceScale="1" npcName="NPC_DE_20" /> <!-- forest -->
-		<farmland id="55" priceScale="1" npcName="NPC_DE_20" />
-		<farmland id="56" priceScale="1" npcName="NPC_DE_20" />
-		<farmland id="57" priceScale="1" npcName="NPC_DE_21" />
-		<farmland id="58" priceScale="1" npcName="NPC_DE_21" />
-		<farmland id="59" priceScale="1" npcName="NPC_DE_21" />
-		<farmland id="60" priceScale="1" npcName="NPC_DE_21" defaultFarmProperty="true" />
-		<farmland id="61" priceScale="1" npcName="NPC_DE_21" defaultFarmProperty="true" />
-		<farmland id="62" priceScale="1" npcName="NPC_DE_21" defaultFarmProperty="true" />
+        <farmland id="55" priceScale="1" npcName="NPC_DE_20" />
+        
+     <!--   <farmland id="63" neutrales Land  -->
     </farmlands>
 </map>
