@@ -22,7 +22,7 @@
     <terrainLodTexture revision="1" />
     <splitShapes revision="1" />
     <tipCollision revision="1" />
-
+    <!-- juuhten tach -->
     <hotspots>
         <!-- Generic Map Markers -->
         <hotspot name="AnimalsShop" fullName="$l10n_animals_dealer" xMapPos="387" zMapPos="-185.5" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 8 240 240" />
