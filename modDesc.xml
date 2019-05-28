@@ -61,6 +61,30 @@
 			<de><![CDATA[Schafhof]]></de>
 			<nl><![CDATA[Schapenhouderij]]></nl>
 		</text>
+		
+		<text name="production_flour">
+			<en><![CDATA[Grain Mill]]></en>
+			<de><![CDATA[Getreidemühle]]></de>
+			<nl><![CDATA[Graanmolen]]></nl>
+		</text>
+		
+		<text name="production_wool">
+			<en><![CDATA[Wool Purchase]]></en>
+			<de><![CDATA[Wolleankauf]]></de>
+			<nl><![CDATA[Wolverkoop]]></nl>
+		</text>
+		
+		<text name="production_biogas_cow">
+			<en><![CDATA[Biogas & Cows]]></en>
+			<de><![CDATA[BGA & Viehzucht]]></de>
+			<nl><![CDATA[BGA & Veeteelt]]></nl>
+		</text>
+
+		<text name="production_cow_chicken">
+			<en><![CDATA[Dairy Cattle & Chicken Farm]]></en>
+			<de><![CDATA[Milchvieh & Hühnerfarm]]></de>
+			<nl><![CDATA[Melkvee & Kippenboerderij]]></nl>
+		</text>
 
 		<!-- Animated Objects -->
 		<text name="input_ANIMATED_OBJECT_OPEN_DOOR">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
     <storeData>
-        <name>GrainMill</name>
+        <name>$l10n_production_flour</name>
         <image>$data/placeables/mapDE/sellingStationGeneric/store_sellingStationGeneric.png</image>
         <price>1</price>
         <canBeSold>false</canBeSold>
@@ -22,7 +22,7 @@
     <filename>$data/placeables/mapDE/sellingStationGeneric/sellingStationGeneric.i3d</filename>
     <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
 
-    <sellingStation stationName="GrainMill" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48" hotspotTextOffset="0px 36px">
+    <sellingStation stationName="$l10n_production_flour" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48" hotspotTextOffset="0px 36px">
         <unloadTrigger exactFillRootNode="0|0|0|0|0" baleTriggerNode="0|0|0|0|1" />
 		<fillType name="wheat"            priceScale="1.1" supportsGreatDemand="true" disablePriceDrop="false" />
         <fillType name="barley"           priceScale="1.3" supportsGreatDemand="true" disablePriceDrop="false" />

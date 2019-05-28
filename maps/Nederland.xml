@@ -30,16 +30,19 @@
         <hotspot name="GasStation_01" xMapPos="-291" zMapPos="-145" showName="false" category="CATEGORY_TRIGGERS" imageUVs="8 520 240 240" />
         <!-- Animal Husbandries -->
         <hotspot name="CowSmall_01" fullName="$l10n_animalPen_cow" xMapPos="-637" zMapPos="-208" showName="true" category="CATEGORY_TRIGGERS" imageUVs="553 353 174 174" />
-        <hotspot name="CowLarge_01" fullName="$l10n_animalPen_cow2" xMapPos="661" zMapPos="-684" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="553 353 174 174" />
-        <hotspot name="CowRoofed_01" fullName="Milchvieh" xMapPos="-211" zMapPos="-159" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240" />
-        <hotspot name="CowRoofed_02" fullName="Milchvieh" xMapPos="694" zMapPos="-718" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240" />
-        <hotspot name="ChickenRoofed_01" fullName="$l10n_animalPen_chicken" xMapPos="-278" zMapPos="-204" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="8 264 240 240" />
-        <hotspot name="HorseRoofed_01" fullName="$l10n_animals_horseStable" xMapPos="369" zMapPos="3" showName="true" category="CATEGORY_TRIGGERS" imageUVs="264 264 240 240" />
-        <hotspot name="PigRoofed_01" fullName="$l10n_animalPen_pig" xMapPos="-117" zMapPos="-154" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 8 240 240" />
-        <hotspot name="SheepRoofed_01" fullName="Schafe" xMapPos="-253" zMapPos="447" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 264 240 240" />
+        <hotspot name="CowLarge_01" fullName="$l10n_animalPen_cow2" xMapPos="661" zMapPos="-684" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="553 353 174 174" />
+        <hotspot name="CowRoofed_01" fullName="Milchvieh" xMapPos="-211" zMapPos="-159" showName="false" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240" />
+        <hotspot name="CowRoofed_02" fullName="Milchvieh" xMapPos="694" zMapPos="-718" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240" />
+        <hotspot name="ChickenRoofed_01" fullName="Hühnerfarm" xMapPos="-278" zMapPos="-204" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="8 264 240 240" />
+        <hotspot name="HorseRoofed_01" fullName="Pferdegestüt" xMapPos="369" zMapPos="3" showName="true" category="CATEGORY_TRIGGERS" imageUVs="264 264 240 240" />
+        <hotspot name="PigRoofed_01" fullName="Schweinemast" xMapPos="-117" zMapPos="-154" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 8 240 240" />
+        <hotspot name="SheepRoofed_01" fullName="Schafhof" xMapPos="-253" zMapPos="447" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 264 240 240" />
+        <!-- Farms -->
+        <hotspot name="Hexagon" fullName="BGA & Viehzucht" xMapPos="724" zMapPos="-630" hotspotTextOffset="0px 0px" textSize="10" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
+        <hotspot name="Hexagon" fullName="Milchvieh & Hühnerfarm" xMapPos="-249" zMapPos="-90" hotspotTextOffset="0px 0px" textSize="10" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
     </hotspots>
-	
-	<additionalFiles>
+    
+    <additionalFiles>
         <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
         <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
         <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d" />
@@ -48,9 +51,9 @@
         <additionalFile filename="$data/particleSystems/effect_materialHolder.i3d" />
         <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
         <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
-		<additionalFile filename="maps/newFruits/fillPlanes/fillPlane_materialHolder.i3d" />
-		<additionalFile filename="maps/newFruits/particleSystems/effect_materialHolder.i3d" />
-		<additionalFile filename="maps/newFruits/particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="maps/newFruits/fillPlanes/fillPlane_materialHolder.i3d" />
+        <additionalFile filename="maps/newFruits/particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="maps/newFruits/particleSystems/particle_materialHolder.i3d" />
     </additionalFiles>
 
     <groundTypeMappings>
