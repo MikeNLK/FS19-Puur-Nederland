@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
     <storeData>
-        <name><en>$l10n_production_cow</en></name>
+        <name><en>Viehzucht</en></name>
         <image>placeables/animalHusbandry/store.png</image>
         <price>100000</price>
         <functions>
