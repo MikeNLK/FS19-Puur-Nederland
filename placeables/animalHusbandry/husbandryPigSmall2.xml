@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
     <storeData>
-        <name>Schweinemast</name>
+        <name>$l10n_production_pig</name>
         <image>$data/placeables/animalHusbandry/store_husbandryPigSmall.png</image>
         <price>90000</price>
         <functions>
