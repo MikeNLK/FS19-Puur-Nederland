@@ -38,10 +38,12 @@
         <hotspot name="PigRoofed_01" fullName="Schweinemast" xMapPos="-117" zMapPos="-154" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 8 240 240" />
         <hotspot name="SheepRoofed_01" fullName="Schafhof" xMapPos="-253" zMapPos="447" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 264 240 240" />
         <!-- Farms -->
-        <hotspot name="Hexagon" fullName="BGA & Viehzucht" xMapPos="724" zMapPos="-630" hotspotTextOffset="0px 0px" textSize="10" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
-        <hotspot name="Hexagon" fullName="Milchvieh & Hühnerfarm" xMapPos="-249" zMapPos="-90" hotspotTextOffset="0px 0px" textSize="10" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
-        <hotspot name="Hexagon" fullName="Kartoffelhof" xMapPos="-90" zMapPos="-746" hotspotTextOffset="0px 0px" textSize="10" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
-        <hotspot name="Hexagon" fullName="Erdfrüchtelager" xMapPos="-31" zMapPos="187" hotspotTextOffset="0px 0px" textSize="10" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
+        <hotspot name="Hexagon" fullName="BGA & Viehzucht" xMapPos="724" zMapPos="-630" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
+        <hotspot name="Hexagon" fullName="Milchvieh & Hühnerfarm" xMapPos="-249" zMapPos="-90" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
+        <hotspot name="Hexagon" fullName="Kartoffelhof" xMapPos="-90" zMapPos="-746" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" />
+        <hotspot name="Hexagon" fullName="Erdfrüchtelager" xMapPos="-31" zMapPos="187" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240" /> 
+        <hotspot name="BorderedCircle" fullName="LU Agrartechnik Sprinter" xMapPos="-472" zMapPos="40" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 520 240 240" /> 
+        <hotspot name="ExclamationPoint" fullName="Baugrundstück" xMapPos="-814" zMapPos="-832" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="8 776 240 240" />
     </hotspots>
     
     <additionalFiles>
