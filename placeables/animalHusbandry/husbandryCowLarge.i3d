@@ -16,6 +16,9 @@
     <File fileId="40" filename="$data/maps/textures/european/props/milkCanOld_normal.png"/>
     <File fileId="41" filename="$data/maps/textures/european/props/milkCanOld_specular.png"/>
     <File fileId="11" filename="$data/maps/textures/shared/grass_diffuse.png"/>
+    <File fileId="43" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="44" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="45" filename="$data/maps/textures/shared/warningStripes_specular.png"/>
     <File fileId="2" filename="$data/placeables/animalHusbandry/animalHusbandry_diffuse.png"/>
     <File fileId="3" filename="$data/placeables/animalHusbandry/animalHusbandry_normal.png"/>
     <File fileId="4" filename="$data/placeables/animalHusbandry/animalHusbandry_specular.png"/>
@@ -45,66 +48,73 @@
 
 
   <Materials>
-    <Material name="grass_mat" materialId="11">
-      <Texture fileId="11"/>
-    </Material>
-    <Material name="strawPlaneAlpha_mat" materialId="7">
-      <Texture fileId="38"/>
-    </Material>
-    <Material name="animalHusbandryCow_mat" materialId="10" customShaderId="5">
-      <Texture fileId="2"/>
-      <Normalmap fileId="3"/>
-      <Glossmap fileId="4"/>
-      <Custommap name="mMaskMap" fileId="6"/>
-    </Material>
-    <Material name="strawPlane_mat" materialId="5">
-      <Texture fileId="37"/>
-    </Material>
-    <Material name="buildingsWindows01_mat" materialId="4" alphaBlending="true" customShaderId="15">
+    <Material name="buildingsWindows01_mat" materialId="6" alphaBlending="true" customShaderId="15">
       <Texture fileId="12"/>
       <Normalmap fileId="13"/>
       <Glossmap fileId="14"/>
       <Custommap name="mEmissiveMap" fileId="16"/>
       <CustomParameter name="lightControl" value="0 1 1 1"/>
     </Material>
-    <Material name="milkCanOld_mat" materialId="6">
+    <Material name="milkCanOld_mat" materialId="4">
       <Texture fileId="39"/>
       <Normalmap fileId="40"/>
       <Glossmap fileId="41"/>
     </Material>
-    <Material name="manurePit_mat" materialId="8">
-      <Texture fileId="28"/>
+    <Material name="strawPlaneAlpha_mat" materialId="5">
+      <Texture fileId="38"/>
     </Material>
-    <Material name="buildingDecals01_mat" materialId="9" alphaBlending="true" customShaderId="20">
+    <Material name="buildingDecals01_mat" materialId="11" alphaBlending="true" customShaderId="20">
       <Texture fileId="17"/>
       <Normalmap fileId="18"/>
       <Glossmap fileId="19"/>
     </Material>
-    <Material name="manureTank_mat" materialId="12">
-      <Texture fileId="29"/>
-      <Normalmap fileId="30"/>
-      <Glossmap fileId="31"/>
+    <Material name="liquidManure_mat" materialId="16" specularColor="0.184314 1 0.101961">
+      <Texture fileId="32"/>
     </Material>
-    <Material name="fakeWater_mat" materialId="14" alphaBlending="true" customShaderId="27">
+    <Material name="galvanizedMetal_mat" materialId="13" customShaderId="5">
+      <Texture fileId="21"/>
+      <Glossmap fileId="22"/>
+      <Custommap name="mMaskMap" fileId="23"/>
+    </Material>
+    <Material name="manurePit_mat" materialId="18">
+      <Texture fileId="28"/>
+    </Material>
+    <Material name="strawPlane_mat" materialId="7">
+      <Texture fileId="37"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="8" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="lambert1" materialId="14" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="fakeWater_mat" materialId="9" alphaBlending="true" customShaderId="27">
       <Texture fileId="24"/>
       <Normalmap fileId="25"/>
       <Glossmap fileId="26"/>
       <CustomParameter name="directions" value="0.005 0 0.05 0"/>
     </Material>
-    <Material name="galvanizedMetal_mat" materialId="17" customShaderId="5">
-      <Texture fileId="21"/>
-      <Glossmap fileId="22"/>
-      <Custommap name="mMaskMap" fileId="23"/>
+    <Material name="animalHusbandryCow_mat" materialId="17" customShaderId="5">
+      <Texture fileId="2"/>
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <Custommap name="mMaskMap" fileId="6"/>
     </Material>
-    <Material name="manureConcrete_mat" materialId="13">
+    <Material name="manureTank_mat" materialId="19">
+      <Texture fileId="29"/>
+      <Normalmap fileId="30"/>
+      <Glossmap fileId="31"/>
+    </Material>
+    <Material name="grass_mat" materialId="12">
+      <Texture fileId="11"/>
+    </Material>
+    <Material name="warningStripes_mat" materialId="15">
+      <Texture fileId="43"/>
+      <Normalmap fileId="44"/>
+      <Glossmap fileId="45"/>
+    </Material>
+    <Material name="manureConcrete_mat" materialId="10">
       <Texture fileId="34"/>
       <Normalmap fileId="35"/>
       <Glossmap fileId="36"/>
-    </Material>
-    <Material name="liquidManure_mat" materialId="16" specularColor="0.184314 1 0.101961">
-      <Texture fileId="32"/>
-    </Material>
-    <Material name="lambert1" materialId="15" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
   </Materials>
 
@@ -117,218 +127,219 @@
   </Dynamics>
 
   <Scene>
-    <TransformGroup name="husbandryCowLarge" rotation="9.94093e-09 0 -4.54015e-10" nodeId="43">
-      <Shape shapeId="1" name="animalLoadTrigger" translation="0.556883 0 29.7084" scale="0.95 1 1" static="true" trigger="true" collisionMask="11534336" linearDamping="0.5" angularDamping="0.5" nodeId="44" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-      <Shape shapeId="2" name="cowStable" translation="8 -0.4 9" rotation="-0 -90 0" clipDistance="400" nodeId="45" materialIds="10" castsShadows="true" receiveShadows="true" nonRenderable="true">
-        <Shape shapeId="3" name="feedingTroughTrigger" translation="-15.8118 0.4 12.0165" rotation="5.25237e-22 0 1.43664e-14" static="true" trigger="true" collisionMask="8388608" nodeId="46" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true">
-          <Shape shapeId="4" name="exactFillRootNode" kinematic="true" trigger="true" collisionMask="1073741824" nodeId="47" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <TransformGroup name="animalPlaces" translation="0 0 -1" nodeId="48">
-            <TransformGroup name="animalPlace1" translation="4.5 0 -2.5" nodeId="49"/>
-            <TransformGroup name="animalPlace2" translation="1.5 0 -2.5" nodeId="50"/>
-            <TransformGroup name="animalPlace3" translation="-1.5 0 -2.5" nodeId="51"/>
-            <TransformGroup name="animalPlace4" translation="-4.5 0 -2.5" nodeId="52"/>
+    <TransformGroup name="husbandryCowLarge" rotation="9.94093e-09 0 -4.54015e-10" nodeId="50">
+      <Shape shapeId="1" name="animalLoadTrigger" translation="0.556883 0 29.7084" scale="0.95 1 1" static="true" trigger="true" collisionMask="11534336" linearDamping="0.5" angularDamping="0.5" nodeId="51" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="2" name="cowStable" translation="8 -0.4 9" rotation="-0 -90 0" clipDistance="400" nodeId="52" materialIds="17" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="3" name="feedingTroughTrigger" translation="-15.8118 0.4 12.0165" rotation="5.25237e-22 0 1.43664e-14" static="true" trigger="true" collisionMask="8388608" nodeId="53" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="4" name="exactFillRootNode" kinematic="true" trigger="true" collisionMask="1073741824" nodeId="54" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="animalPlaces" translation="0 0 -1" nodeId="55">
+            <TransformGroup name="animalPlace1" translation="4.5 0 -2.5" nodeId="56"/>
+            <TransformGroup name="animalPlace2" translation="1.5 0 -2.5" nodeId="57"/>
+            <TransformGroup name="animalPlace3" translation="-1.5 0 -2.5" nodeId="58"/>
+            <TransformGroup name="animalPlace4" translation="-4.5 0 -2.5" nodeId="59"/>
           </TransformGroup>
-          <TransformGroup name="foodSpillAreas" translation="0 0 -1" nodeId="53">
-            <TransformGroup name="start1" translation="-5.75 -2.15779e-16 1" nodeId="54">
-              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="55"/>
-              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="56"/>
+          <TransformGroup name="foodSpillAreas" translation="0 0 -1" nodeId="60">
+            <TransformGroup name="start1" translation="-5.75 -2.15779e-16 1" nodeId="61">
+              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="62"/>
+              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="63"/>
             </TransformGroup>
-            <TransformGroup name="start2" translation="-2.75 -5.79392e-16 1" nodeId="57">
-              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="58"/>
-              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="59"/>
+            <TransformGroup name="start2" translation="-2.75 -5.79392e-16 1" nodeId="64">
+              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="65"/>
+              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="66"/>
             </TransformGroup>
-            <TransformGroup name="start3" translation="0.25 0 1" nodeId="60">
-              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="61"/>
-              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="62"/>
+            <TransformGroup name="start3" translation="0.25 0 1" nodeId="67">
+              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="68"/>
+              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="69"/>
             </TransformGroup>
-            <TransformGroup name="start4" translation="3.25 -1.28731e-15 1" nodeId="63">
-              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="64"/>
-              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="65"/>
+            <TransformGroup name="start4" translation="3.25 -1.28731e-15 1" nodeId="70">
+              <TransformGroup name="width" translation="2.5 1.87149e-16 0" nodeId="71"/>
+              <TransformGroup name="height" translation="0 1.87149e-16 1.5" nodeId="72"/>
             </TransformGroup>
           </TransformGroup>
-          <Shape shapeId="3" name="baleTrigger" static="true" trigger="true" collisionMask="16777216" nodeId="66" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="3" name="baleTrigger" static="true" trigger="true" collisionMask="16777216" nodeId="73" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </Shape>
-        <Shape shapeId="5" name="cowStablePlane" translation="6.905 0.125 12.9153" rotation="-6.73171e-11 90 -1.73028e-05" scale="1.27003 0.648313 2.47" clipDistance="50" nodeId="67" materialIds="11" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="5" name="cowStablePlane" translation="1.33145 0 -15.7996" rotation="-180 0 -180" scale="1.2 1 0.77" clipDistance="50" nodeId="68" materialIds="11" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="cowStablePlane" translation="6.905 0.125 12.9153" rotation="-6.73171e-11 90 -1.73028e-05" scale="1.27003 0.648313 2.47" clipDistance="50" nodeId="74" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="5" name="cowStablePlane" translation="1.33145 0 -15.7996" rotation="-180 0 -180" scale="1.2 1 0.77" clipDistance="50" nodeId="75" materialIds="12" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <TransformGroup name="glass" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" nodeId="69">
-          <Shape shapeId="6" name="glass01" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="250" nodeId="70" materialIds="4" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="7" name="glass02" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="250" nodeId="71" materialIds="4" castsShadows="true" receiveShadows="true"/>
-          <Shape shapeId="8" name="glass03" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="250" nodeId="72" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="glass" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" nodeId="76">
+          <Shape shapeId="6" name="glass01" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="250" nodeId="77" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="7" name="glass02" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="250" nodeId="78" materialIds="6" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="glass03" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="250" nodeId="79" materialIds="6" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <Shape shapeId="9" name="dirtDecals" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="100" nodeId="73" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true" decalLayer="1"/>
+        <Shape shapeId="9" name="dirtDecals" translation="0 -4.88281e-06 0" visibility="false" static="true" collision="false" clipDistance="100" nodeId="80" materialIds="11" castsShadows="true" receiveShadows="true" nonRenderable="true" decalLayer="1"/>
       </Shape>
-      <Shape shapeId="10" name="waterTrough" translation="21.2903 -3.8147e-06 -72.6107" rotation="7.54137e-22 0 1.68131e-14" static="true" clipDistance="400" nodeId="74" materialIds="17" castsShadows="true" receiveShadows="true">
-        <Shape shapeId="11" name="waterTroughTrigger" translation="0 0 1.25" static="true" trigger="true" collisionMask="8388608" nodeId="75" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true">
-          <Shape shapeId="12" name="exactFillRootNode" translation="2.84217e-16 0 0" kinematic="true" trigger="true" collisionMask="1073741824" nodeId="76" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="10" name="waterTrough" translation="21.2903 -3.8147e-06 -72.6107" rotation="7.54137e-22 0 1.68131e-14" static="true" clipDistance="400" nodeId="81" materialIds="13" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="11" name="waterTroughTrigger" translation="0 0 1.25" static="true" trigger="true" collisionMask="8388608" nodeId="82" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="12" name="exactFillRootNode" translation="2.84217e-16 0 0" kinematic="true" trigger="true" collisionMask="1073741824" nodeId="83" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </Shape>
-        <Shape shapeId="13" name="waterPlane" translation="0 0.06 0" clipDistance="200" nodeId="77" materialIds="14" receiveShadows="true"/>
+        <Shape shapeId="13" name="waterPlane" translation="0 0.06 0" clipDistance="200" nodeId="84" materialIds="9" receiveShadows="true"/>
       </Shape>
-      <Shape shapeId="14" name="liquidManurePit" translation="-17.8385 -1.74826 62.3587" rotation="5.58842e-22 45.2339 1.08566e-14" static="true" clipDistance="400" nodeId="78" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
-        <Shape shapeId="15" name="liquidManureTank" static="true" clipDistance="400" nodeId="79" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true">
-          <Shape shapeId="16" name="liquidManureTrigger" translation="0 1.705 3.8147e-08" static="true" trigger="true" collisionMask="1073741824" linearDamping="0.5" angularDamping="0.5" nodeId="80" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-          <Shape shapeId="17" name="liquidManurePlane" translation="-1.27098 1.271 2.47645" clipDistance="300" nodeId="81" materialIds="16" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="14" name="liquidManurePit" translation="-17.8385 -1.74826 62.3587" rotation="5.58842e-22 45.2339 1.08566e-14" static="true" clipDistance="400" nodeId="85" materialIds="18" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="15" name="liquidManureTank" static="true" clipDistance="400" nodeId="86" materialIds="19" castsShadows="true" receiveShadows="true" nonRenderable="true">
+          <Shape shapeId="16" name="liquidManureTrigger" translation="0 1.705 3.8147e-08" static="true" trigger="true" collisionMask="1073741824" linearDamping="0.5" angularDamping="0.5" nodeId="87" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="17" name="liquidManurePlane" translation="-1.27098 1.271 2.47645" clipDistance="300" nodeId="88" materialIds="16" castsShadows="true" receiveShadows="true"/>
         </Shape>
-        <Shape shapeId="18" name="pitCol" translation="0 0 2.18557e-08" visibility="false" static="true" nodeId="82" materialIds="15" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="18" name="pitCol" translation="0 0 2.18557e-08" visibility="false" static="true" nodeId="89" materialIds="14" castsShadows="true" receiveShadows="true"/>
       </Shape>
-      <Shape shapeId="19" name="manureHeapWalls" translation="-23.1047 -4.7826 38.4363" visibility="false" clipDistance="400" nodeId="83" materialIds="13" castsShadows="true" receiveShadows="true">
-        <Shape shapeId="20" name="manureHeapWalls_col" visibility="false" static="true" collisionMask="524543" nodeId="84" materialIds="15" castsShadows="true" receiveShadows="true"/>
-        <TransformGroup name="manureHeapArea" translation="-3.96539 4.78282 7.75992" rotation="-3.18657e-21 0 -7.33402e-14" nodeId="85">
-          <TransformGroup name="start" translation="0 0 -14.8589" nodeId="86">
-            <TransformGroup name="width" translation="7.12405 6.444e-15 1.90735e-06" nodeId="87"/>
-            <TransformGroup name="height" translation="0 1.18431e-14 14.7893" nodeId="88"/>
+      <Shape shapeId="19" name="manureHeapWalls" translation="-23.1047 -4.7826 38.4363" visibility="false" clipDistance="400" nodeId="90" materialIds="10" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="20" name="manureHeapWalls_col" visibility="false" static="true" collisionMask="524543" nodeId="91" materialIds="14" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="manureHeapArea" translation="-3.96539 4.78282 7.75992" rotation="-3.18657e-21 0 -7.33402e-14" nodeId="92">
+          <TransformGroup name="start" translation="0 0 -14.8589" nodeId="93">
+            <TransformGroup name="width" translation="7.12405 6.444e-15 1.90735e-06" nodeId="94"/>
+            <TransformGroup name="height" translation="0 1.18431e-14 14.7893" nodeId="95"/>
           </TransformGroup>
         </TransformGroup>
       </Shape>
-      <Shape shapeId="11" name="strawTrigger" translation="-5.05099 -1.71287e-10 -9.62297" rotation="-5.75569e-10 90 0" static="true" trigger="true" collisionMask="8388608" nodeId="89" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true">
-        <TransformGroup name="exactFillRootNode" translation="2.84217e-16 0 5.6" static="true" trigger="true" collisionMask="1073741824" nodeId="90"/>
-        <TransformGroup name="strawPlanes" translation="0 -0.796 0" nodeId="91">
-          <Shape shapeId="21" name="strawPlane02" translation="-15.2669 1.46004e-16 -8.19933" rotation="0 -90 -2.06274e-15" scale="0.824368 1 1" clipDistance="300" nodeId="92" materialIds="5" castsShadows="true" receiveShadows="true">
-            <Shape shapeId="22" name="strawPlane02Alpha" clipDistance="300" nodeId="93" materialIds="7" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="11" name="strawTrigger" translation="-5.05099 -1.71287e-10 -9.62297" rotation="-5.75569e-10 90 0" static="true" trigger="true" collisionMask="8388608" nodeId="96" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <Shape shapeId="21" name="exactFillRootNode" translation="2.84217e-16 0 5.6" static="true" trigger="true" collisionMask="1073741824" nodeId="97" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="strawPlanes" translation="0 -0.796 0" nodeId="98">
+          <Shape shapeId="22" name="strawPlane02" translation="-15.2669 1.46004e-16 -8.19933" rotation="0 -90 -2.06274e-15" scale="0.824368 1 1" clipDistance="300" nodeId="99" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="23" name="strawPlane02Alpha" clipDistance="300" nodeId="100" materialIds="5" castsShadows="true" receiveShadows="true"/>
           </Shape>
-          <Shape shapeId="21" name="strawPlane02" translation="3.9627 -5.46292e-16 -8.19933" rotation="0 -90 -2.06274e-15" scale="0.824368 1 1" clipDistance="300" nodeId="94" materialIds="5" castsShadows="true" receiveShadows="true">
-            <Shape shapeId="22" name="strawPlane02Alpha" clipDistance="300" nodeId="95" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="22" name="strawPlane02" translation="3.9627 -5.46292e-16 -8.19933" rotation="0 -90 -2.06274e-15" scale="0.824368 1 1" clipDistance="300" nodeId="101" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="23" name="strawPlane02Alpha" clipDistance="300" nodeId="102" materialIds="5" castsShadows="true" receiveShadows="true"/>
           </Shape>
-          <Shape shapeId="21" name="strawPlane03" translation="9.97293 -7.6267e-16 9.39678" rotation="0 -90 -2.06274e-15" scale="0.997737 1 1" clipDistance="300" nodeId="96" materialIds="5" castsShadows="true" receiveShadows="true">
-            <Shape shapeId="22" name="strawPlane02Alpha" clipDistance="300" nodeId="97" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="22" name="strawPlane03" translation="9.97293 -7.6267e-16 9.39678" rotation="0 -90 -2.06274e-15" scale="0.997737 1 1" clipDistance="300" nodeId="103" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="23" name="strawPlane02Alpha" clipDistance="300" nodeId="104" materialIds="5" castsShadows="true" receiveShadows="true"/>
           </Shape>
-          <Shape shapeId="21" name="strawPlane02" translation="-7.83147 -1.21683e-16 9.39678" rotation="0 -90 -2.06274e-15" scale="0.997737 1 1" clipDistance="300" nodeId="98" materialIds="5" castsShadows="true" receiveShadows="true">
-            <Shape shapeId="22" name="strawPlane02Alpha" clipDistance="300" nodeId="99" materialIds="7" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="22" name="strawPlane02" translation="-7.83147 -1.21683e-16 9.39678" rotation="0 -90 -2.06274e-15" scale="0.997737 1 1" clipDistance="300" nodeId="105" materialIds="7" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="23" name="strawPlane02Alpha" clipDistance="300" nodeId="106" materialIds="5" castsShadows="true" receiveShadows="true"/>
           </Shape>
         </TransformGroup>
       </Shape>
-      <TransformGroup name="rideableDeliveryArea" translation="-20 1.81899e-14 -25" nodeId="100">
-        <TransformGroup name="start" translation="-8 1.90735e-06 -11" nodeId="101">
-          <TransformGroup name="width" translation="62 0 0" nodeId="102"/>
-          <TransformGroup name="height" translation="0 0 60" nodeId="103"/>
+      <TransformGroup name="rideableDeliveryArea" translation="-20 1.81899e-14 -25" nodeId="107">
+        <TransformGroup name="start" translation="-8 1.90735e-06 -11" nodeId="108">
+          <TransformGroup name="width" translation="62 0 0" nodeId="109"/>
+          <TransformGroup name="height" translation="0 0 60" nodeId="110"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="milkTank" translation="-13 0 15" nodeId="104">
-        <Shape shapeId="23" name="milkTankTrigger" translation="24.2569 2.26804e-15 20.3039" rotation="-6.00013e-20 -90 -4.20822e-14" static="true" trigger="true" collisionMask="1073741824" nodeId="105" materialIds="15" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <TransformGroup name="milkTank" translation="-13 0 15" nodeId="111">
+        <Shape shapeId="24" name="milkTankTrigger" translation="24.2569 2.26804e-15 20.3039" rotation="-6.00013e-20 -90 -4.20822e-14" static="true" trigger="true" collisionMask="1073741824" nodeId="112" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="visuals" nodeId="106">
-      <TransformGroup name="milkContainers" translation="9.89117 -1.75534 30.5286" nodeId="107">
-        <Shape shapeId="24" name="milkContainer01" translation="0 8.23144e-16 -1.2357" static="true" clipDistance="50" nodeId="108" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="24" name="milkContainer02" translation="0.282548 4.4545e-16 -0.720653" rotation="0 30 0" static="true" clipDistance="50" nodeId="109" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="24" name="milkContainer03" translation="0.166153 1.2049e-16 -0.211427" rotation="0 45 0" static="true" clipDistance="50" nodeId="110" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="24" name="milkContainer04" translation="-0.0316158 -1.87126e-16 0.286726" rotation="0 120 0" static="true" clipDistance="50" nodeId="111" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="24" name="milkContainer05" translation="-0.258204 0 -0.615289" rotation="0 20 0" static="true" clipDistance="50" nodeId="112" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="24" name="milkContainer06" translation="-0.186459 7.79099e-16 1.05679" rotation="0 20 0" static="true" clipDistance="50" nodeId="113" materialIds="6" castsShadows="true" receiveShadows="true"/>
-      </TransformGroup>
-      <TransformGroup name="areaPlane" translation="3 0 -6" scale="62 1 60" visibility="false" nodeId="114"/>
-      <TransformGroup name="navMeshPlanes" visibility="false" nodeId="115">
-        <TransformGroup name="plane" translation="0.35962 0.0526345 -2.425" rotation="-180 90 -180" scale="61.316 1 4.09885" nodeId="116"/>
-        <TransformGroup name="plane" translation="10.7323 0.0526345 -2.425" rotation="0 90 0" scale="61.316 1 4.09885" nodeId="117"/>
-        <TransformGroup name="plane" translation="5.57294 0.0526341 -9.56026" rotation="-180 0 180" scale="14.1981 1 3.54035" nodeId="118"/>
-        <TransformGroup name="plane" translation="5.62792 0.0526345 26.6623" rotation="-2.93073e-15 0 6.70304e-08" scale="14.1981 1 3.12426" nodeId="119"/>
-        <TransformGroup name="plane" translation="5.49509 0.0526345 -31.5084" scale="14.1981 1 3.12426" nodeId="120"/>
-        <TransformGroup name="plane" translation="-0.0509974 0.0526328 -39.7037" rotation="-1.73027e-05 90 0" scale="22.0902 1 3.71883" nodeId="121"/>
-        <TransformGroup name="plane" translation="10.1094 0.0526359 -59.2654" rotation="-1.73027e-05 90 0" scale="42.6651 1 3.71883" nodeId="122"/>
-        <TransformGroup name="plane" translation="5.06719 0.0526344 -44.3605" rotation="-1.73027e-05 90 0" scale="12.8437 1 13.4501" nodeId="123"/>
-        <TransformGroup name="plane" translation="75.6043 0.0526557 -105.512" rotation="-1.73027e-05 90 0" scale="65.9232 1 204.814" nodeId="124"/>
-        <TransformGroup name="plane" translation="146.379 0.052677 -55.9129" rotation="-1.73027e-05 90 0" scale="154.903 1 63.8104" nodeId="125"/>
-      </TransformGroup>
-      <TransformGroup name="tipCol" visibility="false" static="true" collisionMask="524288" nodeId="126"/>
-    </TransformGroup>
-    <TransformGroup name="clearArea" nodeId="127">
-      <TransformGroup name="start" translation="-28 1.90735e-06 -36" nodeId="128">
-        <TransformGroup name="width" translation="62 0 0" nodeId="129"/>
-        <TransformGroup name="height" translation="0 0 60" nodeId="130"/>
-      </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="levelArea" nodeId="131">
-      <TransformGroup name="start" translation="-28 1.90735e-06 -36" nodeId="132">
-        <TransformGroup name="width" translation="62 0 0" nodeId="133"/>
-        <TransformGroup name="height" translation="0 0 60" nodeId="134"/>
-      </TransformGroup>
-      <TransformGroup name="start" translation="-25.5989 1.90735e-06 -35.961" nodeId="135">
-        <TransformGroup name="width" translation="9.10589 0 0" nodeId="136"/>
-        <TransformGroup name="height" translation="0 0 21.5601" nodeId="137"/>
-      </TransformGroup>
-      <TransformGroup name="start" translation="-15.5 0 -1" nodeId="138">
-        <TransformGroup name="width" translation="41.5 0 0" nodeId="139"/>
-        <TransformGroup name="height" translation="0 0 20" nodeId="140"/>
-      </TransformGroup>
-      <TransformGroup name="start" translation="-5.55648 0 19.585" nodeId="141">
-        <TransformGroup name="width" translation="27.2028 0 0" nodeId="142"/>
-        <TransformGroup name="height" translation="0 0 3.49161" nodeId="143"/>
-      </TransformGroup>
-      <TransformGroup name="start" translation="26.6745 0 6.29396" nodeId="144">
-        <TransformGroup name="width" translation="5.12525 0 0" nodeId="145"/>
-        <TransformGroup name="height" translation="0 0 11.8534" nodeId="146"/>
-      </TransformGroup>
-      <TransformGroup name="start" translation="26.6745 0 -18.2812" nodeId="147">
-        <TransformGroup name="width" translation="5.12525 0 0" nodeId="148"/>
-        <TransformGroup name="height" translation="0 0 11.8534" nodeId="149"/>
-      </TransformGroup>
-      <TransformGroup name="start" translation="5.58248 0 -34.9117" nodeId="150">
-        <TransformGroup name="width" translation="12.8215 0 0" nodeId="151"/>
-        <TransformGroup name="height" translation="0 0 5.02534" nodeId="152"/>
-      </TransformGroup>
-      <TransformGroup name="start" translation="-11.7514 0 -34.9117" nodeId="153">
-        <TransformGroup name="width" translation="7.96174 0 0" nodeId="154"/>
-        <TransformGroup name="height" translation="0 0 8.22889" nodeId="155"/>
-      </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="rampAreas" nodeId="156">
-      <TransformGroup name="start1" translation="-28 0 24" nodeId="157">
-        <TransformGroup name="width" translation="62 0 0" nodeId="158"/>
-        <TransformGroup name="height" translation="0 0 8" nodeId="159"/>
-      </TransformGroup>
-      <TransformGroup name="start2" translation="-28 0 -36" rotation="0 -90 0" nodeId="160">
-        <TransformGroup name="width" translation="60 0 -2.18557e-07" nodeId="161"/>
-        <TransformGroup name="height" translation="0 0 8" nodeId="162"/>
-      </TransformGroup>
-      <TransformGroup name="start3" translation="34 -9.53674e-07 -36" rotation="180 -5.00896e-06 180" nodeId="163">
-        <TransformGroup name="width" translation="62 8.74228e-07 1.65564e-06" nodeId="164"/>
-        <TransformGroup name="height" translation="0 0 8" nodeId="165"/>
-      </TransformGroup>
-      <TransformGroup name="start4" translation="34 0 24" rotation="-0 90 0" nodeId="166">
-        <TransformGroup name="width" translation="60 0 6.06557e-07" nodeId="167"/>
-        <TransformGroup name="height" translation="0 0 8" nodeId="168"/>
-      </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="foliageAreas" nodeId="169">
-      <TransformGroup name="grass" nodeId="170">
-        <TransformGroup name="corner01_1" translation="-16.0024 0 -20.682" nodeId="171">
-          <TransformGroup name="corner01_2" translation="41 0 0" nodeId="172"/>
-          <TransformGroup name="corner01_3" translation="41 0 18" nodeId="173"/>
+      <NavigationMesh name="NavMesh" nodeId="113" shapeId="25"/>
+      <TransformGroup name="visuals" nodeId="114">
+        <TransformGroup name="milkContainers" translation="9.89117 -1.75534 30.5286" nodeId="115">
+          <Shape shapeId="26" name="milkContainer01" translation="0 8.23144e-16 -1.2357" static="true" clipDistance="50" nodeId="116" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="milkContainer02" translation="0.282548 4.4545e-16 -0.720653" rotation="0 30 0" static="true" clipDistance="50" nodeId="117" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="milkContainer03" translation="0.166153 1.2049e-16 -0.211427" rotation="0 45 0" static="true" clipDistance="50" nodeId="118" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="milkContainer04" translation="-0.0316158 -1.87126e-16 0.286726" rotation="0 120 0" static="true" clipDistance="50" nodeId="119" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="milkContainer05" translation="-0.258204 0 -0.615289" rotation="0 20 0" static="true" clipDistance="50" nodeId="120" materialIds="4" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="26" name="milkContainer06" translation="-0.186459 7.79099e-16 1.05679" rotation="0 20 0" static="true" clipDistance="50" nodeId="121" materialIds="4" castsShadows="true" receiveShadows="true"/>
         </TransformGroup>
-        <TransformGroup name="corner02_1" translation="-2.5 0 -29.5" nodeId="174">
-          <TransformGroup name="corner02_2" translation="27.5 0 0" nodeId="175"/>
-          <TransformGroup name="corner02_3" translation="27.5 0 13.2723" nodeId="176"/>
+        <Shape shapeId="27" name="areaPlane" translation="3 0 -6" scale="62 1 60" visibility="false" nodeId="122" materialIds="8" distanceBlending="false"/>
+        <TransformGroup name="navMeshPlanes" visibility="false" nodeId="123">
+          <Shape shapeId="27" name="plane" translation="0.35962 0.0526345 -2.425" rotation="-180 90 -180" scale="61.316 1 4.09885" nodeId="124" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="10.7323 0.0526345 -2.425" rotation="0 90 0" scale="61.316 1 4.09885" nodeId="125" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="5.57294 0.0526341 -9.56026" rotation="-180 0 180" scale="14.1981 1 3.54035" nodeId="126" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="5.62792 0.0526345 26.6623" rotation="-2.93073e-15 0 6.70304e-08" scale="14.1981 1 3.12426" nodeId="127" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="5.49509 0.0526345 -31.5084" scale="14.1981 1 3.12426" nodeId="128" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="-0.0509974 0.0526328 -39.7037" rotation="-1.73027e-05 90 0" scale="22.0902 1 3.71883" nodeId="129" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="10.1094 0.0526359 -59.2654" rotation="-1.73027e-05 90 0" scale="42.6651 1 3.71883" nodeId="130" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="5.06719 0.0526344 -44.3605" rotation="-1.73027e-05 90 0" scale="12.8437 1 13.4501" nodeId="131" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="75.6043 0.0526557 -105.512" rotation="-1.73027e-05 90 0" scale="65.9232 1 204.814" nodeId="132" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
+          <Shape shapeId="27" name="plane" translation="146.379 0.052677 -55.9129" rotation="-1.73027e-05 90 0" scale="154.903 1 63.8104" nodeId="133" materialIds="8" distanceBlending="false" buildNavMeshMask="255"/>
         </TransformGroup>
-        <TransformGroup name="corner03_1" translation="-25.2729 9.53674e-07 -14.045" nodeId="177">
-          <TransformGroup name="corner03_2" translation="10.1565 0 -2.84217e-16" nodeId="178"/>
-          <TransformGroup name="corner03_3" translation="8.5 0 11.717" nodeId="179"/>
+        <Shape shapeId="28" name="tipCol" visibility="false" static="true" collisionMask="524288" nodeId="134" materialIds="14" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      </TransformGroup>
+      <TransformGroup name="clearArea" nodeId="135">
+        <TransformGroup name="start" translation="-28 1.90735e-06 -36" nodeId="136">
+          <TransformGroup name="width" translation="62 0 0" nodeId="137"/>
+          <TransformGroup name="height" translation="0 0 60" nodeId="138"/>
         </TransformGroup>
       </TransformGroup>
-    </TransformGroup>
-    <TransformGroup name="warningStripes" nodeId="180">
-      <TransformGroup name="warningStripesLiquidManureTrigger" translation="-13.4413 4.49612e-17 59.2383" rotation="1.35643e-21 -45.913 2.12795e-14" nodeId="181">
-        <TransformGroup name="warningStripesCorner1" translation="-3.5 0 -2" clipDistance="200" nodeId="182"/>
-        <TransformGroup name="warningStripesCorner2" translation="3.5 0 -2" clipDistance="200" nodeId="183"/>
-        <TransformGroup name="warningStripesCorner3" translation="3.5 2.27374e-15 2" rotation="0 180 0" clipDistance="200" nodeId="184"/>
-        <TransformGroup name="warningStripesCorner4" translation="-3.5 1.13687e-15 2" rotation="0 180 0" clipDistance="200" nodeId="185"/>
+      <TransformGroup name="levelArea" nodeId="139">
+        <TransformGroup name="start" translation="-28 1.90735e-06 -36" nodeId="140">
+          <TransformGroup name="width" translation="62 0 0" nodeId="141"/>
+          <TransformGroup name="height" translation="0 0 60" nodeId="142"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="-25.5989 1.90735e-06 -35.961" nodeId="143">
+          <TransformGroup name="width" translation="9.10589 0 0" nodeId="144"/>
+          <TransformGroup name="height" translation="0 0 21.5601" nodeId="145"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="-15.5 0 -1" nodeId="146">
+          <TransformGroup name="width" translation="41.5 0 0" nodeId="147"/>
+          <TransformGroup name="height" translation="0 0 20" nodeId="148"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="-5.55648 0 19.585" nodeId="149">
+          <TransformGroup name="width" translation="27.2028 0 0" nodeId="150"/>
+          <TransformGroup name="height" translation="0 0 3.49161" nodeId="151"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="26.6745 0 6.29396" nodeId="152">
+          <TransformGroup name="width" translation="5.12525 0 0" nodeId="153"/>
+          <TransformGroup name="height" translation="0 0 11.8534" nodeId="154"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="26.6745 0 -18.2812" nodeId="155">
+          <TransformGroup name="width" translation="5.12525 0 0" nodeId="156"/>
+          <TransformGroup name="height" translation="0 0 11.8534" nodeId="157"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="5.58248 0 -34.9117" nodeId="158">
+          <TransformGroup name="width" translation="12.8215 0 0" nodeId="159"/>
+          <TransformGroup name="height" translation="0 0 5.02534" nodeId="160"/>
+        </TransformGroup>
+        <TransformGroup name="start" translation="-11.7514 0 -34.9117" nodeId="161">
+          <TransformGroup name="width" translation="7.96174 0 0" nodeId="162"/>
+          <TransformGroup name="height" translation="0 0 8.22889" nodeId="163"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="rampAreas" nodeId="164">
+        <TransformGroup name="start1" translation="-28 0 24" nodeId="165">
+          <TransformGroup name="width" translation="62 0 0" nodeId="166"/>
+          <TransformGroup name="height" translation="0 0 8" nodeId="167"/>
+        </TransformGroup>
+        <TransformGroup name="start2" translation="-28 0 -36" rotation="0 -90 0" nodeId="168">
+          <TransformGroup name="width" translation="60 0 -2.18557e-07" nodeId="169"/>
+          <TransformGroup name="height" translation="0 0 8" nodeId="170"/>
+        </TransformGroup>
+        <TransformGroup name="start3" translation="34 -9.53674e-07 -36" rotation="180 -5.00896e-06 180" nodeId="171">
+          <TransformGroup name="width" translation="62 8.74228e-07 1.65564e-06" nodeId="172"/>
+          <TransformGroup name="height" translation="0 0 8" nodeId="173"/>
+        </TransformGroup>
+        <TransformGroup name="start4" translation="34 0 24" rotation="-0 90 0" nodeId="174">
+          <TransformGroup name="width" translation="60 0 6.06557e-07" nodeId="175"/>
+          <TransformGroup name="height" translation="0 0 8" nodeId="176"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="foliageAreas" nodeId="177">
+        <TransformGroup name="grass" nodeId="178">
+          <TransformGroup name="corner01_1" translation="-16.0024 0 -20.682" nodeId="179">
+            <TransformGroup name="corner01_2" translation="41 0 0" nodeId="180"/>
+            <TransformGroup name="corner01_3" translation="41 0 18" nodeId="181"/>
+          </TransformGroup>
+          <TransformGroup name="corner02_1" translation="-2.5 0 -29.5" nodeId="182">
+            <TransformGroup name="corner02_2" translation="27.5 0 0" nodeId="183"/>
+            <TransformGroup name="corner02_3" translation="27.5 0 13.2723" nodeId="184"/>
+          </TransformGroup>
+          <TransformGroup name="corner03_1" translation="-25.2729 9.53674e-07 -14.045" nodeId="185">
+            <TransformGroup name="corner03_2" translation="10.1565 0 -2.84217e-16" nodeId="186"/>
+            <TransformGroup name="corner03_3" translation="8.5 0 11.717" nodeId="187"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="warningStripes" nodeId="188">
+        <TransformGroup name="warningStripesLiquidManureTrigger" translation="-13.4413 4.49612e-17 59.2383" rotation="1.35643e-21 -45.913 2.12795e-14" nodeId="189">
+          <Shape shapeId="29" name="warningStripesCorner1" translation="-3.5 0 -2" clipDistance="200" nodeId="190" materialIds="15" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="30" name="warningStripesCorner2" translation="3.5 0 -2" clipDistance="200" nodeId="191" materialIds="15" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="29" name="warningStripesCorner3" translation="3.5 2.27374e-15 2" rotation="0 180 0" clipDistance="200" nodeId="192" materialIds="15" receiveShadows="true" decalLayer="1"/>
+          <Shape shapeId="30" name="warningStripesCorner4" translation="-3.5 1.13687e-15 2" rotation="0 180 0" clipDistance="200" nodeId="193" materialIds="15" receiveShadows="true" decalLayer="1"/>
+        </TransformGroup>
       </TransformGroup>
     </TransformGroup>
   </Scene>
 
   <UserAttributes>
-    <UserAttribute nodeId="70">
+    <UserAttribute nodeId="77">
       <Attribute name="currentUVSet" type="string" value="map1"/>
     </UserAttribute>
-    <UserAttribute nodeId="71">
+    <UserAttribute nodeId="78">
       <Attribute name="currentUVSet" type="string" value="map1"/>
     </UserAttribute>
-    <UserAttribute nodeId="72">
+    <UserAttribute nodeId="79">
       <Attribute name="currentUVSet" type="string" value="map1"/>
     </UserAttribute>
-    <UserAttribute nodeId="73">
+    <UserAttribute nodeId="80">
       <Attribute name="currentUVSet" type="string" value="map1"/>
     </UserAttribute>
-    <UserAttribute nodeId="84">
+    <UserAttribute nodeId="91">
       <Attribute name="collisionHeight" type="float" value="3"/>
     </UserAttribute>
   </UserAttributes>
