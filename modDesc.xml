@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <modDesc descVersion="43">
   <!--
   ####################################
@@ -10,7 +10,6 @@
   <title>$l10n_puurNederland_modTitle</title>
   <description>$l10n_puurNederland_modDesc</description>
 
-  <l10n filenamePrefix="l10n/l10n"/>
   <iconFilename>Nederland_icon.png</iconFilename>
   <multiplayer supported="true"/>
 
@@ -69,4 +68,287 @@
     <storeItem xmlFilename="placeables/waterTank/waterTank.xml"/>
     <storeItem xmlFilename="placeables/Windmolen/Windmuehle.xml"/>
   </storeItems>
+
+  <l10n>
+    <text name="puurNederland_modTitle">
+      <de>Reine Niederlande von Mike-Modding</de>
+      <en>Pure Netherlands by Mike-Modding</en>
+      <nl>Puur Nederland van Mike-Modding</nl>
+    </text>
+    <text name="puurNederland_modDesc">
+      <de>Willkommen auf Reine Niederlande</de>
+      <en>Welcome to Pure Netherlands</en>
+      <nl>Welkom bij Puur Nederland</nl>
+    </text>
+    <text name="puurNederland_mapDesc">
+      <de>Die Basis der Karte ist eine schöne niederländische Landschaft. Es gibt hier fünf Tierbetriebe: |1.BGA & Viehzucht, 2.Milchvieh & Hühnerfarm, 3.Schweinemast, 4.Pferdegestüt, 5.Schafhof</de>
+      <en>The base of the map is a beautiful dutch landscape. There are five animal farms here: |1.BGA & cattle breeding, 2.dairy cattle & chicken farm, 3.pig farm, 4.horse stud, 5.sheep farm</en>
+      <nl>De basis van de kaart is een prachtig Nederlands landschap. Er zijn hier vijf dierenfokkerijen: |1.BGA & veeteelt, 2.melkvee- & kippenfokkerij, 3.varkenshouderij, 4.horse stud, 5.sheep farm</nl>
+    </text>
+    <text name="puurNederland_hotspot_biogas">
+      <de>BGA</de>
+      <en>Biogas</en>
+      <nl>BGA</nl>
+    </text>
+    <text name="puurNederland_hotspot_biogas_cow">
+      <de>BGA & Viehzucht</de>
+      <en>Biogas & cows</en>
+      <nl>BGA & Veeteelt</nl>
+    </text>
+    <text name="puurNederland_hotspot_buildingPlot">
+      <de>Baugrundstück</de>
+      <en>Building plot</en>
+      <nl>Bouwkavel</nl>
+    </text>
+    <text name="puurNederland_hotspot_chicken">
+      <de>Hühnerfarm</de>
+      <en>Chicken farm</en>
+      <nl>Kippenboerderij</nl>
+    </text>
+    <text name="puurNederland_hotspot_contractingCompany">
+      <de>Lohnunternehmen</de>
+      <en>Contracting company</en>
+      <nl>Aannemer</nl>
+    </text>
+    <text name="puurNederland_hotspot_cow">
+      <de>Milchvieh</de>
+      <en>Dairy cattle</en>
+      <nl>Melkvee</nl>
+    </text>
+    <text name="puurNederland_hotspot_cow_chicken">
+      <de>Milchvieh & Hühnerfarm</de>
+      <en>Dairy cattle & chicken farm</en>
+      <nl>Melkvee & Kippenboerderij</nl>
+    </text>
+    <text name="puurNederland_hotspot_earthFruitStorage">
+      <de>Erdfrüchtelager</de>
+      <en>Earth fruit storage</en>
+      <nl>Opslag van grondfruit</nl>
+    </text>
+    <text name="puurNederland_hotspot_flour">
+      <de>Getreidemühle</de>
+      <en>Grain mill</en>
+      <nl>Graanmolen</nl>
+    </text>
+    <text name="puurNederland_hotspot_horse">
+      <de>Pferdegestüt</de>
+      <en>Studded horses</en>
+      <nl>Paardenmanege</nl>
+    </text>
+    <text name="puurNederland_hotspot_pig">
+      <de>Schweinemast</de>
+      <en>Pig fattening</en>
+      <nl>Varkenshouderij</nl>
+    </text>
+    <text name="puurNederland_hotspot_potato">
+      <de>Kartoffelhof</de>
+      <en>Potato farm</en>
+      <nl>Aardappelhouderij</nl>
+    </text>
+    <text name="puurNederland_hotspot_sheep">
+      <de>Schafhof</de>
+      <en>Sheepfold</en>
+      <nl>Schapenhouderij</nl>
+    </text>
+    <text name="puurNederland_hotspot_wool">
+      <de>Wolleankauf</de>
+      <en>Wool purchase</en>
+      <nl>Wolverkoop</nl>
+    </text>
+    <text name="puurNederland_husbandry_chicken">
+      <de>Hühnerfarm</de>
+      <en>Chicken farm</en>
+      <nl>Kippenboerderij</nl>
+    </text>
+    <text name="puurNederland_husbandry_cow">
+      <de>Milchvieh</de>
+      <en>Dairy cattle</en>
+      <nl>Melkvee</nl>
+    </text>
+    <text name="puurNederland_husbandry_horse">
+      <de>Zuchtpferde</de>
+      <en>Studded horses</en>
+      <nl>Paardenmanege</nl>
+    </text>
+    <text name="puurNederland_husbandry_pig">
+      <de>Schweinemast</de>
+      <en>Pig fattening</en>
+      <nl>Varkenshouderij</nl>
+    </text>
+    <text name="puurNederland_husbandry_sheep">
+      <de>Schafhof</de>
+      <en>Sheepfold</en>
+      <nl>Schapenhouderij</nl>
+    </text>
+    <text name="puurNederland_placeable_albertheijn">
+      <de>Albert Heijn Shop</de>
+      <en>Albert Heijn Shop</en>
+      <nl>Albert Heijn Shop</nl>
+    </text>
+    <text name="puurNederland_placeable_balesStation">
+      <de>Ballenverkauf</de>
+      <en>Bale sale</en>
+      <nl>Stroverkoop</nl>
+    </text>
+    <text name="puurNederland_placeable_biogas">
+      <de>BGA</de>
+      <en>Biogas</en>
+      <nl>BGA</nl>
+    </text>
+    <text name="puurNederland_placeable_compositeHall4">
+      <de>Maschinenhalle 4 Tore</de>
+      <en>Machine hall 4 gates</en>
+      <nl>Machinehal 4 poorten</nl>
+    </text>
+    <text name="puurNederland_placeable_compositeHall5">
+      <de>Maschinenhalle 5 Tore</de>
+      <en>Machine hall 5 gates</en>
+      <nl>Machinehal 5 poorten</nl>
+    </text>
+    <text name="puurNederland_placeable_crops">
+      <de>Getreideverkauf</de>
+      <en>Grain sale</en>
+      <nl>Graanverkoop</nl>
+    </text>
+    <text name="puurNederland_placeable_fertilizer">
+      <de>Düngerverkauf</de>
+      <en>Fertilizer sale</en>
+      <nl>Meststoffen verkoop</nl>
+    </text>
+    <text name="puurNederland_placeable_gardenCenter">
+      <de>Gartencenter</de>
+      <en>Garden Center</en>
+      <nl>Tuincentrum</nl>
+    </text>
+    <text name="puurNederland_placeable_gasStationDiesel">
+      <de>Dieseltank</de>
+      <en>Diesel tank</en>
+      <nl>Dieseltank</nl>
+    </text>
+    <text name="puurNederland_placeable_grainmill">
+      <de>Getreidemühle</de>
+      <en>Grain mill</en>
+      <nl>Graanmolen</nl>
+    </text>
+    <text name="puurNederland_placeable_milkStation">
+      <de>Milchverkauf</de>
+      <en>Milk sale</en>
+      <nl>Melkverkoop</nl>
+    </text>
+    <text name="puurNederland_placeable_mill">
+      <de>Mühle</de>
+      <en>Mill</en>
+      <nl>Molen</nl>
+    </text>
+    <text name="puurNederland_placeable_rootcrops">
+      <de>Wurzelgemüseverkauf</de>
+      <en>Root vegetable sale</en>
+      <nl>Wortelgroentenverkoop</nl>
+    </text>
+    <text name="puurNederland_placeable_seeds">
+      <de>Saatgutverkauf</de>
+      <en>Seed sale</en>
+      <nl>Zaadverkoop</nl>
+    </text>
+    <text name="puurNederland_placeable_shedMedium">
+      <de>Ballenschuppen mit zwei Wänden (Mittel</de>
+      <en>Bale shed with two walls (medium</en>
+      <nl>Balenloods met twee wanden (medium</nl>
+    </text>
+    <text name="puurNederland_placeable_shedLarge">
+      <de>Ballenschuppen mit zwei Wänden (Groß</de>
+      <en>Bale shed with two walls (large</en>
+      <nl>Balenloods met twee wanden (groot</nl>
+    </text>
+    <text name="puurNederland_placeable_supermarket">
+      <de>Dorfladen</de>
+      <en>Village store</en>
+      <nl>Dorpswinkel</nl>
+    </text>
+    <text name="puurNederland_placeable_vehicleStation">
+      <de>Fahrzeughändler</de>
+      <en>Vehicle dealer</en>
+      <nl>Autodealer</nl>
+    </text>
+    <text name="puurNederland_placeable_windmill">
+      <de>Windmühle</de>
+      <en>Windmill</en>
+      <nl>Windmolen</nl>
+    </text>
+    <text name="puurNederland_input_OPEN_ROLLUPDOOR">
+      <de>Rolltor öffnen</de>
+      <en>Open rolldoor</en>
+      <nl>Roldeur openen</nl>
+    </text>
+    <text name="puurNederland_input_CLOSE_ROLLUPDOOR">
+      <de>Rolltor schließen</de>
+      <en>Close rolldoor</en>
+      <nl>Rolldeur sluiten</nl>
+    </text>
+    <text name="puurNederland_input_OPEN_STABLEGUTTER">
+      <de>Stallgosse öffnen</de>
+      <en>Open stable gutter</en>
+      <nl>Open de put</nl>
+    </text>
+    <text name="puurNederland_input_CLOSE_STABLEGUTTER">
+      <de>Stallgosse schließen</de>
+      <en>Close stable gutter</en>
+      <nl>Sluit de put</nl>
+    </text>
+    <text name="puurNederland_input_TOGGLE_GATE">
+      <de>Tor öffnen/schließen</de>
+      <en>Open/close gate</en>
+      <nl>Open/sluit poort</nl>
+    </text>
+    <text name="puurNederland_input_TOGGLE_COVER">
+      <de>Deckel öffnen/schließen</de>
+      <en>Open/close cover</en>
+      <nl>Open/sluit het deksel</nl>
+    </text>
+    <text name="puurNederland_fillType_carrot">
+      <de>Karotten</de>
+      <en>Carrots</en>
+      <nl>Wortels</nl>
+    </text>
+    <text name="puurNederland_fillType_carrot_haulm">
+      <de>Karottenkraut</de>
+      <en>Carrot haulm</en>
+      <nl>Wortel haulm</nl>
+    </text>
+    <text name="puurNederland_fillType_onion">
+      <de>Zwiebeln</de>
+      <en>Onions</en>
+      <nl>Uien</nl>
+    </text>
+    <text name="puurNederland_fillType_beetroot">
+      <de>Rote Beete</de>
+      <en>Beetroot</en>
+      <nl>Rode biet</nl>
+    </text>
+    <text name="puurNederland_fillType_beetroot_haulm">
+      <de>Rote-Beete-Kraut</de>
+      <en>Beetroot haulm</en>
+      <nl>Rode biet haulm</nl>
+    </text>
+    <text name="puurNederland_shopItem_holsteinCattle">
+      <de>Holstein-Rind</de>
+      <en>Holstein Friesian cattle</en>
+      <nl>Holstein-Friesian rund</nl>
+    </text>
+    <text name="puurNederland_shopItem_holsteinCalf">
+      <de>Holstein-Kalb</de>
+      <en>Holstein Friesian calf</en>
+      <nl>Holstein-Friesian calf</nl>
+    </text>
+    <text name="puurNederland_closedText_treatmentPlant">
+      <de>Geschlossen, Öffnungszeiten: 6:00 - 18:00 Uhr</de>
+      <en>Closed, opening hours 6am - 6pm</en>
+      <nl>Gesloten, openingstijden van 6:00 tot 18:00 uur</nl>
+    </text>
+    <text name="puurNederland_closedText_cornerShop">
+      <de>Geschlossen, Öffnungszeiten: 8:00 - 20:00 Uhr</de>
+      <en>Closed, opening hours 8am - 8pm</en>
+      <nl>Gesloten, openingstijden van 8:00 tot 20:00 uur</nl>
+    </text>
+  </l10n>
 </modDesc>
