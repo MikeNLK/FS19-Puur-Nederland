@@ -1,182 +1,182 @@
-﻿<vehicles>
-    <vehicle id="1" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="1" propertyState="1" operatingTime="130.933853">
-        <component1 position="716.3439 154.9231 -631.5254" rotation="1.1028 -1.2187 0.2357"/>
-        <configuration name="baseMaterial" id="18"/>
-        <configuration name="motor" id="1"/>
-        <configuration name="wheel" id="1"/>
-        <configuration name="fillUnit" id="1"/>
-        <configuration name="tensionBelts" id="1"/>
-        <boughtConfiguration name="baseMaterial" id="18"/>
-        <boughtConfiguration name="baseMaterial" id="3"/>
-        <boughtConfiguration name="motor" id="1"/>
-        <boughtConfiguration name="wheel" id="1"/>
-        <boughtConfiguration name="fillUnit" id="1"/>
-        <boughtConfiguration name="tensionBelts" id="1"/>
-        <washable>
-            <dirtNode amount="0.009510"/>
-            <dirtNode amount="0.029330"/>
-            <dirtNode amount="0.030924"/>
-            <dirtNode amount="0.032519"/>
-            <dirtNode amount="0.034341"/>
-        </washable>
-        <wearable>
-            <wearNode amount="0.001783"/>
-        </wearable>
-        <fillUnit>
-            <unit index="1" fillType="DIESEL" fillLevel="79.849037"/>
-        </fillUnit>
-        <drivable cruiseControl="121.000000"/>
-        <attacherJoints comboDirection="-1"/>
-        <tensionBelts>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-        </tensionBelts>
-        <foldable foldAnimTime="0.000000"/>
-    </vehicle>
-    <vehicle id="2" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="2" propertyState="1" operatingTime="156.432404">
-        <component1 position="-259.1691 154.9246 -97.1309" rotation="-0.2980 86.1030 -0.3053"/>
-        <configuration name="baseMaterial" id="22"/>
-        <configuration name="motor" id="1"/>
-        <configuration name="wheel" id="1"/>
-        <configuration name="fillUnit" id="1"/>
-        <configuration name="tensionBelts" id="1"/>
-        <boughtConfiguration name="baseMaterial" id="22"/>
-        <boughtConfiguration name="baseMaterial" id="3"/>
-        <boughtConfiguration name="motor" id="1"/>
-        <boughtConfiguration name="wheel" id="1"/>
-        <boughtConfiguration name="fillUnit" id="1"/>
-        <boughtConfiguration name="tensionBelts" id="1"/>
-        <washable>
-            <dirtNode amount="0.011119"/>
-            <dirtNode amount="0.011119"/>
-            <dirtNode amount="0.011119"/>
-            <dirtNode amount="0.011119"/>
-            <dirtNode amount="0.011119"/>
-        </washable>
-        <wearable>
-            <wearNode amount="0.002085"/>
-        </wearable>
-        <fillUnit>
-            <unit index="1" fillType="DIESEL" fillLevel="79.782440"/>
-        </fillUnit>
-        <drivable cruiseControl="121.000000"/>
-        <attacherJoints comboDirection="-1"/>
-        <tensionBelts>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-        </tensionBelts>
-        <foldable foldAnimTime="0.000000"/>
-    </vehicle>
-    <vehicle id="3" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="3" propertyState="1" operatingTime="103.173004">
-        <component1 position="-113.1321 154.9658 -149.0502" rotation="179.7241 88.7836 179.9518"/>
-        <configuration name="baseMaterial" id="20"/>
-        <configuration name="motor" id="1"/>
-        <configuration name="wheel" id="1"/>
-        <configuration name="fillUnit" id="1"/>
-        <configuration name="tensionBelts" id="1"/>
-        <boughtConfiguration name="baseMaterial" id="20"/>
-        <boughtConfiguration name="baseMaterial" id="3"/>
-        <boughtConfiguration name="motor" id="1"/>
-        <boughtConfiguration name="wheel" id="1"/>
-        <boughtConfiguration name="fillUnit" id="1"/>
-        <boughtConfiguration name="tensionBelts" id="1"/>
-        <washable>
-            <dirtNode amount="0.006851"/>
-            <dirtNode amount="0.006851"/>
-            <dirtNode amount="0.006851"/>
-            <dirtNode amount="0.006851"/>
-            <dirtNode amount="0.006851"/>
-        </washable>
-        <wearable>
-            <wearNode amount="0.001285"/>
-        </wearable>
-        <fillUnit>
-            <unit index="1" fillType="DIESEL" fillLevel="79.847305"/>
-        </fillUnit>
-        <drivable cruiseControl="121.000000"/>
-        <attacherJoints comboDirection="-1"/>
-        <tensionBelts>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-        </tensionBelts>
-        <foldable foldAnimTime="0.000000"/>
-    </vehicle>
-    <vehicle id="4" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="4" propertyState="1" operatingTime="177.390442">
-        <component1 position="375.5240 154.9658 29.0556" rotation="179.7716 0.2890 -179.9995"/>
-        <configuration name="baseMaterial" id="9"/>
-        <configuration name="motor" id="1"/>
-        <configuration name="wheel" id="1"/>
-        <configuration name="fillUnit" id="1"/>
-        <configuration name="tensionBelts" id="1"/>
-        <boughtConfiguration name="baseMaterial" id="9"/>
-        <boughtConfiguration name="baseMaterial" id="3"/>
-        <boughtConfiguration name="motor" id="1"/>
-        <boughtConfiguration name="wheel" id="1"/>
-        <boughtConfiguration name="fillUnit" id="1"/>
-        <boughtConfiguration name="tensionBelts" id="1"/>
-        <washable>
-            <dirtNode amount="0.013851"/>
-            <dirtNode amount="0.117701"/>
-            <dirtNode amount="0.107405"/>
-            <dirtNode amount="0.114471"/>
-            <dirtNode amount="0.105332"/>
-        </washable>
-        <wearable>
-            <wearNode amount="0.002597"/>
-        </wearable>
-        <fillUnit>
-            <unit index="1" fillType="DIESEL" fillLevel="79.792046"/>
-        </fillUnit>
-        <drivable cruiseControl="121.000000"/>
-        <attacherJoints comboDirection="-1"/>
-        <tensionBelts>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-        </tensionBelts>
-        <foldable foldAnimTime="0.000000"/>
-    </vehicle>
-    <vehicle id="5" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="5" propertyState="1" operatingTime="262.257599">
-        <component1 position="-258.3323 154.9658 426.9555" rotation="179.7716 -3.0030 -179.9999"/>
-        <configuration name="baseMaterial" id="12"/>
-        <configuration name="motor" id="1"/>
-        <configuration name="wheel" id="1"/>
-        <configuration name="fillUnit" id="1"/>
-        <configuration name="tensionBelts" id="1"/>
-        <boughtConfiguration name="baseMaterial" id="12"/>
-        <boughtConfiguration name="baseMaterial" id="3"/>
-        <boughtConfiguration name="motor" id="1"/>
-        <boughtConfiguration name="wheel" id="1"/>
-        <boughtConfiguration name="fillUnit" id="1"/>
-        <boughtConfiguration name="tensionBelts" id="1"/>
-        <washable>
-            <dirtNode amount="0.017956"/>
-            <dirtNode amount="0.347330"/>
-            <dirtNode amount="0.349930"/>
-            <dirtNode amount="0.345086"/>
-            <dirtNode amount="0.349942"/>
-        </washable>
-        <wearable>
-            <wearNode amount="0.003367"/>
-        </wearable>
-        <fillUnit>
-            <unit index="1" fillType="DIESEL" fillLevel="79.716446"/>
-        </fillUnit>
-        <drivable cruiseControl="121.000000"/>
-        <attacherJoints comboDirection="-1"/>
-        <tensionBelts>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-            <belt isActive="false"/>
-        </tensionBelts>
-        <foldable foldAnimTime="0.000000"/>
-    </vehicle>
+<vehicles>
+  <vehicle id="1" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="1" propertyState="1" operatingTime="130.933853">
+    <component1 position="716.3439 154.9231 -631.5254" rotation="1.1028 -1.2187 0.2357"/>
+    <configuration name="baseMaterial" id="18"/>
+    <configuration name="motor" id="1"/>
+    <configuration name="wheel" id="1"/>
+    <configuration name="fillUnit" id="1"/>
+    <configuration name="tensionBelts" id="1"/>
+    <boughtConfiguration name="baseMaterial" id="18"/>
+    <boughtConfiguration name="baseMaterial" id="3"/>
+    <boughtConfiguration name="motor" id="1"/>
+    <boughtConfiguration name="wheel" id="1"/>
+    <boughtConfiguration name="fillUnit" id="1"/>
+    <boughtConfiguration name="tensionBelts" id="1"/>
+    <washable>
+      <dirtNode amount="0.009510"/>
+      <dirtNode amount="0.029330"/>
+      <dirtNode amount="0.030924"/>
+      <dirtNode amount="0.032519"/>
+      <dirtNode amount="0.034341"/>
+    </washable>
+    <wearable>
+      <wearNode amount="0.001783"/>
+    </wearable>
+    <fillUnit>
+      <unit index="1" fillType="DIESEL" fillLevel="79.849037"/>
+    </fillUnit>
+    <drivable cruiseControl="121.000000"/>
+    <attacherJoints comboDirection="-1"/>
+    <tensionBelts>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+    </tensionBelts>
+    <foldable foldAnimTime="0.000000"/>
+  </vehicle>
+  <vehicle id="2" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="2" propertyState="1" operatingTime="156.432404">
+    <component1 position="-259.1691 154.9246 -97.1309" rotation="-0.2980 86.1030 -0.3053"/>
+    <configuration name="baseMaterial" id="22"/>
+    <configuration name="motor" id="1"/>
+    <configuration name="wheel" id="1"/>
+    <configuration name="fillUnit" id="1"/>
+    <configuration name="tensionBelts" id="1"/>
+    <boughtConfiguration name="baseMaterial" id="22"/>
+    <boughtConfiguration name="baseMaterial" id="3"/>
+    <boughtConfiguration name="motor" id="1"/>
+    <boughtConfiguration name="wheel" id="1"/>
+    <boughtConfiguration name="fillUnit" id="1"/>
+    <boughtConfiguration name="tensionBelts" id="1"/>
+    <washable>
+      <dirtNode amount="0.011119"/>
+      <dirtNode amount="0.011119"/>
+      <dirtNode amount="0.011119"/>
+      <dirtNode amount="0.011119"/>
+      <dirtNode amount="0.011119"/>
+    </washable>
+    <wearable>
+      <wearNode amount="0.002085"/>
+    </wearable>
+    <fillUnit>
+      <unit index="1" fillType="DIESEL" fillLevel="79.782440"/>
+    </fillUnit>
+    <drivable cruiseControl="121.000000"/>
+    <attacherJoints comboDirection="-1"/>
+    <tensionBelts>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+    </tensionBelts>
+    <foldable foldAnimTime="0.000000"/>
+  </vehicle>
+  <vehicle id="3" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="3" propertyState="1" operatingTime="103.173004">
+    <component1 position="-113.1321 154.9658 -149.0502" rotation="179.7241 88.7836 179.9518"/>
+    <configuration name="baseMaterial" id="20"/>
+    <configuration name="motor" id="1"/>
+    <configuration name="wheel" id="1"/>
+    <configuration name="fillUnit" id="1"/>
+    <configuration name="tensionBelts" id="1"/>
+    <boughtConfiguration name="baseMaterial" id="20"/>
+    <boughtConfiguration name="baseMaterial" id="3"/>
+    <boughtConfiguration name="motor" id="1"/>
+    <boughtConfiguration name="wheel" id="1"/>
+    <boughtConfiguration name="fillUnit" id="1"/>
+    <boughtConfiguration name="tensionBelts" id="1"/>
+    <washable>
+      <dirtNode amount="0.006851"/>
+      <dirtNode amount="0.006851"/>
+      <dirtNode amount="0.006851"/>
+      <dirtNode amount="0.006851"/>
+      <dirtNode amount="0.006851"/>
+    </washable>
+    <wearable>
+      <wearNode amount="0.001285"/>
+    </wearable>
+    <fillUnit>
+      <unit index="1" fillType="DIESEL" fillLevel="79.847305"/>
+    </fillUnit>
+    <drivable cruiseControl="121.000000"/>
+    <attacherJoints comboDirection="-1"/>
+    <tensionBelts>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+    </tensionBelts>
+    <foldable foldAnimTime="0.000000"/>
+  </vehicle>
+  <vehicle id="4" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="4" propertyState="1" operatingTime="177.390442">
+    <component1 position="375.5240 154.9658 29.0556" rotation="179.7716 0.2890 -179.9995"/>
+    <configuration name="baseMaterial" id="9"/>
+    <configuration name="motor" id="1"/>
+    <configuration name="wheel" id="1"/>
+    <configuration name="fillUnit" id="1"/>
+    <configuration name="tensionBelts" id="1"/>
+    <boughtConfiguration name="baseMaterial" id="9"/>
+    <boughtConfiguration name="baseMaterial" id="3"/>
+    <boughtConfiguration name="motor" id="1"/>
+    <boughtConfiguration name="wheel" id="1"/>
+    <boughtConfiguration name="fillUnit" id="1"/>
+    <boughtConfiguration name="tensionBelts" id="1"/>
+    <washable>
+      <dirtNode amount="0.013851"/>
+      <dirtNode amount="0.117701"/>
+      <dirtNode amount="0.107405"/>
+      <dirtNode amount="0.114471"/>
+      <dirtNode amount="0.105332"/>
+    </washable>
+    <wearable>
+      <wearNode amount="0.002597"/>
+    </wearable>
+    <fillUnit>
+      <unit index="1" fillType="DIESEL" fillLevel="79.792046"/>
+    </fillUnit>
+    <drivable cruiseControl="121.000000"/>
+    <attacherJoints comboDirection="-1"/>
+    <tensionBelts>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+    </tensionBelts>
+    <foldable foldAnimTime="0.000000"/>
+  </vehicle>
+  <vehicle id="5" filename="data/vehicles/lizard/pickup1978/pickup1978.xml" isAbsolute="true" age="0.000000" price="31000.000000" farmId="5" propertyState="1" operatingTime="262.257599">
+    <component1 position="-258.3323 154.9658 426.9555" rotation="179.7716 -3.0030 -179.9999"/>
+    <configuration name="baseMaterial" id="12"/>
+    <configuration name="motor" id="1"/>
+    <configuration name="wheel" id="1"/>
+    <configuration name="fillUnit" id="1"/>
+    <configuration name="tensionBelts" id="1"/>
+    <boughtConfiguration name="baseMaterial" id="12"/>
+    <boughtConfiguration name="baseMaterial" id="3"/>
+    <boughtConfiguration name="motor" id="1"/>
+    <boughtConfiguration name="wheel" id="1"/>
+    <boughtConfiguration name="fillUnit" id="1"/>
+    <boughtConfiguration name="tensionBelts" id="1"/>
+    <washable>
+      <dirtNode amount="0.017956"/>
+      <dirtNode amount="0.347330"/>
+      <dirtNode amount="0.349930"/>
+      <dirtNode amount="0.345086"/>
+      <dirtNode amount="0.349942"/>
+    </washable>
+    <wearable>
+      <wearNode amount="0.003367"/>
+    </wearable>
+    <fillUnit>
+      <unit index="1" fillType="DIESEL" fillLevel="79.716446"/>
+    </fillUnit>
+    <drivable cruiseControl="121.000000"/>
+    <attacherJoints comboDirection="-1"/>
+    <tensionBelts>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+      <belt isActive="false"/>
+    </tensionBelts>
+    <foldable foldAnimTime="0.000000"/>
+  </vehicle>
 </vehicles>

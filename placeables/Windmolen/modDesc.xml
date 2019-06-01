@@ -33,7 +33,7 @@ Unterhaltskosten: 1000 € / Tag]]>
 	</description>
 	
 	<iconFilename>icon_windmuehle.png</iconFilename>
-	<multiplayer supported="true" />
+	<multiplayer supported="true"/>
 
 	<l10n>
 		<text name="shopItem_Windmuehle">
