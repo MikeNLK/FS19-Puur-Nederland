@@ -25,7 +25,7 @@
 
   <bga>
     <bunker>
-      <unloadingStation node="0|0" stationName="$l10n_puurNederland_placeable_biogas" appearsOnPDA="true" appearsOnStats="true" storageRadius="0" hotspotTextOffset="0px 0px">
+      <unloadingStation node="0|0" stationName="$l10n_puurNederland_placeable_biogas" appearsOnPDA="false" appearsOnStats="true" storageRadius="0" hotspotTextOffset="0px 0px">
         <unloadTrigger exactFillRootNode="0" baleTriggerNode="1"/>
       </unloadingStation>
 
