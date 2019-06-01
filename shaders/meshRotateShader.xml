@@ -9,7 +9,7 @@
         </Variation>
     </Variations>
     <Parameters>
-        <Parameter name = "rotationSpeed" target = "rotationSpeed" type = "float4" defaultValue = "0.0 1.0 0.0 1.0" />
+        <Parameter name = "rotationSpeed" target = "rotationSpeed" type = "float4" defaultValue = "0.0 1.0 0.0 1.0"/>
     </Parameters>
     <LodLevel startDistance="0">
         <CodeInjections>

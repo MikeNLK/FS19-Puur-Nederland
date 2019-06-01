@@ -2,8 +2,8 @@
 
 <CustomShader version="4">
     <Parameters>
-        <Parameter name="fadeInOutStartEnd"     target="fadeInOutStartEnd"  type="float4" defaultValue="-5 0 70 75" />
-        <Parameter name="frequencyAndScale"     target="frequencyAndScale"  type="float3" defaultValue="0.3 0.2 0 0" />
+        <Parameter name="fadeInOutStartEnd"     target="fadeInOutStartEnd"  type="float4" defaultValue="-5 0 70 75"/>
+        <Parameter name="frequencyAndScale"     target="frequencyAndScale"  type="float3" defaultValue="0.3 0.2 0 0"/>
         <Parameter name="plantRotate"           target="plantRotate"        type="float4" defaultValue="0.4363 1.57 0.0 0.0" minValue = "-6.0 -6.0 0.0 0.0"        maxValue = "6.0 6.0 1.0 1.0"/>
         <Parameter name="cellSizeTerrainSizeScaleXZScaleY" target="cellSizeTerrainSizeScaleXZScaleY" type="float4"/>
     </Parameters>

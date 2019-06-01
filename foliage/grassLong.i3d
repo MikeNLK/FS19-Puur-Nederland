@@ -3,15 +3,15 @@
 <i3D name="grassLong" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
 
   <Files>
-    <File fileId="1" filename="grassLong_diffuse.png" />
-    <File fileId="4" filename="grassLong03LOD_diffuse_H.png" />
-    <File fileId="5" filename="grassLong03LOD_normal_H.png" />
-    <File fileId="7" filename="grassLong02LOD_normal_H.png" />
-    <File fileId="6" filename="grassLong02LOD_diffuse_H.png" />
-    <File fileId="8" filename="grassLong01LOD_diffuse_H.png" />
-    <File fileId="9" filename="grassLong01LOD_normal_H.png" />
-    <File fileId="3" filename="../maps/mapUS/grassFlowers_color.png" />
-    <File fileId="2" filename="../shaders/fruitGrowthFoliageShader.xml" />
+    <File fileId="1" filename="grassLong_diffuse.png"/>
+    <File fileId="4" filename="grassLong03LOD_diffuse_H.png"/>
+    <File fileId="5" filename="grassLong03LOD_normal_H.png"/>
+    <File fileId="7" filename="grassLong02LOD_normal_H.png"/>
+    <File fileId="6" filename="grassLong02LOD_diffuse_H.png"/>
+    <File fileId="8" filename="grassLong01LOD_diffuse_H.png"/>
+    <File fileId="9" filename="grassLong01LOD_normal_H.png"/>
+    <File fileId="3" filename="../maps/mapUS/grassFlowers_color.png"/>
+    <File fileId="2" filename="../shaders/fruitGrowthFoliageShader.xml"/>
   </Files>
 
   <Materials>

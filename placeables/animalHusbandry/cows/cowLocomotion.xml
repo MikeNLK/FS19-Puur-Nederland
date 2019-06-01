@@ -6,5 +6,5 @@
 		<maxForce>0.01</maxForce>
 		<maxSpeed>0.05</maxSpeed>
 	</steering>
-	<animation filename="cowAnimation.xml" />
+	<animation filename="cowAnimation.xml"/>
 </locomotion>

@@ -39,7 +39,7 @@
         <Texture name = "mArraySpecular" group="base"  type = "2dArray" defaultColorProfile = "linearRGB" defaultFilename = "$data/shared/detailArray_specular.png"/>
         <Texture name = "mArrayNormal"   group="base"  type = "2dArray" defaultColorProfile = "linearRGB" defaultFilename = "$data/shared/detailArray_normal.png"/>
         <Texture name = "mArrayDiffuse"  group="base"  type = "2dArray" defaultColorProfile = "sRGB"      defaultFilename = "$data/shared/detailArray_diffuse.png"/>
-        <Texture name = "mTrackArray"    group="track" type = "2dArray" defaultColorProfile = "linearRGB" />
+        <Texture name = "mTrackArray"    group="track" type = "2dArray" defaultColorProfile = "linearRGB"/>
     </Textures>
     <VertexAttributes>
         <VertexAttribute name="uv1"   group="uv1"/>

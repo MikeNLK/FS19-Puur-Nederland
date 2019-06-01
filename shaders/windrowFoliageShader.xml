@@ -2,7 +2,7 @@
 
 <CustomShader version="4">
     <Parameters>
-        <Parameter name="alphaBlendStartEnd" target="alphaBlendStartEnd" type="float3" defaultValue="70 75 0 0" />
+        <Parameter name="alphaBlendStartEnd" target="alphaBlendStartEnd" type="float3" defaultValue="70 75 0 0"/>
         <Parameter name="cellSizeTerrainSizeScaleXZScaleY" target="cellSizeTerrainSizeScaleXZScaleY" type="float4"/>
     </Parameters>
     <VertexAttributes>
