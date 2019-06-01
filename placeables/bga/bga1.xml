@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
-    <storeData>
-        <name>$l10n_production_biogas</name>
-        <image>$data/store/store_empty.dds</image>
-        <price>1</price>
-        <canBeSold>false</canBeSold>
-        <showInStore>false</showInStore>
-        <dailyUpkeep>0</dailyUpkeep>
-        <lifetime>1000</lifetime>
-        <rotation>0</rotation>
-        <brand>LIZARD</brand>
-        <species>placeable</species>
-        <category>placeableMisc</category>
-        <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
-        <textureMemoryUsage>0</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
-    </storeData>
+  <storeData>
+    <name>$l10n_puurNederland_placeable_biogas</name>
+    <image>$data/store/store_empty.dds</image>
+    <price>1</price>
+    <canBeSold>false</canBeSold>
+    <showInStore>false</showInStore>
+    <dailyUpkeep>0</dailyUpkeep>
+    <lifetime>1000</lifetime>
+    <rotation>0</rotation>
+    <brand>LIZARD</brand>
+    <species>placeable</species>
+    <category>placeableMisc</category>
+    <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+    <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+    <textureMemoryUsage>0</textureMemoryUsage>
+    <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+    <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+  </storeData>
 
-    <placeableType>bgaPlaceable</placeableType>
-    <filename>placeables/bga/bga1.i3d</filename>
-    <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
+  <placeableType>bgaPlaceable</placeableType>
+  <filename>placeables/bga/bga1.i3d</filename>
+  <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true"/>
 
-    <bga>
+  <bga>
+    <bunker>
+      <unloadingStation node="0|0" stationName="$l10n_puurNederland_placeable_biogas" appearsOnPDA="true" appearsOnStats="true" storageRadius="0" hotspotTextOffset="0px 0px">
+        <unloadTrigger exactFillRootNode="0" baleTriggerNode="1"/>
+      </unloadingStation>
 
-        <bunker>
-            <unloadingStation node="0|0" stationName="$l10n_production_biogas" appearsOnPDA="true" appearsOnStats="true" storageRadius="0" hotspotTextOffset="0px 0px">
-                <unloadTrigger exactFillRootNode="0" baleTriggerNode="1"/>
-            </unloadingStation>
+      <slot capacity="50000" litersPerSecond="2">
+        <fillType fillTypes="silage" scale="0.4" pricePerLiter="0.1"/>
+        <fillType fillTypes="grass_windrow dryGrass_windrow potato sugarBeet" scale="0.2" pricePerLiter="0.044"/>
+        <fillType fillTypes="manure" scale="0.4" pricePerLiter="0.05"/>
+        <display baseNode="0|1"/>
+      </slot>
 
-            <slot capacity="50000" litersPerSecond="2" >
-                <fillType fillTypes="silage" scale="0.4" pricePerLiter="0.1"/>
-                <fillType fillTypes="grass_windrow dryGrass_windrow potato sugarBeet" scale="0.2" pricePerLiter="0.044"/>
-                <fillType fillTypes="manure" scale="0.4" pricePerLiter="0.05"/>
-                <display baseNode="0|1" />
-            </slot>
-			
-            <slot capacity="500000" litersPerSecond="3">
-                <fillType fillTypes="liquidManure" scale="0.3" pricePerLiter="0.05"/>
-				 <display baseNode="0|4" />
-            </slot>
-        </bunker>
+      <slot capacity="500000" litersPerSecond="3">
+        <fillType fillTypes="liquidManure" scale="0.3" pricePerLiter="0.05"/>
+        <display baseNode="0|4"/>
+      </slot>
+    </bunker>
 
-        <digestateSilo>
-            <loadingStation node="1|0" stationName="$l10n_production_biogas" appearsOnPDA="false" storageRadius="50" fillSoundIdentifier="fillSound01">
-                <loadTrigger triggerNode="0" fillLitersPerSecond="2000" dischargeNode="1" />
-            </loadingStation>
-            <storages>
-                <storage node="1|1" fillTypes="DIGESTATE" capacityPerFillType="800000" />
-            </storages>
-        </digestateSilo>
+    <digestateSilo>
+      <loadingStation node="1|0" stationName="$l10n_puurNederland_placeable_biogas" appearsOnPDA="false" storageRadius="50" fillSoundIdentifier="fillSound01">
+        <loadTrigger triggerNode="0" fillLitersPerSecond="2000" dischargeNode="1"/>
+      </loadingStation>
+      <storages>
+        <storage node="1|1" fillTypes="DIGESTATE" capacityPerFillType="800000"/>
+      </storages>
+    </digestateSilo>
 
-        <sounds>
-            <work file="$data/sounds/maps/details/shared/biogas_loop.wav" linkNode="0|2" innerRadius="10" outerRadius="50" loops="0" fadeIn="0.5" fadeOut="0.7" />
-        </sounds>
-    </bga>
+    <sounds>
+      <work file="$data/sounds/maps/details/shared/biogas_loop.wav" linkNode="0|2" innerRadius="10" outerRadius="50" loops="0" fadeIn="0.5" fadeOut="0.7"/>
+    </sounds>
+  </bga>
 
-    <dayNightObjects>
-        <dayNightObject node="0|3" visibleDay="false" visibleNight="true" />
-    </dayNightObjects>
+  <dayNightObjects>
+    <dayNightObject node="0|3" visibleDay="false" visibleNight="true"/>
+  </dayNightObjects>
 
 </placeable>

@@ -1,46 +1,41 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
-    <storeData>
-        <name>
-            <en>Vehicle Workshop</en>
-			<de>Werkstatt</de>
-			<nl>Voertuig werkplaats</nl>
-			<fr>Atelier de véhicule</fr>
-		</name>
-        <image>data/placeables/mapDE/store_sellingStationVehicles.png</image>
-        <price>48800</price>
-        <functions>
-            <function>$l10n_function_workshop</function>
-        </functions>
-        <canBeSold>false</canBeSold>
-        <showInStore>false</showInStore>
-        <lifetime>1000</lifetime>
-        <rotation>0</rotation>
-        <brand>LIZARD</brand>
-        <species>placeable</species>
-        <category>placeableMisc</category>
-        <vertexBufferMemoryUsage>57008</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>5334</indexBufferMemoryUsage>
-        <textureMemoryUsage>10443000</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
-    </storeData>
-    <placeableType>workshop</placeableType>
-    <filename>placeables/mapDE/sellingStationVehicles/Werkstatt.i3d</filename>
-	
-    <placement testSizeX="7.5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true"/>
-	
-    <tipOcclusionUpdateArea sizeX="8" sizeZ="11"/>
-	
-    <sellingPoint playerTriggerNode="1" iconNode="1|0" sellTriggerNode="0" ownWorkshop="true"/>
-	
-    <clearAreas>
-        <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>
-    </clearAreas>
-	
-    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
-        <levelAreas>
-            <levelArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1" groundType="asphalt"/>
-        </levelAreas>
-    </leveling>
+  <storeData>
+    <name>$l10n_shopItem_workshop</name>
+    <image>data/placeables/mapDE/store_sellingStationVehicles.png</image>
+    <price>48800</price>
+    <functions>
+      <function>$l10n_function_workshop</function>
+    </functions>
+    <canBeSold>false</canBeSold>
+    <showInStore>false</showInStore>
+    <lifetime>1000</lifetime>
+    <rotation>0</rotation>
+    <brand>LIZARD</brand>
+    <species>placeable</species>
+    <category>placeableMisc</category>
+    <vertexBufferMemoryUsage>57008</vertexBufferMemoryUsage>
+    <indexBufferMemoryUsage>5334</indexBufferMemoryUsage>
+    <textureMemoryUsage>10443000</textureMemoryUsage>
+    <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+    <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+  </storeData>
+  <placeableType>workshop</placeableType>
+  <filename>placeables/mapDE/sellingStationVehicles/Werkstatt.i3d</filename>
+
+  <placement testSizeX="7.5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true"/>
+
+  <tipOcclusionUpdateArea sizeX="8" sizeZ="11"/>
+
+  <sellingPoint playerTriggerNode="1" iconNode="1|0" sellTriggerNode="0" ownWorkshop="true"/>
+
+  <clearAreas>
+    <clearArea startNode="2|0" widthNode="2|0|0" heightNode="2|0|1"/>
+  </clearAreas>
+
+  <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30">
+    <levelAreas>
+      <levelArea startNode="3|0" widthNode="3|0|0" heightNode="3|0|1" groundType="asphalt"/>
+    </levelAreas>
+  </leveling>
 </placeable>

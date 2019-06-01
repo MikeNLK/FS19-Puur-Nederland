@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<l10n>
+  <texts>
+    <text name="puurNederland_modTitle" text="Reine Niederlande von Mike-Modding"/>
+    <text name="puurNederland_modDesc" text="Willkommen auf Reine Niederlande."/>
+    <text name="puurNederland_mapDesc" text="Die Basis der Karte ist eine schöne niederländische Landschaft. Es gibt hier fünf Tierbetriebe: |1.BGA & Viehzucht, 2.Milchvieh & Hühnerfarm, 3.Schweinemast, 4.Pferdegestüt, 5.Schafhof|"/>
+
+    <text name="puurNederland_hotspot_biogas" text="BGA"/>
+    <text name="puurNederland_hotspot_biogas_cow" text="BGA & Viehzucht"/>
+    <text name="puurNederland_hotspot_buildingPlot" text="Baugrundstück"/>
+    <text name="puurNederland_hotspot_chicken" text="Hühnerfarm"/>
+    <text name="puurNederland_hotspot_contractingCompany" text="Lohnunternehmen"/>
+    <text name="puurNederland_hotspot_cow" text="Milchvieh"/>
+    <text name="puurNederland_hotspot_cow_chicken" text="Milchvieh & Hühnerfarm"/>
+    <text name="puurNederland_hotspot_earthFruitStorage" text="Erdfrüchtelager"/>
+    <text name="puurNederland_hotspot_flour" text="Getreidemühle"/>
+    <text name="puurNederland_hotspot_horse" text="Pferdegestüt"/>
+    <text name="puurNederland_hotspot_pig" text="Schweinemast"/>
+    <text name="puurNederland_hotspot_potato" text="Kartoffelhof"/>
+    <text name="puurNederland_hotspot_sheep" text="Schafhof"/>
+    <text name="puurNederland_hotspot_wool" text="Wolleankauf"/>
+
+    <text name="puurNederland_husbandry_chicken" text="Hühnerfarm"/>
+    <text name="puurNederland_husbandry_cow" text="Milchvieh"/>
+    <text name="puurNederland_husbandry_horse" text="Zuchtpferde"/>
+    <text name="puurNederland_husbandry_pig" text="Schweinemast"/>
+    <text name="puurNederland_husbandry_sheep" text="Schafhof"/>
+
+    <text name="puurNederland_placeable_albertheijn" text="Albert Heijn Shop"/>
+    <text name="puurNederland_placeable_balesStation" text="Ballenverkauf"/>
+    <text name="puurNederland_placeable_biogas" text="BGA"/>
+    <text name="puurNederland_placeable_compositeHall4" text="Maschinenhalle 4 Tore"/>
+    <text name="puurNederland_placeable_compositeHall5" text="Maschinenhalle 5 Tore"/>
+    <text name="puurNederland_placeable_crops" text="Getreideverkauf"/>
+    <text name="puurNederland_placeable_fertilizer" text="Düngerverkauf"/>
+    <text name="puurNederland_placeable_gardenCenter" text="Gartencenter"/>
+    <text name="puurNederland_placeable_gasStationDiesel" text="Dieseltank"/>
+    <text name="puurNederland_placeable_grainmill" text="Getreidemühle"/>
+    <text name="puurNederland_placeable_milkStation" text="Milchverkauf"/>
+    <text name="puurNederland_placeable_mill" text="Mühle"/>
+    <text name="puurNederland_placeable_rootcrops" text="Wurzelgemüseverkauf"/>
+    <text name="puurNederland_placeable_seeds" text="Saatgutverkauf"/>
+    <text name="puurNederland_placeable_shedMedium" text="Ballenschuppen mit zwei Wänden (Mittel)"/>
+    <text name="puurNederland_placeable_shedLarge" text="Ballenschuppen mit zwei Wänden (Groß)"/>
+    <text name="puurNederland_placeable_supermarket" text="Dorfladen"/>
+    <text name="puurNederland_placeable_vehicleStation" text="Fahrzeughändler"/>
+    <text name="puurNederland_placeable_windmill" text="Windmühle"/>
+
+    <text name="puurNederland_input_OPEN_ROLLUPDOOR" text="Rolltor öffnen"/>
+    <text name="puurNederland_input_CLOSE_ROLLUPDOOR" text="Rolltor schließen"/>
+    <text name="puurNederland_input_OPEN_STABLEGUTTER" text="Stallgosse öffnen"/>
+    <text name="puurNederland_input_CLOSE_STABLEGUTTER" text="Stallgosse schließen"/>
+    <text name="puurNederland_input_TOGGLE_GATE" text="Tor öffnen/schließen"/>
+    <text name="puurNederland_input_TOGGLE_COVER" text="Deckel öffnen/schließen"/>
+
+    <text name="puurNederland_fillType_carrot" text="Karotten"/>
+    <text name="puurNederland_fillType_carrot_haulm" text="Karottenkraut"/>
+    <text name="puurNederland_fillType_onion" text="Zwiebeln"/>
+    <text name="puurNederland_fillType_beetroot" text="Rote Beete"/>
+    <text name="puurNederland_fillType_beetroot_haulm" text="Rote-Beete-Kraut"/>
+
+    <text name="puurNederland_shopItem_holsteinCattle" text="Holstein-Rind"/>
+    <text name="puurNederland_shopItem_holsteinCalf" text="Holstein-Kalb"/>
+
+    <text name="puurNederland_closedText_treatmentPlant" text="Geschlossen, Öffnungszeiten: 6:00 - 18:00 Uhr"/>
+    <text name="puurNederland_closedText_cornerShop" text="Geschlossen, Öffnungszeiten: 8:00 - 20:00 Uhr"/>
+
+    <!-- <text name="puurNederland_KEYNAME" text="TRANSLATION"/> -->
+  </texts>
+</l10n>

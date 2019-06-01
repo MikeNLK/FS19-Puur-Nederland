@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
     <storeData>
-        <name>shopItem_sellingStationVehicles</name>
+        <name>$l10n_puurNederland_placeable_vehicleStation</name>
         <image>data/placeables/mapDE/store_sellingStationVehicles.png</image>
         <price>1</price>
         <canBeSold>false</canBeSold>
@@ -20,8 +20,8 @@
 
     <placeableType>workshop</placeableType>
     <filename>placeables/mapDE/sellingStationVehicles/sellingStationVehicles.i3d</filename>
-    <placement testSizeX="7.5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true" />
-    
-    <sellingPoint playerTriggerNode="1" iconNode="1|0" sellTriggerNode="0" ownWorkshop="false" />
-    
+    <placement testSizeX="7.5" testSizeZ="10" sizeX="3" sizeZ="3" useRandomYRotation="false" useManualYRotation="true"/>
+
+    <sellingPoint playerTriggerNode="1" iconNode="1|0" sellTriggerNode="0" ownWorkshop="false"/>
+
 </placeable>

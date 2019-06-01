@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable>
 	<storeData>
-		<name>$l10n_shopItem_Windmuehle</name>
+		<name>$l10n_puurNederland_placeable_windmill</name>
 		<specs>
 			<capacity unit="$l10n_unit_kw">500</capacity>
 		</specs>
@@ -11,8 +11,8 @@
 		<functions>
 			<function>$l10n_function_powerGenerator</function>
 		</functions>
-        <canBeSold>false</canBeSold>
-        <showInStore>false</showInStore>
+		<canBeSold>false</canBeSold>
+		<showInStore>false</showInStore>
 		<lifetime>1000</lifetime>
 		<rotation>0</rotation>
 		<brand>LIZARD</brand>
@@ -28,15 +28,15 @@
 	<placeableType>placeable</placeableType>
 
 	<filename>placeables/Windmolen/Windmuehle.i3d</filename>
-	
-	<placement testSizeX="4" testSizeZ="4" sizeX="2" sizeZ="2" useRandomYRotation="true" useManualYRotation="true" />
+
+	<placement testSizeX="4" testSizeZ="4" sizeX="2" sizeZ="2" useRandomYRotation="true" useManualYRotation="true"/>
 
 	<dayNightObjects>
-		<dayNightObject node="0|3" visibleDay="true" visibleNight="false" />
-		<dayNightObject node="0|4" visibleDay="false" visibleNight="true" />
+		<dayNightObject node="0|3" visibleDay="true" visibleNight="false"/>
+		<dayNightObject node="0|4" visibleDay="false" visibleNight="true"/>
 	</dayNightObjects>
 
-	<tipOcclusionUpdateArea sizeX="3" sizeZ="3" />
+	<tipOcclusionUpdateArea sizeX="3" sizeZ="3"/>
 
 	<incomePerHour1>750</incomePerHour1>
 	<incomePerHour2>650</incomePerHour2>
@@ -46,7 +46,7 @@
 		<clearArea startNode="2|0" widthNode="2|1" heightNode="2|2"/>
 	</clearAreas>
 
-	<leveling requireLeveling="true" maxSmoothDistance="4" maxSlope="30" maxEdgeAngle="30" >
+	<leveling requireLeveling="true" maxSmoothDistance="4" maxSlope="30" maxEdgeAngle="30">
 		<levelAreas>
 			<levelArea startNode="3|0" widthNode="3|1" heightNode="3|2" groundType="grass"/>
 		</levelAreas>
