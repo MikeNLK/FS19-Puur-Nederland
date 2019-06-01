@@ -37,7 +37,7 @@
     <hotspot name="PigRoofed_01" fullName="$l10n_puurNederland_hotspot_pig" xMapPos="-117" zMapPos="-154" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 8 240 240"/>
     <hotspot name="SheepRoofed_01" fullName="$l10n_puurNederland_hotspot_sheep" xMapPos="-253" zMapPos="447" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 264 240 240"/>
     <!-- Farms -->
-    <hotspot name="FarmBGA" fullName="$l10n_puurNederland_hotspot_biogas_cow" xMapPos="724" zMapPos="-630" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
+    <hotspot name="FarmBGA" fullName="$l10n_puurNederland_hotspot_biogas_cow" xMapPos="724" zMapPos="-630" hotspotTextOffset="0px 0px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
     <hotspot name="FarmCowChicken" fullName="$l10n_puurNederland_hotspot_cow_chicken" xMapPos="-249" zMapPos="-90" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
     <hotspot name="FarmPotato" fullName="$l10n_puurNederland_hotspot_potato" xMapPos="-90" zMapPos="-746" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
     <hotspot name="FarmEarthFruitStorage" fullName="$l10n_puurNederland_hotspot_earthFruitStorage" xMapPos="-31" zMapPos="187" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
