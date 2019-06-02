@@ -1,4 +1,5 @@
-# FS19-Puur-Nederland
+# Puur Nederland
+### by Mike-Modding.com
 
 Download the EditorConfig plugin for your editor [here](https://editorconfig.org/#download).
 
