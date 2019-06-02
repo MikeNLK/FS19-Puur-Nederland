@@ -4,14 +4,10 @@
   <filename>$data/placeables/mapDE/sellingStationGeneric/sellingStationGeneric.i3d</filename>
   <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true"/>
 
-  <sellingStation stationName="$l10n_puurNederland_placeable_albertheijn" appearsOnPDA="false" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48" hotspotTextOffset="0px 36px">
+  <sellingStation stationName="$l10n_puurNederland_placeable_albertheijn" appearsOnPDA="true" storageRadius="0" litersForFullPriceDrop="100000" fullPriceRecoverHours="48" hotspotTextOffset="0px 36px">
     <unloadTrigger exactFillRootNode="0|0|0|0|0" baleTriggerNode="0|0|0|0|1"/>
     <fillType name="egg" priceScale="1.3" supportsGreatDemand="true" disablePriceDrop="false"/>
   </sellingStation>
-
-  <hotspots>
-    <hotspot name="sellingStation" fullName="$l10n_puurNederland_placeable_albertheijn" imageName="SELLING_POINT" hidable="true" linkNode="0" category="CATEGORY_TRIGGERS"/>
-  </hotspots>
 
   <storeData>
     <name>$l10n_puurNederland_placeable_albertheijn</name>

@@ -298,7 +298,7 @@
     position="388.5220 154.9960 -144.2840" rotation="0 0 0"
   />
 
-  <item filename="data/placeables/mapDE/sellingStationWool/sellingStationWool.xml"
+  <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationWool.xml"
     mapBoundId="sellingStationWool"
     className="SellingStationPlaceable"
     position="135.5220 154.9960 -16.9540" rotation="180 0 -180"
