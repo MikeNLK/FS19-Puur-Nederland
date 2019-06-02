@@ -25,6 +25,7 @@
 
   <hotspots>
     <!-- Generic Map Markers -->
+    <hotspot name="VehicleShop" fullName="$l10n_map_shop" xMapPos="391" zMapPos="-346" showName="true" category="CATEGORY_TRIGGERS" imageUVs="264 8 240 240"/>
     <hotspot name="AnimalsShop" fullName="$l10n_animals_dealer" xMapPos="387" zMapPos="-185.5" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 8 240 240"/>
     <hotspot name="GasStation_01" fullName="$l10n_shopItem_gasStation" xMapPos="-291" zMapPos="-145" showName="false" category="CATEGORY_TRIGGERS" imageUVs="8 520 240 240"/>
     <!-- Animal Husbandries -->
