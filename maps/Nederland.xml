@@ -31,19 +31,19 @@
     <!-- Animal Husbandries -->
     <hotspot name="CowSmall_01" fullName="$l10n_animalPen_cow" xMapPos="-637" zMapPos="-208" showName="true" category="CATEGORY_TRIGGERS" imageUVs="553 353 174 174"/>
     <hotspot name="CowLarge_01" fullName="$l10n_animalPen_cow2" xMapPos="661" zMapPos="-684" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="553 353 174 174"/>
-    <hotspot name="CowRoofed_01" fullName="$l10n_puurNederland_hotspot_cow" xMapPos="-211" zMapPos="-159" showName="false" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240"/>
-    <hotspot name="CowRoofed_02" fullName="$l10n_puurNederland_hotspot_cow" xMapPos="694" zMapPos="-718" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240"/>
-    <hotspot name="Chicken_01" fullName="$l10n_puurNederland_hotspot_chicken" xMapPos="-278" zMapPos="-204" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="41 353 174 174"/>
-    <hotspot name="HorseRoofed_01" fullName="$l10n_puurNederland_hotspot_horse" xMapPos="369" zMapPos="3" showName="true" category="CATEGORY_TRIGGERS" imageUVs="264 264 240 240"/>
-    <hotspot name="PigRoofed_01" fullName="$l10n_puurNederland_hotspot_pig" xMapPos="-117" zMapPos="-154" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 8 240 240"/>
-    <hotspot name="SheepRoofed_01" fullName="$l10n_puurNederland_hotspot_sheep" xMapPos="-253" zMapPos="447" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 264 240 240"/>
+    <hotspot name="CowRoofed_01" fullName="Milchvieh" xMapPos="-211" zMapPos="-159" showName="false" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240"/>
+    <hotspot name="CowRoofed_02" fullName="Milchvieh" xMapPos="694" zMapPos="-718" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="520 264 240 240"/>
+    <hotspot name="Chicken_01" fullName="Hühnerfarm" xMapPos="-278" zMapPos="-204" hotspotTextOffset="0px 36px" showName="false" category="CATEGORY_TRIGGERS" imageUVs="41 353 174 174"/>
+    <hotspot name="HorseRoofed_01" fullName="Pferdegestüt" xMapPos="369" zMapPos="3" showName="true" category="CATEGORY_TRIGGERS" imageUVs="264 264 240 240"/>
+    <hotspot name="PigRoofed_01" fullName="Schweinemast" xMapPos="-117" zMapPos="-154" hotspotTextOffset="0px 36px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 8 240 240"/>
+    <hotspot name="SheepRoofed_01" fullName="Schafhof" xMapPos="-253" zMapPos="447" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 264 240 240"/>
     <!-- Farms -->
-    <hotspot name="FarmBGA" fullName="$l10n_puurNederland_hotspot_biogas_cow" xMapPos="724" zMapPos="-630" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
-    <hotspot name="FarmCowChicken" fullName="$l10n_puurNederland_hotspot_cow_chicken" xMapPos="-249" zMapPos="-90" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
-    <hotspot name="FarmPotato" fullName="$l10n_puurNederland_hotspot_potato" xMapPos="-90" zMapPos="-746" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
-    <hotspot name="FarmEarthFruitStorage" fullName="$l10n_puurNederland_hotspot_earthFruitStorage" xMapPos="-31" zMapPos="187" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
-    <hotspot name="FarmContractor" fullName="$l10n_puurNederland_hotspot_contractingCompany" xMapPos="-472" zMapPos="40" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 520 240 240"/>
-    <hotspot name="FarmBuildingPlot" fullName="$l10n_puurNederland_hotspot_buildingPlot" xMapPos="-814" zMapPos="-832" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="8 776 240 240"/>
+    <hotspot name="FarmBGA" fullName="BGA & Viehzucht" xMapPos="724" zMapPos="-630" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
+    <hotspot name="FarmCowChicken" fullName="Milchvieh & Hühnerfarm" xMapPos="-249" zMapPos="-90" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
+    <hotspot name="FarmPotato" fullName="Kartoffelhof" xMapPos="-90" zMapPos="-746" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
+    <hotspot name="FarmEarthFruitStorage" fullName="Erdfrüchtelager" xMapPos="-31" zMapPos="187" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="520 520 240 240"/>
+    <hotspot name="FarmContractor" fullName="Lohnunternehmen" xMapPos="-472" zMapPos="40" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="776 520 240 240"/>
+    <hotspot name="FarmBuildingPlot" fullName="Baugrundstück" xMapPos="-814" zMapPos="-832" hotspotTextOffset="0px 0px" showName="true" category="CATEGORY_TRIGGERS" imageUVs="8 776 240 240"/>
   </hotspots>
 
   <additionalFiles>
