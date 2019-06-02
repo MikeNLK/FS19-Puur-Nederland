@@ -26,7 +26,7 @@
   <!-- FARMSILOS -->
   <!-- ##################################################################### -->
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/farmSilos/SiloPuurNederlands.xml"
-    farmId="1" mapBoundId="farmSilos"
+    mapBoundId="farmSilos"
     className="SiloPlaceable"
     position="-10.8310 154.2700 57.1120" rotation="0 0 0"
   />
@@ -35,19 +35,19 @@
   <!-- WORKSHOPS -->
   <!-- ##################################################################### -->
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/sellingStationVehicles/Werkstatt.xml"
-    farmId="1" mapBoundId="sellingStationVehicles1"
+    mapBoundId="sellingStationVehicles1"
     className="Workshop"
     position="-281.3950 155.0090 -133.8440" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/sellingStationVehicles/Werkstatt.xml"
-    farmId="1" mapBoundId="sellingStationVehicles2"
+    mapBoundId="sellingStationVehicles2"
     className="Workshop"
     position="727.5200 155.0170 -649.6940" rotation="180 -90 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/sellingStationVehicles/sellingStationVehicles.xml"
-    farmId="1" mapBoundId="sellingStationVehicles3"
+    mapBoundId="sellingStationVehicles3"
     className="Workshop"
     position="422.7180 155.0040 -350.7300" rotation="0 -90 0"
   />
@@ -56,63 +56,63 @@
   <!-- ANIMAL HUSBANDRIES -->
   <!-- ##################################################################### -->
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowSmall.xml"
-    farmId="1" mapBoundId="husbandryCowSmall"
+    mapBoundId="husbandryCowSmall"
     className="AnimalHusbandry"
     position="-215.5300 155.0020 -123.9550" rotation="0 -90 0"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowSmall2.xml"
-    farmId="1" mapBoundId="husbandryCowSmall2"
+    mapBoundId="husbandryCowSmall2"
     className="AnimalHusbandry"
     position="649.4250 154.4620 -712.2540" rotation="180 -90 180"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryPigSmall.xml"
-    farmId="1" mapBoundId="husbandryPigSmall"
+    mapBoundId="husbandryPigSmall"
     className="AnimalHusbandry"
     position="-103.7280 155 -181.9520" rotation="-180 0 -180"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryPigSmall2.xml"
-    farmId="1" mapBoundId="husbandryPigSmall2"
+    mapBoundId="husbandryPigSmall2"
     className="AnimalHusbandry"
     position="-130.7130 155 -181.9520" rotation="-180 0 -180"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryHorseSmall.xml"
-    farmId="1" mapBoundId="husbandryHorseSmall"
+    mapBoundId="husbandryHorseSmall"
     className="AnimalHusbandry"
     position="374.1440 155 -13.3040" rotation="0 0 0"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandrySheepLarge.xml"
-    farmId="1" mapBoundId="husbandrySheepLarge"
+    mapBoundId="husbandrySheepLarge"
     className="AnimalHusbandry"
     position="-273.0510 155 436.3820" rotation="-180 -90 -180"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryChickenLarge.xml"
-    farmId="1" mapBoundId="husbandryChickenLarge"
+    mapBoundId="husbandryChickenLarge"
     className="AnimalHusbandry"
     position="-272.6140 154.9840 -213.9970" rotation="0 0 0"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowLarge.xml"
-    farmId="1" mapBoundId="husbandryCowLarge"
+    mapBoundId="husbandryCowLarge"
     className="AnimalHusbandry"
     position="725.5980 154.9920 -717.0210" rotation="0 -90 0"
     globalProductionFactor="0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/animalHusbandry/husbandryCowLarge2.xml"
-    farmId="1" mapBoundId="husbandryCowLarge2"
+    mapBoundId="husbandryCowLarge2"
     className="AnimalHusbandry"
     position="-643.7460 154.9900 -167.8270" rotation="0 0 0"
     globalProductionFactor="0"
@@ -122,79 +122,79 @@
   <!-- BUYING STATIONS -->
   <!-- ##################################################################### -->
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/rootcrops.xml"
-    farmId="1" mapBoundId="zaadkopenRootcrops"
+    mapBoundId="zaadkopenRootcrops"
     className="BuyingStationPlaceable"
     position="259.5110 155.0160 -244.8090" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/limeStation.xml"
-    farmId="1" mapBoundId="zaadkopenLimeStation"
+    mapBoundId="zaadkopenLimeStation"
     className="BuyingStationPlaceable"
     position="433.1310 154.8250 -139.1630" rotation="0 90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/Seeds.xml"
-    farmId="1" mapBoundId="zaadkopenSeeds"
+    mapBoundId="zaadkopenSeeds"
     className="BuyingStationPlaceable"
     position="264.6680 155.0160 -244.8090" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/Crops.xml"
-    farmId="1" mapBoundId="zaadkopenCrops"
+    mapBoundId="zaadkopenCrops"
     className="BuyingStationPlaceable"
     position="255.2890 155.0160 -244.8090" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/Zaadkopen/Fertilizer.xml"
-    farmId="1" mapBoundId="zaadkopenFertilizer"
+    mapBoundId="zaadkopenFertilizer"
     className="BuyingStationPlaceable"
     position="268.5940 155.0160 -244.8090" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/gasStation/gasStation01.xml"
-    farmId="1" mapBoundId="gasStation1"
+    mapBoundId="gasStation1"
     className="BuyingStationPlaceable"
     position="-294.5020 155.0650 -145.8330" rotation="180 90 180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/gasStation/gasStation02.xml"
-    farmId="1" mapBoundId="gasStation2"
+    mapBoundId="gasStation2"
     className="BuyingStationPlaceable"
     position="-643.1940 155 -544.8240" rotation="-180 -90 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/mapDE/gasStation/gasStation03.xml"
-    farmId="1" mapBoundId="gasStation3"
+    mapBoundId="gasStation3"
     className="BuyingStationPlaceable"
     position="469.9660 155.0650 -24.4370" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml"
-    farmId="1" mapBoundId="waterTank1"
+    mapBoundId="waterTank1"
     className="BuyingStationPlaceable"
     position="-266.8140 154.9960 -162.4580" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml"
-    farmId="1" mapBoundId="waterTank2"
+    mapBoundId="waterTank2"
     className="BuyingStationPlaceable"
     position="390.8860 154.9960 13.7760" rotation="-180 -46.8270 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml"
-    farmId="1" mapBoundId="waterTank3"
+    mapBoundId="waterTank3"
     className="BuyingStationPlaceable"
     position="772.2380 154.9960 -673.9950" rotation="0 -90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml"
-    farmId="1" mapBoundId="waterTank4"
+    mapBoundId="waterTank4"
     className="BuyingStationPlaceable"
     position="-86.8820 154.9960 -155.7460" rotation="0 -90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/waterTank/waterTank.xml"
-    farmId="1" mapBoundId="waterTank5"
+    mapBoundId="waterTank5"
     className="BuyingStationPlaceable"
     position="-256.3530 154.9960 432.2270" rotation="0 90 0"
   />
@@ -203,13 +203,13 @@
   <!-- BIOGAS STATIONS -->
   <!-- ##################################################################### -->
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/bga/bga.xml"
-    farmId="1" mapBoundId="bga"
+    mapBoundId="bga"
     className="BgaPlaceable"
     position="322.3920 154.9960 323.9720" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/bga/bga1.xml"
-    farmId="1" mapBoundId="bga1"
+    mapBoundId="bga1"
     className="BgaPlaceable"
     position="657.3760 155 -666.1830" rotation="180 -64.0020 -180"
   />
@@ -218,25 +218,25 @@
   <!-- BUNKERSILOS -->
   <!-- ##################################################################### -->
   <item filename="data/placeables/bunkerSilo/bunkerSiloSmall.xml"
-    farmId="1" mapBoundId="bunkerSiloSmall"
+    mapBoundId="bunkerSiloSmall"
     className="BunkerSiloPlaceable"
     position="-695.0030 154.9700 -184.9140" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/bunkerSilo/bunkerSiloMedium.xml"
-    farmId="1" mapBoundId="bunkerSiloMedium"
+    mapBoundId="bunkerSiloMedium"
     className="BunkerSiloPlaceable"
     position="320.3340 153.5740 380.3320" rotation="0 0 0"
   />
 
   <item filename="data/placeables/bunkerSilo/bunkerSiloLargeDouble.xml"
-    farmId="1" mapBoundId="bunkerSiloLargeDouble1"
+    mapBoundId="bunkerSiloLargeDouble1"
     className="BunkerSiloPlaceable"
     position="-358.7900 154.8320 -105.3720" rotation="-180 90 -180"
   />
 
   <item filename="data/placeables/bunkerSilo/bunkerSiloLargeDouble.xml"
-    farmId="1" mapBoundId="bunkerSiloLargeDouble2"
+    mapBoundId="bunkerSiloLargeDouble2"
     className="BunkerSiloPlaceable"
     position="732.1230 154.8320 -674.5670" rotation="-180 90 -180"
   />
@@ -245,67 +245,67 @@
   <!-- SELLING STATIONS -->
   <!-- ##################################################################### -->
   <item filename="data/placeables/mapDE/sellingStationWood/sellingStationWood.xml"
-    farmId="1" mapBoundId="sellingStationWood"
+    mapBoundId="sellingStationWood"
     className="WoodSellStationPlaceable"
     position="-730.1560 155 -337.4540" rotation="-180 -89.8110 180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationAlbertHeijnShop.xml"
-    farmId="1" mapBoundId="sellingStationAlbertHeijnShop"
+    mapBoundId="sellingStationAlbertHeijnShop"
     className="SellingStationPlaceable"
     position="126.8810 154.7100 -14.4850" rotation="0 90 0"
   />
 
   <item filename="data/placeables/mapDE/sellingStationWoodChips/sellingStationWoodChips.xml"
-    farmId="1" mapBoundId="sellingStationWoodChips"
+    mapBoundId="sellingStationWoodChips"
     className="SellingStationPlaceable"
     position="-743.3390 155 -335.7350" rotation="0 17.9400 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationSuperMarket.xml"
-    farmId="1" mapBoundId="sellingStationSuperMarket"
+    mapBoundId="sellingStationSuperMarket"
     className="SellingStationPlaceable"
     position="-546.3270 154.6600 -686.9160" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationGrainMill.xml"
-    farmId="1" mapBoundId="sellingStationGrainMill"
+    mapBoundId="sellingStationGrainMill"
     className="SellingStationPlaceable"
     position="500.5690 154.7700 -812.5560" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationMill.xml"
-    farmId="1" mapBoundId="sellingStationMill"
+    mapBoundId="sellingStationMill"
     className="SellingStationPlaceable"
     position="-591.4280 154.8200 -686.9160" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationBales.xml"
-    farmId="1" mapBoundId="sellingStationBales"
+    mapBoundId="sellingStationBales"
     className="SellingStationPlaceable"
     position="402.3120 154.9960 -148.4670" rotation="180 90 180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationGrainhandel.xml"
-    farmId="1" mapBoundId="sellingStationGrainhandel"
+    mapBoundId="sellingStationGrainhandel"
     className="SellingStationPlaceable"
     position="233.8710 154.7100 -261.1150" rotation="0 0 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationGardenCenter.xml"
-    farmId="1" mapBoundId="sellingStationGardenCenter"
+    mapBoundId="sellingStationGardenCenter"
     className="SellingStationPlaceable"
     position="388.5220 154.9960 -144.2840" rotation="0 0 0"
   />
 
   <item filename="data/placeables/mapDE/sellingStationWool/sellingStationWool.xml"
-    farmId="1" mapBoundId="sellingStationWool"
+    mapBoundId="sellingStationWool"
     className="SellingStationPlaceable"
     position="135.5220 154.9960 -16.9540" rotation="180 0 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/sellingStation/sellingStationMilkhandel.xml"
-    farmId="1" mapBoundId="sellingStationMilkhandel"
+    mapBoundId="sellingStationMilkhandel"
     className="SellingStationPlaceable"
     position="234.5380 154.7100 -220.9350" rotation="0 0 0"
   />
@@ -314,19 +314,19 @@
   <!-- HIGH PRESSURE WASHERS -->
   <!-- ######################################################################################################### -->
   <item filename="data/placeables/highPressureWasher/kaercher/kaercherHDS918-4M.xml"
-    farmId="1" mapBoundId="highPressureWasher1"
+    mapBoundId="highPressureWasher1"
     className="HighPressureWasher"
     position="467.4280 154.9961 -49.2890" rotation="180.0000 30.9802 180.0000"
   />
 
   <item filename="data/placeables/highPressureWasher/kaercher/kaercherHDS918-4M.xml"
-    farmId="1" mapBoundId="highPressureWasher2"
+    mapBoundId="highPressureWasher2"
     className="HighPressureWasher"
     position="696.9680 154.9922 -699.8670" rotation="180.0000 -56.5022 180.0000"
   />
 
   <item filename="data/placeables/highPressureWasher/kaercher/kaercherHDS918-4M.xml"
-    farmId="1" mapBoundId="highPressureWasher3"
+    mapBoundId="highPressureWasher3"
     className="HighPressureWasher"
     position="-258.4530 154.9841 -215.6180" rotation="-0.0002 -22.1528 -0.4476"
   />
@@ -335,73 +335,73 @@
   <!-- MISC PLACEABLES -->
   <!-- ######################################################################################################### -->
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/baleShed/shed2.xml"
-    farmId="1" mapBoundId="baleShed1"
+    mapBoundId="baleShed1"
     className="Placeable"
     position="407.6270 154.9960 -38.5970" rotation="-180 0 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/baleShed/shed3.xml"
-    farmId="1" mapBoundId="baleShed2"
+    mapBoundId="baleShed2"
     className="Placeable"
     position="-342.7690 155.0040 -146.0560" rotation="-180 -90 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/Windmolen/Windmuehle.xml"
-    farmId="1" mapBoundId="windmolen1"
+    mapBoundId="windmolen1"
     className="Placeable"
     position="-302.3630 155 607.7550" rotation="-180 7.5260 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/Windmolen/Windmuehle.xml"
-    farmId="1" mapBoundId="windmolen2"
+    mapBoundId="windmolen2"
     className="Placeable"
     position="-259.1590 155 569.5370" rotation="-180 7.5260 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/Windmolen/Windmuehle.xml"
-    farmId="1" mapBoundId="windmolen3"
+    mapBoundId="windmolen3"
     className="Placeable"
     position="-247.0720 155 629.3170" rotation="-180 7.5260 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_lettuce.xml"
-    farmId="1" mapBoundId="greenhouseLettuce1"
+    mapBoundId="greenhouseLettuce1"
     className="Placeable"
     position="352.7710 154.9960 -78.9780" rotation="0 -90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_lettuce.xml"
-    farmId="1" mapBoundId="greenhouseLettuce2"
+    mapBoundId="greenhouseLettuce2"
     className="Placeable"
     position="352.7710 154.9960 -63.1520" rotation="0 -90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_tomatoes.xml"
-    farmId="1" mapBoundId="greenhouseTomatoes1"
+    mapBoundId="greenhouseTomatoes1"
     className="Placeable"
     position="389.9010 154.9960 -78.9620" rotation="0 -90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/greenhouse/greenhouse_tomatoes.xml"
-    farmId="1" mapBoundId="greenhouseTomatoes2"
+    mapBoundId="greenhouseTomatoes2"
     className="Placeable"
     position="389.9010 154.9960 -63.1520" rotation="0 -90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/compositeHallPack/compositeHall5.xml"
-    farmId="1" mapBoundId="compositeHall1"
+    mapBoundId="compositeHall1"
     className="Placeable"
     position="341.4420 154.9960 284.0490" rotation="0 -90 0"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/compositeHallPack/compositeHall5.xml"
-    farmId="1" mapBoundId="compositeHall2"
+    mapBoundId="compositeHall2"
     className="Placeable"
     position="-609.0510 154.9960 -627.0710" rotation="-180 90 -180"
   />
 
   <item filename="$moddir$FS19_Puur_Nederland_byMikeModding/placeables/compositeHallPack/compositeHall4.xml"
-    farmId="1" mapBoundId="compositeHall3"
+    mapBoundId="compositeHall3"
     className="Placeable"
     position="-340.0240 154.9560 -176.9020" rotation="-180 0 -180"
   />
