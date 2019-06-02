@@ -29,19 +29,20 @@
   </inputBindings>
 
   <storeItems>
+    <storeItem xmlFilename="placeables/Windmolen/Windmuehle.xml"/>
     <storeItem xmlFilename="placeables/animalHusbandry/husbandryChickenLarge.xml"/>
-    <storeItem xmlFilename="placeables/animalHusbandry/husbandryCowSmall.xml"/>
-    <storeItem xmlFilename="placeables/animalHusbandry/husbandryCowSmall2.xml"/>
-    <storeItem xmlFilename="placeables/animalHusbandry/husbandryCowLarge.xml"/>
     <storeItem xmlFilename="placeables/animalHusbandry/husbandryCowLarge2.xml"/>
+    <storeItem xmlFilename="placeables/animalHusbandry/husbandryCowLarge.xml"/>
+    <storeItem xmlFilename="placeables/animalHusbandry/husbandryCowSmall2.xml"/>
+    <storeItem xmlFilename="placeables/animalHusbandry/husbandryCowSmall.xml"/>
     <storeItem xmlFilename="placeables/animalHusbandry/husbandryHorseSmall.xml"/>
-    <storeItem xmlFilename="placeables/animalHusbandry/husbandryPigSmall.xml"/>
     <storeItem xmlFilename="placeables/animalHusbandry/husbandryPigSmall2.xml"/>
+    <storeItem xmlFilename="placeables/animalHusbandry/husbandryPigSmall.xml"/>
     <storeItem xmlFilename="placeables/animalHusbandry/husbandrySheepLarge.xml"/>
     <storeItem xmlFilename="placeables/baleShed/shed2.xml"/>
     <storeItem xmlFilename="placeables/baleShed/shed3.xml"/>
-    <storeItem xmlFilename="placeables/bga/bga.xml"/>
     <storeItem xmlFilename="placeables/bga/bga1.xml"/>
+    <storeItem xmlFilename="placeables/bga/bga.xml"/>
     <storeItem xmlFilename="placeables/bunkerSilo/bunkerSiloMedium.xml"/>
     <storeItem xmlFilename="placeables/compositeHallPack/compositeHall4.xml"/>
     <storeItem xmlFilename="placeables/compositeHallPack/compositeHall5.xml"/>
@@ -49,24 +50,24 @@
     <storeItem xmlFilename="placeables/farmSilos/SiloPuurNederlands.xml"/>
     <storeItem xmlFilename="placeables/greenhouse/greenhouse_lettuce.xml"/>
     <storeItem xmlFilename="placeables/greenhouse/greenhouse_tomatoes.xml"/>
+    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/Crops.xml"/>
+    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/Fertilizer.xml"/>
+    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/Seeds.xml"/>
+    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/rootcrops.xml"/>
     <storeItem xmlFilename="placeables/mapDE/gasStation/gasStation01.xml"/>
     <storeItem xmlFilename="placeables/mapDE/gasStation/gasStation02.xml"/>
     <storeItem xmlFilename="placeables/mapDE/gasStation/gasStation03.xml"/>
-    <storeItem xmlFilename="placeables/mapDE/sellingStationBales/sellingStationBales.xml"/>
     <storeItem xmlFilename="placeables/mapDE/sellingStationVehicles/Werkstatt.xml"/>
-    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/Crops.xml"/>
-    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/Fertilizer.xml"/>
-    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/rootcrops.xml"/>
-    <storeItem xmlFilename="placeables/mapDE/Zaadkopen/Seeds.xml"/>
+    <storeItem xmlFilename="placeables/mapDE/sellingStationVehicles/sellingStationVehicles.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/limeStation.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationAlbertHeijnShop.xml"/>
+    <storeItem xmlFilename="placeables/sellingStation/sellingStationBales.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationGardenCenter.xml"/>
-    <storeItem xmlFilename="placeables/sellingStation/sellingStationGrainhandel.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationGrainMill.xml"/>
+    <storeItem xmlFilename="placeables/sellingStation/sellingStationGrainhandel.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationMilkhandel.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationMill.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationSuperMarket.xml"/>
     <storeItem xmlFilename="placeables/waterTank/waterTank.xml"/>
-    <storeItem xmlFilename="placeables/Windmolen/Windmuehle.xml"/>
   </storeItems>
 </modDesc>
