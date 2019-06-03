@@ -329,7 +329,7 @@
           <AudioSource name="church_bell12" translation="92.627 166.995 -128.849" rotation="-180 -81.264 180" nodeId="73025" fileId="79" range="350" innerRange="40" volume="1" loops="1"/>
           <AudioSource name="church_bell18" translation="93.4411 166.995 -130.392" rotation="180 -41.4897 180" nodeId="73027" fileId="78" range="350" innerRange="40" volume="1" loops="1" color="1 0 1"/>
           <AudioSource name="car_alarm" translation="428.48 154.996 -312.2" rotation="-180 -62.2147 -180" nodeId="73029" fileId="80" range="200" innerRange="100" volume="0.3" loops="1" color="1 0 1"/>
-          <AudioSource name="Kuhweide" translation="918.072 122.958 -18.1552" nodeId="73031" fileId="81" range="90" innerRange="85" volume="1" loops="0"/>
+          <!-- <AudioSource name="Kuhweide" translation="918.072 122.958 -18.1552" nodeId="73031" fileId="81" range="90" innerRange="85" volume="1" loops="0"/> -->
           <AudioSource name="Kuhweide" translation="1612.18 120.156 1767.5" nodeId="73033" fileId="81" range="80" innerRange="75" volume="1" loops="0"/>
           <AudioSource name="Kuhweide" translation="1562.16 117.962 1879.92" nodeId="73035" fileId="81" range="50" innerRange="45" volume="1" loops="0"/>
           <AudioSource name="Kuhweide" translation="1700.01 121.454 -501.374" rotation="0 -20.1649 0" nodeId="73037" fileId="81" range="30" innerRange="35" volume="1" loops="0"/>
