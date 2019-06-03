@@ -4,6 +4,7 @@
     <name>$l10n_puurNederland_husbandry_horse</name>
     <image>$data/placeables/animalHusbandry/store_husbandryHorseSmall.png</image>
     <price>50000</price>
+    <boughtWithFarmland>true</boughtWithFarmland>
     <functions>
       <function>$l10n_function_animalPenHorse</function>
     </functions>

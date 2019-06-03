@@ -12,11 +12,11 @@
 
 
   <Materials>
-    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
-    </Material>
-    <Material name="wheatBottom_mat" materialId="4">
+    <Material name="wheatBottom_mat" materialId="5">
       <Texture fileId="2"/>
       <Normalmap fileId="3"/>
+    </Material>
+    <Material name="lambert1" materialId="4" diffuseColor="0.494118 0.494118 0.494118 1">
     </Material>
   </Materials>
 
@@ -34,18 +34,18 @@
         <TransformGroup name="IN" translation="-19.2124 1.13424 24.6235" scale="1.29602 1 2" nodeId="14">
           <TransformGroup name="unloadingStation" nodeId="15">
             <TransformGroup name="unloadingTriggers" nodeId="16">
-              <Shape shapeId="1" name="exactFillRootNode" translation="1.07488 -0.45 -11" static="true" collisionMask="1073741824" nodeId="17" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="1" name="exactFillRootNode" translation="1.07488 -0.45 -11" static="true" collisionMask="1073741824" nodeId="17" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
             </TransformGroup>
           </TransformGroup>
         </TransformGroup>
         <TransformGroup name="OUT" translation="-17.6281 0.444434 11.5772" nodeId="18">
           <TransformGroup name="loadingStation" translation="-0.602514 -1.27131 -1.473" rotation="180 3.03843 -180" nodeId="19">
             <TransformGroup name="loadingTriggers" nodeId="20">
-              <Shape shapeId="2" name="loadingTrigger" translation="0.131211 10.6604 9.80701" scale="1 2.42622 1" static="true" trigger="true" collisionMask="1073741824" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="2" name="loadingTrigger" translation="0.131211 10.6604 9.80701" scale="1 2.42622 1" static="true" trigger="true" collisionMask="1073741824" nodeId="21" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
               <TransformGroup name="dischargeNode" translation="0 5 10" nodeId="22"/>
               <TransformGroup name="dischargeEffect" translation="0 5 10" nodeId="23">
-                <Shape shapeId="3" name="pipeEffect" translation="0.133057 1.92819 -0.213487" rotation="90 0 0" scale="0.6 0.6 0.624935" clipDistance="300" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="4" name="pipeEffectSmoke" translation="0.0640156 -3.80133 -0.182424" clipDistance="100" nodeId="25" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="pipeEffect" translation="0.133057 1.92819 -0.213487" rotation="90 0 0" scale="0.6 0.6 0.624935" clipDistance="300" nodeId="24" materialIds="4" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="4" name="pipeEffectSmoke" translation="0.0640156 -3.80133 -0.182424" clipDistance="100" nodeId="25" materialIds="4" castsShadows="true" receiveShadows="true"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
@@ -59,8 +59,7 @@
           <TransformGroup name="height" translation="0 0 9.5402" nodeId="31"/>
         </TransformGroup>
       </TransformGroup>
-      <Shape shapeId="5" name="sellingStationGenericGrainPlane" translation="-17.9498 0.336993 0.52846" clipDistance="100" nodeId="32" materialIds="4" castsShadows="true" receiveShadows="true"/>
-      <Shape shapeId="5" name="sellingStationGenericGrainPlane" translation="-17.9498 -3.1204 6.82793" clipDistance="100" nodeId="33" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+      <Shape shapeId="5" name="sellingStationGenericGrainPlane" translation="-17.9498 0.336993 0.52846" clipDistance="100" nodeId="32" materialIds="5" castsShadows="true" receiveShadows="true"/>
     </TransformGroup>
   </Scene>
 

@@ -2,6 +2,7 @@
 <placeable>
   <storeData>
     <name>$l10n_puurNederland_placeable_compositeHall4</name>
+    <boughtWithFarmland>true</boughtWithFarmland>
     <functions>
       <function>$l10n_function_machineshed</function>
     </functions>

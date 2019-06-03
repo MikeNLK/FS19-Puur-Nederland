@@ -4,6 +4,7 @@
     <name>$l10n_puurNederland_husbandry_cow</name>
     <image>placeables/animalHusbandry/store.png</image>
     <price>100000</price>
+    <boughtWithFarmland>true</boughtWithFarmland>
     <functions>
       <function>$l10n_function_animalPenCow</function>
     </functions>
@@ -42,11 +43,11 @@
     <triggerMarker node="0|14"/>
   </triggerMarkers>
 
-  <husbandry saveId="Animals_HOLSTEIN" hasStatistics="false">
+  <husbandry saveId="Animals_COW" hasStatistics="false">
     <modules>
       <module name="animals">
         <config
-          type="HOLSTEIN"
+          type="COW"
           navmeshNode="0|8"
           animalLoadTriggerNode="0|0"
           maxNumAnimals="500"

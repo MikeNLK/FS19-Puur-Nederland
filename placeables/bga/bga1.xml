@@ -3,6 +3,7 @@
   <storeData>
     <name>$l10n_puurNederland_placeable_biogas</name>
     <image>$data/store/store_empty.dds</image>
+    <boughtWithFarmland>true</boughtWithFarmland>
     <price>1</price>
     <canBeSold>false</canBeSold>
     <showInStore>false</showInStore>

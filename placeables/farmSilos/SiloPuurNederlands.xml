@@ -18,26 +18,15 @@
   <storages>
     <storage
       node="0|2"
-      fillTypes="wheat barley oat maize canola potato sugarBeet sugarCane sunflower manure lime seeds pigFood woodChips soybean carrot onion dryGrass_windrow Grass_windrow straw chaff fertilizer silage forage beetroot"
+      fillTypeCategories="bulk"
       capacityPerFillType="1000000"/>
   </storages>
-
-  <hotspots>
-    <hotspot name="silo" fullName="$l10n_station_farmSilo" imageName="SELLING_POINT" hidable="true" linkNode="0|3" category="CATEGORY_TRIGGERS"/>
-  </hotspots>
 
   <storeData>
     <name>$l10n_shopItem_farmSilo</name>
     <image>Nederland_icon.png</image>
-    <dailyUpkeep>40</dailyUpkeep>
-    <functions>
-      <function>$l10n_function_farmSilo</function>
-    </functions>
-    <specs>
-      <capacity>500000</capacity>
-      <fillTypes>wheat barley oat maize canola potato sugarBeet sugarCane sunflower manure lime seeds pigFood woodChips soybean carrot onion dryGrass_windrow Grass_windrow straw chaff fertilizer silage forage beetroot</fillTypes>
-    </specs>
 
+    <boughtWithFarmland>true</boughtWithFarmland>
     <canBeSold>false</canBeSold>
     <showInStore>false</showInStore>
     <brand>LIZARD</brand>

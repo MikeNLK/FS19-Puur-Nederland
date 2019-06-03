@@ -25,7 +25,11 @@
     <animalFoodGroups type="CHICKEN" consumptionType="SERIAL">
       <foodGroup title="$l10n_fillTypeGroup_grain" productionWeight="1.00" fillTypes="WHEAT BARLEY"/>
     </animalFoodGroups>
-    <animalFoodGroups type="HOLSTEIN" consumptionType="SERIAL">
+    <animalFoodGroups type="HOLSTEIN_CALF" consumptionType="SERIAL">
+      <foodGroup title="$l10n_fillTypeGroup_bulk" productionWeight="0.75" fillTypes="DRYGRASS_WINDROW SILAGE"/>
+      <foodGroup title="$l10n_fillTypeGroup_grain" productionWeight="0.25" eatWeight="0.15" fillTypes="WHEAT BARLEY"/>
+    </animalFoodGroups>
+    <animalFoodGroups type="HOLSTEIN_CATTLE" consumptionType="SERIAL">
       <foodGroup title="$l10n_fillTypeGroup_bulk" productionWeight="0.75" fillTypes="DRYGRASS_WINDROW SILAGE"/>
       <foodGroup title="$l10n_fillTypeGroup_grain" productionWeight="0.25" eatWeight="0.25" fillTypes="WHEAT BARLEY"/>
     </animalFoodGroups>

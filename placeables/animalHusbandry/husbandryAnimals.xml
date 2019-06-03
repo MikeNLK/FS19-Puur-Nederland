@@ -143,16 +143,16 @@
   </animal>
 
   <animal type="HOLSTEIN" class="Animal" statsBreeding="breedCowsCount">
-    <subType name="$l10n_puurNederland_shopItem_holsteinCalf" fillTypeName="HOLSTEIN_TYPE_CALF">
-      <store itemName="$l10n_puurNederland_shopItem_holsteinCalf" canBeBought="true" image="placeables/animalHusbandry/cows/store_calfBlackWhite.png" buyPrice="1000" sellPrice="500" transportPrice="100"/>
+    <subType name="Holstein-Kalb" fillTypeName="HOLSTEIN_CALF">
+      <store itemName="Holstein-Kalb" canBeBought="true" image="placeables/animalHusbandry/cows/store_calfBlackWhite.png" buyPrice="1000" sellPrice="500" transportPrice="100"/>
       <input strawPerDay="70" waterPerDay="35" foodPerDay="350"/>
       <output milkPerDay="0" manurePerDay="125" liquidManurePerDay="200" foodSpillagePerDay="20"/>
       <breeding birthRatePerDay="0.06"/>
       <dummy filename="dataS2/character/cow/cowLoaded.i3d"/>
       <texture tileUIndex="2" tileVIndex="2"/>
     </subType>
-    <subType name="$l10n_puurNederland_shopItem_holsteinCattle" fillTypeName="HOLSTEIN_TYPE_CATTLE">
-      <store itemName="$l10n_puurNederland_shopItem_holsteinCattle" canBeBought="true" image="$data/store/animals/cows/store_cowBlackWhite.png" buyPrice="1500" sellPrice="500" transportPrice="100"/>
+    <subType name="Holstein-Rind" fillTypeName="HOLSTEIN_CATTLE">
+      <store itemName="Holstein-Rind" canBeBought="true" image="$data/store/animals/cows/store_cowBlackWhite.png" buyPrice="1500" sellPrice="500" transportPrice="100"/>
       <input strawPerDay="70" waterPerDay="35" foodPerDay="350"/>
       <output milkPerDay="50" manurePerDay="125" liquidManurePerDay="200" foodSpillagePerDay="20"/>
       <breeding birthRatePerDay="0.1"/>

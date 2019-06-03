@@ -177,44 +177,208 @@
       <pallet filename="$data/objects/bigBagContainer/bigBagContainerFertilizer.xml"/>
     </fillType>
 
-    <fillType name="HOLSTEIN_CALF" title="$l10n_puurNederland_shopItem_holsteinCalf" showOnPriceTable="false" pricePerLiter="5000">
-      <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.png" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.png"/>
-      <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0"/>
-    </fillType>
-
-    <fillType name="HOLSTEIN_CATTLE" title="$l10n_puurNederland_shopItem_holsteinCattle" showOnPriceTable="false" pricePerLiter="5000">
-      <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.png" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.png"/>
-      <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0"/>
-    </fillType>
-
-    <fillType name="CARROT" title="$l10n_puurNederland_fillType_carrot" showOnPriceTable="true" pricePerLiter="0.422">
+    <fillType name="CARROT" title="Karotten" showOnPriceTable="true" pricePerLiter="0.422">
       <image hud="maps/newFruits/huds/hud_fill_carrot.png" hudSmall="maps/newFruits/huds/hud_fill_carrot_sml.png"/>
       <physics massPerLiter="0.65" maxPhysicalSurfaceAngle="34"/>
     </fillType>
-    <fillType name="ONION" title="$l10n_puurNederland_fillType_onion" showOnPriceTable="true" pricePerLiter="0.422">
+
+    <fillType name="ONION" title="Zwiebeln" showOnPriceTable="true" pricePerLiter="0.422">
       <image hud="maps/newFruits/huds/hud_fill_onion.png" hudSmall="maps/newFruits/huds/hud_fill_onion_sml.png"/>
       <physics massPerLiter="0.65" maxPhysicalSurfaceAngle="34"/>
     </fillType>
-    <fillType name="BEETROOT" title="$l10n_puurNederland_fillType_beetroot" showOnPriceTable="true" pricePerLiter="0.422">
+
+    <fillType name="BEETROOT" title="Rote Beete" showOnPriceTable="true" pricePerLiter="0.422">
       <image hud="maps/newFruits/huds/hud_fill_beetroot.png" hudSmall="maps/newFruits/huds/hud_fill_beetroot_sml.png"/>
       <physics massPerLiter="0.65" maxPhysicalSurfaceAngle="34"/>
+    </fillType>
+
+    <fillType name="DIGESTATE" title="$l10n_fillType_digestate" showOnPriceTable="false" pricePerLiter="0.033" >
+        <image hud="$dataS2/menu/hud/fillTypes/hud_fill_digestate.png" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_digestate_sml.png" />
+        <physics massPerLiter="0.90" maxPhysicalSurfaceAngle="0" />
+    </fillType>
+
+    <fillType name="HOLSTEIN_CALF" title="$puurNederland_shopItem_holsteinCalf" showOnPriceTable="false" pricePerLiter="5000" >
+        <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.png" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.png" />
+        <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
+    </fillType>
+
+    <fillType name="HOLSTEIN_CATTLE" title="$puurNederland_shopItem_holsteinCattle" showOnPriceTable="false" pricePerLiter="5000" >
+        <image hud="$dataS2/menu/hud/fillTypes/hud_fill_cow.png" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_cow_sml.png" />
+        <physics massPerLiter="600.0" maxPhysicalSurfaceAngle="0" />
     </fillType>
   </fillTypes>
 
   <fillTypeCategories>
-    <fillTypeCategory name="BULK">WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE POTATO SUGARBEET MANURE SEEDS FORAGE FORAGE_MIXING CHAFF WOODCHIPS SILAGE STRAW GRASS_WINDROW DRYGRASS_WINDROW SUGARCANE FERTILIZER PIGFOOD LIME CARROT ONION BEETROOT</fillTypeCategory>
-    <fillTypeCategory name="COMBINE">WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE</fillTypeCategory>
-    <fillTypeCategory name="AUGERWAGON">WHEAT BARLEY OAT CANOLA SOYBEAN SUNFLOWER MAIZE FERTILIZER SEEDS LIME CARROT ONION BEETROOT</fillTypeCategory>
-    <fillTypeCategory name="TRAINWAGON">WHEAT BARLEY OAT CANOLA MAIZE SUNFLOWER SOYBEAN SUGARBEET POTATO CARROT ONION BEETROOT</fillTypeCategory>
-    <fillTypeCategory name="FORAGEHARVESTER">CHAFF GRASS_WINDROW WOODCHIPS DRYGRASS_WINDROW STRAW</fillTypeCategory>
-    <fillTypeCategory name="FARMSILO">WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE POTATO SUGARBEET SUGARCANE CARROT ONION BEETROOT</fillTypeCategory>
-    <fillTypeCategory name="LOADINGVEHICLE">WHEAT BARLEY OAT CANOLA SUNFLOWER SOYBEAN MAIZE SEEDS FORAGE CHAFF WOODCHIPS SILAGE FERTILIZER LIME CARROT ONION BEETROOT</fillTypeCategory>
-    <fillTypeCategory name="ANIMAL">HOLSTEIN COW_TYPE_BRAHMAN_GREY COW_TYPE_BRAHMAN_LIGHT_BROWN COW_TYPE_BRAHMAN_WHITE COW_TYPE_BRAHMAN_BROWN COW_TYPE_BROWN COW_TYPE_BROWN_WHITE COW_TYPE_BLACK COW_TYPE_BLACK_WHITE SHEEP_TYPE_WHITE SHEEP_TYPE_BROWN SHEEP_TYPE_BLACK_WHITE SHEEP_TYPE_BLACK PIG_TYPE_RED PIG_TYPE_WHITE PIG_TYPE_BLACK_WHITE PIG_TYPE_BLACK CHICKEN_TYPE_BLACK CHICKEN_TYPE_WHITE CHICKEN_TYPE_BROWN CHICKEN_TYPE_ROOSTER</fillTypeCategory>
-    <fillTypeCategory name="HORSE">HORSE_TYPE_BEIGE HORSE_TYPE_BLACK HORSE_TYPE_BROWN HORSE_TYPE_BROWN_WHITE HORSE_TYPE_DARK_BROWN HORSE_TYPE_GREY HORSE_TYPE_LIGHT_BROWN HORSE_TYPE_RED_BROWN</fillTypeCategory>
-    <fillTypeCategory name="WINDROW">STRAW DRYGRASS_WINDROW GRASS_WINDROW</fillTypeCategory>
-    <fillTypeCategory name="FORK">MANURE SILAGE CHAFF STRAW GRASS_WINDROW DRYGRASS_WINDROW</fillTypeCategory>
-    <fillTypeCategory name="SILAGETRAILER">STRAW GRASS_WINDROW DRYGRASS_WINDROW CHAFF SILAGE WOODCHIPS SUGARCANE</fillTypeCategory>
-    <fillTypeCategory name="FORAGEWAGON">STRAW GRASS_WINDROW DRYGRASS_WINDROW CHAFF SILAGE</fillTypeCategory>
+    <fillTypeCategory name="BULK">
+      WHEAT
+      BARLEY
+      OAT
+      CANOLA
+      SUNFLOWER
+      SOYBEAN
+      MAIZE
+      POTATO
+      SUGARBEET
+      MANURE
+      SEEDS
+      FORAGE
+      FORAGE_MIXING
+      CHAFF
+      WOODCHIPS
+      SILAGE
+      STRAW
+      GRASS_WINDROW
+      DRYGRASS_WINDROW
+      SUGARCANE
+      FERTILIZER
+      PIGFOOD
+      LIME
+      CARROT
+      ONION
+      BEETROOT
+    </fillTypeCategory>
+    <fillTypeCategory name="COMBINE">
+      WHEAT
+      BARLEY
+      OAT
+      CANOLA
+      SUNFLOWER
+      SOYBEAN
+      MAIZE
+    </fillTypeCategory>
+    <fillTypeCategory name="AUGERWAGON">
+      WHEAT
+      BARLEY
+      OAT
+      CANOLA
+      SOYBEAN
+      SUNFLOWER
+      MAIZE
+      FERTILIZER
+      SEEDS
+      LIME
+      CARROT
+      ONION
+      BEETROOT
+    </fillTypeCategory>
+    <fillTypeCategory name="TRAINWAGON">
+      WHEAT
+      BARLEY
+      OAT
+      CANOLA
+      MAIZE
+      SUNFLOWER
+      SOYBEAN
+      SUGARBEET
+      POTATO
+      CARROT
+      ONION
+      BEETROOT
+    </fillTypeCategory>
+    <fillTypeCategory name="FORAGEHARVESTER">
+      CHAFF
+      GRASS_WINDROW
+      WOODCHIPS
+      DRYGRASS_WINDROW
+      STRAW
+    </fillTypeCategory>
+    <fillTypeCategory name="FARMSILO">
+      WHEAT
+      BARLEY
+      OAT
+      CANOLA
+      SUNFLOWER
+      SOYBEAN
+      MAIZE
+      POTATO
+      SUGARBEET
+      SUGARCANE
+      CARROT
+      ONION
+      BEETROOT
+    </fillTypeCategory>
+    <fillTypeCategory name="LOADINGVEHICLE">
+      WHEAT
+      BARLEY
+      OAT
+      CANOLA
+      SUNFLOWER
+      SOYBEAN
+      MAIZE
+      SEEDS
+      FORAGE
+      CHAFF
+      WOODCHIPS
+      SILAGE
+      FERTILIZER
+      LIME
+      CARROT
+      ONION
+      BEETROOT
+    </fillTypeCategory>
+    <fillTypeCategory name="ANIMAL">
+      COW_TYPE_BRAHMAN_GREY
+      COW_TYPE_BRAHMAN_LIGHT_BROWN
+      COW_TYPE_BRAHMAN_WHITE
+      COW_TYPE_BRAHMAN_BROWN
+      COW_TYPE_BROWN
+      COW_TYPE_BROWN_WHITE
+      COW_TYPE_BLACK
+      COW_TYPE_BLACK_WHITE
+      HOLSTEIN_CALF
+      HOLSTEIN_CATTLE
+      SHEEP_TYPE_WHITE
+      SHEEP_TYPE_BROWN
+      SHEEP_TYPE_BLACK_WHITE
+      SHEEP_TYPE_BLACK
+      PIG_TYPE_RED
+      PIG_TYPE_WHITE
+      PIG_TYPE_BLACK_WHITE
+      PIG_TYPE_BLACK
+      CHICKEN_TYPE_BLACK
+      CHICKEN_TYPE_WHITE
+      CHICKEN_TYPE_BROWN
+      CHICKEN_TYPE_ROOSTER
+    </fillTypeCategory>
+    <fillTypeCategory name="HORSE">
+      HORSE_TYPE_BEIGE
+      HORSE_TYPE_BLACK
+      HORSE_TYPE_BROWN
+      HORSE_TYPE_BROWN_WHITE
+      HORSE_TYPE_DARK_BROWN
+      HORSE_TYPE_GREY
+      HORSE_TYPE_LIGHT_BROWN
+      HORSE_TYPE_RED_BROWN
+    </fillTypeCategory>
+    <fillTypeCategory name="WINDROW">
+      STRAW
+      DRYGRASS_WINDROW
+      GRASS_WINDROW
+    </fillTypeCategory>
+    <fillTypeCategory name="FORK">
+      MANURE
+      SILAGE
+      CHAFF
+      STRAW
+      GRASS_WINDROW
+      DRYGRASS_WINDROW
+    </fillTypeCategory>
+    <fillTypeCategory name="SILAGETRAILER">
+      STRAW
+      GRASS_WINDROW
+      DRYGRASS_WINDROW
+      CHAFF
+      SILAGE
+      WOODCHIPS
+      SUGARCANE
+    </fillTypeCategory>
+    <fillTypeCategory name="FORAGEWAGON">
+      STRAW
+      GRASS_WINDROW
+      DRYGRASS_WINDROW
+      CHAFF
+      SILAGE
+    </fillTypeCategory>
   </fillTypeCategories>
 
   <fillTypeSounds>

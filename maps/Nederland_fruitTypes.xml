@@ -166,7 +166,7 @@
       <mapColors default="0.5395 0.6795 0.3206 1" colorBlind="0.0409 0.1070 0.2016 1"/>
     </fruitType>
 
-    <fruitType name="carrot" title="$l10n_puurNederland_fillType_carrot" shownOnMap="true" useForFieldJob="false">
+    <fruitType name="carrot" title="Karotten" shownOnMap="true" useForFieldJob="false">
       <general startStateChannel="0" numStateChannels="4"/>
       <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.04"/>
       <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" literPerSqm="5.78"/>
@@ -177,7 +177,7 @@
       <mapColors default="0.9939 0.0663 0.0047 1" colorBlind="0.3329 0.4664 0.8911 1"/>
     </fruitType>
 
-    <fruitType name="onion" title="$l10n_puurNederland_fillType_onion" shownOnMap="true" useForFieldJob="false">
+    <fruitType name="onion" title="Zwiebeln" shownOnMap="true" useForFieldJob="false">
       <general startStateChannel="0" numStateChannels="4"/>
       <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.04"/>
       <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" literPerSqm="5.78"/>
@@ -188,7 +188,7 @@
       <mapColors default="0.1339 0.7063 0.6707 1" colorBlind="0.3029 0.4064 0.8011 1"/>
     </fruitType>
 
-    <fruitType name="beetroot" title="$l10n_puurNederland_fillType_beetroot" shownOnMap="true" useForFieldJob="false">
+    <fruitType name="beetroot" title="Rote Beete" shownOnMap="true" useForFieldJob="false">
       <general startStateChannel="0" numStateChannels="4"/>
       <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.14"/>
       <harvest minHarvestingGrowthState="9" maxHarvestingGrowthState="9" cutState="8" allowsPartialGrowthState="false" literPerSqm="3.1"/>

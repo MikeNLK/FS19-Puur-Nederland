@@ -68,6 +68,7 @@
     <storeItem xmlFilename="placeables/sellingStation/sellingStationMilkhandel.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationMill.xml"/>
     <storeItem xmlFilename="placeables/sellingStation/sellingStationSuperMarket.xml"/>
+    <storeItem xmlFilename="placeables/sellingStation/sellingStationWool.xml"/>
     <storeItem xmlFilename="placeables/waterTank/waterTank.xml"/>
   </storeItems>
 </modDesc>
