@@ -2,6 +2,7 @@
 <placeable>
   <storeData>
     <name>$l10n_shopItem_greenhouseLettuce</name>
+    <boughtWithFarmland>true</boughtWithFarmland>
     <canBeSold>false</canBeSold>
     <showInStore>false</showInStore>
     <image>placeables/greenhouse/store_greenhouseLettuce.png</image>
@@ -20,9 +21,9 @@
   <placeableType>greenhouse</placeableType>
   <filename>placeables/greenhouse/greenhouse_lettuce.i3d</filename>
 
-  <incomePerHour1>90</incomePerHour1>
+  <!-- <incomePerHour1>90</incomePerHour1>
   <incomePerHour2>60</incomePerHour2>
-  <incomePerHour3>40</incomePerHour3>
+  <incomePerHour3>40</incomePerHour3> -->
 
   <dayNightObjects>
     <dayNightObject node="2|0|0|0" intensityDay="0" intensityNight="1"/>

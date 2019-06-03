@@ -38,9 +38,9 @@
 
 	<tipOcclusionUpdateArea sizeX="3" sizeZ="3"/>
 
-	<incomePerHour1>750</incomePerHour1>
+	<!-- <incomePerHour1>750</incomePerHour1>
 	<incomePerHour2>650</incomePerHour2>
-	<incomePerHour3>400</incomePerHour3>
+	<incomePerHour3>400</incomePerHour3> -->
 
 	<clearAreas>
 		<clearArea startNode="2|0" widthNode="2|1" heightNode="2|2"/>
