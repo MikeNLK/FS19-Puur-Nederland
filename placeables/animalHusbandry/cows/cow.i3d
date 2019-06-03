@@ -125,5 +125,5 @@
   </Scene>
 
 
-  <Animation externalAnimFile="cow.i3d.anim"/>
+  <Animation externalAnimFile="cow.i3d.anim" />
 </i3D>

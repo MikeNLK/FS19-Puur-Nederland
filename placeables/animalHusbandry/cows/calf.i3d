@@ -118,5 +118,5 @@
   </Scene>
 
 
-  <Animation externalAnimFile="calf.i3d.anim"/>
+  <Animation externalAnimFile="calf.i3d.anim" />
 </i3D>

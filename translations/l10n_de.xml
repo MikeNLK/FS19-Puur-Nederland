@@ -22,6 +22,7 @@
 
     <text name="puurNederland_husbandry_chicken" text="Hühnerfarm"/>
     <text name="puurNederland_husbandry_cow" text="Milchvieh"/>
+    <text name="puurNederland_husbandry_cow_holstein" text="Milchvieh (Holstein)"/>
     <text name="puurNederland_husbandry_horse" text="Zuchtpferde"/>
     <text name="puurNederland_husbandry_pig" text="Schweinemast"/>
     <text name="puurNederland_husbandry_sheep" text="Schafhof"/>
