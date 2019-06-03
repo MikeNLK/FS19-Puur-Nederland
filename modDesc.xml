@@ -22,6 +22,10 @@
     </map>
   </maps>
 
+  <extraSourceFiles>
+    <sourceFile filename="scripts/FixSpectatorFarm.lua" />
+  </extraSourceFiles>
+
   <inputBindings>
     <input name="ANIMATED_OBJECT_OPEN_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_3" mouse="MOUSE_BUTTON_LEFT"/>
     <input name="ANIMATED_OBJECT_CLOSE_DOOR" category="ONFOOT" key1="" key2="" device="0" button="BUTTON_1" mouse="MOUSE_BUTTON_RIGHT"/>
