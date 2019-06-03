@@ -48,7 +48,7 @@
         </config>
       </module>
       <module name="foodSpillage">
-        <config fillType="WHEAT">
+        <config fillTypes="WHEAT BARLEY">
           <area startNode="0|1|0|2|0" widthNode="0|1|0|2|0|0" heightNode="0|1|0|2|0|1"/>
           <area startNode="0|1|0|2|1" widthNode="0|1|0|2|1|0" heightNode="0|1|0|2|1|1"/>
         </config>
