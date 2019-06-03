@@ -56,17 +56,17 @@
           <keyFrame time="1" visibility="true"/>
         </part>
       </animation>
-      <controls triggerNode="4|0" posAction="ACTIVATE_HANDTOOL" posText="action_lightOn" negText="action_lightOut"/>
+      <controls triggerNode="4|0" posAction="ACTIVATE_HANDTOOL" posText="action_turnOnLight" negText="action_turnOffLight"/>
       <sounds>
         <moving file="$data/sounds/ui/uiClick.wav" loops="0" linkNode="4|1" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
       </sounds>
     </animatedObject>
     <!-- <animatedObject saveId="sidedoorLeft" > <animation duration="1.5"> <part node="6|0|1|0"> <keyFrame time="0.0" rotation="0 0 0"/> <keyFrame time="0.06" rotation="0 0 45"/> <keyFrame time="0.1" rotation="0 0 0"/> </part> <part node="6|0|1">
-    <keyFrame time="0.0" rotation="0 0 0"/> <keyFrame time="0.1" rotation="0 0 0"/> <keyFrame time="1.0" rotation="0 120 0"/> </part> </animation> <controls triggerNode="6|0|0" posAction="ACTIVATE_HANDTOOL" posText="action_openSidedoor"
-    negText="action_closeSidedoor"/> <sounds> <moving file="$data/sounds/prefab/gate/gate_loop.wav" loops="0" linkNode="6|0" volume="0.6" radius="25" innerRadius="3" fadeOut="0.25"/> <posEnd file="$data/sounds/prefab/gate/gate_opened.wav" linkNode="6|0"
+    <keyFrame time="0.0" rotation="0 0 0"/> <keyFrame time="0.1" rotation="0 0 0"/> <keyFrame time="1.0" rotation="0 120 0"/> </part> </animation> <controls triggerNode="6|0|0" posAction="ACTIVATE_HANDTOOL" posText="action_openDoor"
+    negText="action_closeDoor"/> <sounds> <moving file="$data/sounds/prefab/gate/gate_loop.wav" loops="0" linkNode="6|0" volume="0.6" radius="25" innerRadius="3" fadeOut="0.25"/> <posEnd file="$data/sounds/prefab/gate/gate_opened.wav" linkNode="6|0"
     volume="0.6" radius="25" innerRadius="3"/> <negEnd file="$data/sounds/prefab/gate/gate_closed.wav" linkNode="6|0" volume="0.6" radius="25" innerRadius="3"/> </sounds> </animatedObject> <animatedObject saveId="sidedoorRight" > <animation
     duration="1.5"> <part node="6|1|1|0"> <keyFrame time="0.0" rotation="0 0 0"/> <keyFrame time="0.06" rotation="0 0 45"/> <keyFrame time="0.1" rotation="0 0 0"/> </part> <part node="6|1|1"> <keyFrame time="0.0" rotation="0 0 0"/> <keyFrame time="0.1"
-    rotation="0 0 0"/> <keyFrame time="1.0" rotation="0 120 0"/> </part> </animation> <controls triggerNode="6|1|0" posAction="ACTIVATE_HANDTOOL" posText="action_openSidedoor" negText="action_closeSidedoor"/> <sounds> <moving
+    rotation="0 0 0"/> <keyFrame time="1.0" rotation="0 120 0"/> </part> </animation> <controls triggerNode="6|1|0" posAction="ACTIVATE_HANDTOOL" posText="action_openDoor" negText="action_closeDoor"/> <sounds> <moving
     file="$data/sounds/prefab/gate/gate_loop.wav" loops="0" linkNode="6|1" volume="0.6" radius="25" innerRadius="3" fadeOut="0.25"/> <posEnd file="$data/sounds/prefab/gate/gate_opened.wav" linkNode="6|1" volume="0.6" radius="25" innerRadius="3"/> <negEnd
     file="$data/sounds/prefab/gate/gate_closed.wav" linkNode="6|1" volume="0.6" radius="25" innerRadius="3"/> </sounds> </animatedObject> -->
     <animatedObject saveId="sectionaldoorLeft">

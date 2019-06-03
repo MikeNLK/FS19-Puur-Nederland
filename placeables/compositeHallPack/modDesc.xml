@@ -39,19 +39,19 @@
             <en>You can store your machines in this shed.</en>
             <de>In dieser Halle kannst du deine Maschinen unterstellen.</de>
         </text>
-		<text name="action_openSidedoor">
+		<text name="action_openDoor">
             <en>open sidedoor</en>
             <de>Seiteneingang öffnen</de>
         </text>
-		<text name="action_closeSidedoor">
+		<text name="action_closeDoor">
             <en>close sidedoor</en>
             <de>Seiteneingang schließen</de>
         </text>
-		<text name="action_lightOn">
+		<text name="action_turnOnLight">
             <en>switch light on</en>
             <de>Licht anschalten</de>
         </text>
-		<text name="action_lightOut">
+		<text name="action_turnOffLight">
             <en>switch light off</en>
             <de>Licht ausschalten</de>
         </text>

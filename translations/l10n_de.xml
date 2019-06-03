@@ -51,8 +51,6 @@
     <text name="puurNederland_input_CLOSE_ROLLUPDOOR" text="Rolltor schließen"/>
     <text name="puurNederland_input_OPEN_STABLEGUTTER" text="Stallgosse öffnen"/>
     <text name="puurNederland_input_CLOSE_STABLEGUTTER" text="Stallgosse schließen"/>
-    <text name="puurNederland_input_TOGGLE_GATE" text="Tor öffnen/schließen"/>
-    <text name="puurNederland_input_TOGGLE_COVER" text="Deckel öffnen/schließen"/>
 
     <text name="puurNederland_fillType_carrot" text="Karotten"/>
     <text name="puurNederland_fillType_carrot_haulm" text="Karottenkraut"/>

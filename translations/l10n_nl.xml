@@ -46,12 +46,10 @@
     <text name="puurNederland_placeable_vehicleStation" text="Autodealer"/>
     <text name="puurNederland_placeable_windmill" text="Windmolen"/>
 
-    <text name="puurNederland_input_OPEN_ROLLUPDOOR" text="Roldeur openen"/>
+    <text name="puurNederland_input_OPEN_ROLLUPDOOR" text="Rolldeur openen"/>
     <text name="puurNederland_input_CLOSE_ROLLUPDOOR" text="Rolldeur sluiten"/>
     <text name="puurNederland_input_OPEN_STABLEGUTTER" text="Open de put"/>
     <text name="puurNederland_input_CLOSE_STABLEGUTTER" text="Sluit de put"/>
-    <text name="puurNederland_input_TOGGLE_GATE" text="Open/sluit poort"/>
-    <text name="puurNederland_input_TOGGLE_COVER" text="Open/sluit het deksel"/>
 
     <text name="puurNederland_fillType_carrot" text="Wortels"/>
     <text name="puurNederland_fillType_carrot_haulm" text="Wortel haulm"/>

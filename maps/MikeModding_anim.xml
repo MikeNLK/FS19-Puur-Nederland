@@ -3,7 +3,7 @@
   <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
   <animatedObject index="Farmhek">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -17,7 +17,7 @@
   </animatedObject>
 
   <animatedObject index="Tor1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -30,7 +30,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tor2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -43,7 +43,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tor3">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -56,7 +56,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tor4">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -69,7 +69,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tor5">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -82,7 +82,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tor6">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -95,7 +95,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tor7">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -109,7 +109,7 @@
   </animatedObject>
 
   <animatedObject index="StallDoor1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/click6.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="1.5">
       <part node="1">
@@ -121,7 +121,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="StallDoor2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/click6.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="1.5">
       <part node="1">
@@ -133,7 +133,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="StallDoor3">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/click6.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="1.5">
       <part node="1">
@@ -145,7 +145,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="StallDoor4">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/click6.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="1.5">
       <part node="1">
@@ -157,7 +157,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="StallDoor5">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/click6.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="1.5">
       <part node="1">
@@ -169,7 +169,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="StallDoor6">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/click6.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="1.5">
       <part node="1">
@@ -182,7 +182,7 @@
   </animatedObject>
 
   <animatedObject index="schiebeDoor03">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="10">
       <part node="1">
@@ -192,7 +192,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="normaleDoor04">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/Door2.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="10">
       <part node="1|0|0">
@@ -211,7 +211,7 @@
   </animatedObject>
 
   <animatedObject index="StalRolldeur1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="10">
       <part node="1">
@@ -221,7 +221,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="StalRolldeur2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/OpenDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="10">
       <part node="1">
@@ -231,7 +231,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Schweinemastbetrieb_Deckel1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_COVER" negText="input_COVER"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openCover" negText="action_closeCover"/>
     <sounds><moving file="maps/sounds/OpenGateDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -241,7 +241,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tuer_stall01">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/Door2.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="2">
       <part node="1">
@@ -251,7 +251,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Tuer_stall02">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/Door2.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="2">
       <part node="1">
@@ -262,7 +262,7 @@
   </animatedObject>
 
   <animatedObject index="Schweinemastbetrieb_Deckel2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_COVER" negText="input_COVER"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openCover" negText="action_closeCover"/>
     <sounds><moving file="maps/sounds/OpenGateDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -273,7 +273,7 @@
   </animatedObject>
 
   <animatedObject index="MH_RT_VO_HI">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -334,7 +334,7 @@
   </animatedObject>
 
   <animatedObject index="doortrigger1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/Door2.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="2">
       <part node="1">
@@ -345,7 +345,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="doortrigger2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/Door2.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="2">
       <part node="1">
@@ -357,7 +357,7 @@
   </animatedObject>
 
   <animatedObject index="Futtergosse1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_STABLEGUTTER" negText="input_ANIMATED_OBJECT_CLOSE_STABLEGUTTER"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_STABLEGUTTER" negText="puurNederland_input_CLOSE_STABLEGUTTER"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="3">
       <part node="1">
@@ -368,7 +368,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Futtergosse2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_STABLEGUTTER" negText="input_ANIMATED_OBJECT_CLOSE_STABLEGUTTER"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_STABLEGUTTER" negText="puurNederland_input_CLOSE_STABLEGUTTER"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
 
     <animation initialTime="0" duration="3">
@@ -381,7 +381,7 @@
   </animatedObject>
 
   <animatedObject index="BiogasRollDoor">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -400,7 +400,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="BiogasRollDoor2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -420,7 +420,7 @@
   </animatedObject>
 
   <animatedObject index="LoonbedrijfRolHek0245">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -440,7 +440,7 @@
   </animatedObject>
 
   <animatedObject index="RollDoorElectric1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -451,7 +451,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="RollDoorElectric2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
 
     <animation initialTime="0" duration="4">
@@ -464,7 +464,7 @@
   </animatedObject>
 
   <animatedObject index="OpslagRollDoor1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -483,7 +483,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="OpslagRollDoor2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -503,7 +503,7 @@
   </animatedObject>
 
   <animatedObject index="rolldoorFront05">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="12">
       <part node="1">
@@ -672,7 +672,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="rollDoorLeft06">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="12">
       <part node="1">
@@ -815,7 +815,7 @@
   </animatedObject>
 
   <animatedObject index="rollDoorRight07">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="12">
       <part node="1">
@@ -957,7 +957,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="rollDoorInsideLeft08">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ROLLDOOR" negText="input_ANIMATED_OBJECT_ROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="12">
       <part node="1">
@@ -1099,7 +1099,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="rollDoorInsideMiddle09">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ROLLDOOR" negText="input_ANIMATED_OBJECT_ROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="12">
       <part node="1">
@@ -1249,7 +1249,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="rollDoorInsideRight10">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ROLLDOOR" negText="input_ANIMATED_OBJECT_ROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="12">
       <part node="1">
@@ -1399,7 +1399,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="littleDoor11">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/Door2.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
 
     <animation initialTime="0" duration="10">
@@ -1424,7 +1424,7 @@
   </animatedObject>
 
   <animatedObject index="LDMWRollDoor1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -1443,7 +1443,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="ABBRollDoor047">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -1462,7 +1462,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="LDMWRollDoor2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -1482,7 +1482,7 @@
   </animatedObject>
 
   <animatedObject index="OpslagRollDoor1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -1501,7 +1501,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="OpslagRollDoor2">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/OpenElectricDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -1521,7 +1521,7 @@
   </animatedObject>
 
   <animatedObject index="doorRight">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/torholz4000.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -1535,7 +1535,7 @@
   </animatedObject>
 
   <animatedObject index="doorLeft">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/torholz4000.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -1929,7 +1929,7 @@
   </animatedObject>
 
   <animatedObject index="graveyardGate1">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_GATE" negText="input_ANIMATED_OBJECT_OPENCLOSE_GATE"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_openGate" negText="action_closeGate"/>
     <sounds><moving file="maps/sounds/metalGate4s.ogg" loops="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <openingHours startTime="8" endTime="22" disableIfClosed="true" closedText="closedText_Graveyard"/>
     <animation initialTime="0" duration="4">
@@ -1949,7 +1949,7 @@
   </animatedObject>
 
   <animatedObject index="HaldoorRight">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/torholz4000.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -1962,7 +1962,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="HaldoorLeft">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/torholz4000.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -2090,7 +2090,7 @@
   </animatedObject>
 
   <animatedObject index="cornerShopJalousie">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_GATE" negText="input_ANIMATED_OBJECT_OPENCLOSE_GATE"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openGate" negText="action_closeGate"/>
     <sounds><moving file="maps/sounds/shutter5s.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <openingHours startTime="8" endTime="20" disableIfClosed="true" closedText="closedText_Klaerwerk"/>
     <animation initialTime="0" duration="5">
@@ -2103,7 +2103,7 @@
   </animatedObject>
 
   <animatedObject index="cornerShop_Door">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_DOOR" negText="input_ANIMATED_OBJECT_OPENCLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/littleDoor2s.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <openingHours startTime="8" endTime="20" disableIfClosed="true" closedText="closedText_cornerShop"/>
     <animation initialTime="0" duration="1">
@@ -2117,7 +2117,7 @@
   </animatedObject>
 
   <animatedObject index="cornerShop_Gate">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_GATE" negText="input_ANIMATED_OBJECT_OPENCLOSE_GATE"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openGate" negText="action_closeGate"/>
     <sounds><moving file="maps/sounds/squeakyDoor_4s.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <openingHours startTime="8" endTime="20" disableIfClosed="true" closedText="closedText_cornerShopGate"/>
     <animation initialTime="0" duration="4">
@@ -2142,7 +2142,7 @@
   </animatedObject>
 
   <animatedObject index="cornerShop_Objects">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_DOOR" negText="input_ANIMATED_OBJECT_OPENCLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <openingHours startTime="8" endTime="20" disableIfClosed="true" closedText="closedText_cornerShop"/>
     <animation initialTime="0" duration="1">
       <part node="1">
@@ -2155,7 +2155,7 @@
   </animatedObject>
 
   <animatedObject index="house_door1">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_GATE" negText="input_ANIMATED_OBJECT_OPENCLOSE_GATE"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openGate" negText="action_closeGate"/>
     <sounds><moving file="maps/sounds/OpenGateDoorSound.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="5">
       <part node="1">
@@ -2165,7 +2165,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="house_door">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/Door2.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="1">
       <part node="1">
@@ -2176,7 +2176,7 @@
   </animatedObject>
 
   <animatedObject index="garagedoor6">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_ELECTRICROLLDOOR" negText="input_ANIMATED_OBJECT_CLOSE_ELECTRICROLLDOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_OPEN_DOOR" triggerNode="0" posText="puurNederland_input_OPEN_ROLLUPDOOR" negText="puurNederland_input_CLOSE_ROLLUPDOOR"/>
     <sounds><moving file="maps/sounds/GarageDoor.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="7.5">
       <part node="1">
@@ -2282,7 +2282,7 @@
   </animatedObject>
 
   <animatedObject index="barnGates01s">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_GATE" negText="input_ANIMATED_OBJECT_OPENCLOSE_GATE"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_openGate" negText="action_closeGate"/>
     <sounds><moving file="maps/sounds/squeakyDoor_4s.ogg" loops="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -2300,7 +2300,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="barnGates02s">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_ANIMATED_OBJECT_OPENCLOSE_GATE" negText="input_ANIMATED_OBJECT_OPENCLOSE_GATE"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_openGate" negText="action_closeGate"/>
     <sounds><moving file="maps/sounds/squeakyDoor_4s.ogg" loops="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">
@@ -2319,7 +2319,7 @@
   </animatedObject>
 
   <animatedObject index="WerkBrug01">
-    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="input_ANIMATED_OBJECT_OPEN_DOOR" negText="input_ANIMATED_OBJECT_CLOSE_DOOR"/>
+    <controls posAction="ACTIVATE_HANDTOOL" negKey="ANIMATED_OBJECT_CLOSE_DOOR" triggerNode="0" posText="action_openDoor" negText="action_closeDoor"/>
     <sounds><moving file="maps/sounds/hydraulicUp.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="4">
       <part node="1">

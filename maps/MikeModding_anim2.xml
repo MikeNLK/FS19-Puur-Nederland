@@ -3,7 +3,7 @@
   <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
   <animatedObject index="Balenhallicht1">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.25">
       <part node="1|0">
@@ -30,7 +30,7 @@
   </animatedObject>
 
   <animatedObject index="Machinehallicht1">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.25">
       <part node="1|0">
@@ -57,7 +57,7 @@
   </animatedObject>
 
   <animatedObject index="lightSwitch90Neg1_14">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -93,7 +93,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="lightSwitch90Neg1_15">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -129,7 +129,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="lightSwitch90TP01854">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -200,7 +200,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="lightSwitch90Neg1_17">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -227,7 +227,7 @@
   </animatedObject>
 
   <animatedObject index="KartoffelhalleLicht">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.25">
       <part node="1|0">
@@ -249,7 +249,7 @@
   </animatedObject>
 
   <animatedObject index="Lagerbox1Licht">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.25">
       <part node="1|0">
@@ -265,7 +265,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Lagerbox2Licht">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.25">
       <part node="1|0">
@@ -281,7 +281,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="Lagerbox3Licht">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.25">
       <part node="1|0">
@@ -297,7 +297,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="KartoffelhalleAussenlicht1">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -313,7 +313,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="KartoffelhalleAussenlicht2">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -334,7 +334,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="KartoffelhalleAussenlicht3">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -356,7 +356,7 @@
   </animatedObject>
 
   <animatedObject index="lightSwitch">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
 
     <animation initialTime="0" duration="0.25">
@@ -379,7 +379,7 @@
   </animatedObject>
 
   <animatedObject saveId="Lichtlinks01">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
     <animation duration="0.5">
       <part node="1|0">
@@ -421,7 +421,7 @@
     </animation>
   </animatedObject>
   <animatedObject saveId="Lichtrechts02">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
     <animation duration="0.5">
       <part node="1|0">
@@ -464,7 +464,7 @@
   </animatedObject>
 
   <animatedObject index="lightMW01">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -536,7 +536,7 @@
   </animatedObject>
 
   <animatedObject index="lightABNeg112">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -577,7 +577,7 @@
     </animation>
   </animatedObject>
   <animatedObject index="lightABNeg1223">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">
@@ -619,7 +619,7 @@
   </animatedObject>
 
   <animatedObject index="Pstallight">
-    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="input_LIGHTSWITCH_CLICK" negText="input_LIGHTSWITCH_CLICK"/>
+    <controls posAction="ACTIVATE_HANDTOOL" triggerNode="0" posText="action_turnOnLight" negText="action_turnOffLight"/>
     <sounds><moving file="maps/sounds/switch01_0.ogg" loops="0" volume="0.55" radius="25" innerRadius="3" fadeOut="0.25"/></sounds>
     <animation initialTime="0" duration="0.5">
       <part node="1|0">

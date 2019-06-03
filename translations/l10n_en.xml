@@ -50,8 +50,6 @@
     <text name="puurNederland_input_CLOSE_ROLLUPDOOR" text="Close rolldoor"/>
     <text name="puurNederland_input_OPEN_STABLEGUTTER" text="Open stable gutter"/>
     <text name="puurNederland_input_CLOSE_STABLEGUTTER" text="Close stable gutter"/>
-    <text name="puurNederland_input_TOGGLE_GATE" text="Open/close gate"/>
-    <text name="puurNederland_input_TOGGLE_COVER" text="Open/close cover"/>
 
     <text name="puurNederland_fillType_carrot" text="Carrots"/>
     <text name="puurNederland_fillType_carrot_haulm" text="Carrot haulm"/>
