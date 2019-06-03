@@ -3,7 +3,7 @@
   <storeData>
     <name>$l10n_shopItem_greenhouseTomatoes</name>
     <boughtWithFarmland>true</boughtWithFarmland>
-    <canBeSold>false</canBeSold>
+    <canBeSold>true</canBeSold>
     <showInStore>false</showInStore>
     <image>placeables/greenhouse/store_greenhouseTomatoes.png</image>
     <price>25000</price>
