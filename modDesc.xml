@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="43">
-  <!--
-  ####################################
-  # Copyright © 2019 by Mike-Modding #
-  ####################################
-  -->
-  <version>2.0</version>
-  <author>Mike (www.mike-modding.com)</author>
-  <title>$l10n_puurNederland_modTitle</title>
-  <description>$l10n_puurNederland_modDesc</description>
+    <author>Mike / www.mike-modding.com</author>
+    <version>2.0</version>
+  
+  <!--  
+  *****************************
+  * Copyright by Mike Modding *
+  *****************************
+  --> 
+
+  <title>
+    <en>Pure Netherlands by Mike-Modding</en>
+    <de>Reine Niederlande von Mike-Modding</de>
+    <nl>Puur Nederland van Mike-Modding</nl>
+  </title>
+
+  <description>
+    <en>Welcome to Pure Netherlands.</en>
+    <de>Willkommen auf Reine Niederlande.</de>
+    <nl>Welkom bij Puur Nederland.</nl>
+  </description>
 
   <l10n filenamePrefix="translations/l10n"/>
   <iconFilename>Nederland_icon.png</iconFilename>
