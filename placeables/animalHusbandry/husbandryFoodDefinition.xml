@@ -25,13 +25,12 @@
     <animalFoodGroups type="CHICKEN" consumptionType="SERIAL">
       <foodGroup title="$l10n_fillTypeGroup_grain" productionWeight="1.00" fillTypes="WHEAT BARLEY"/>
     </animalFoodGroups>
-    <animalFoodGroups type="HOLSTEIN_CALF" consumptionType="SERIAL">
+    <animalFoodGroups type="HOLSTEIN" consumptionType="SERIAL">
+      <foodGroup title="$l10n_fillTypeGroup_forage" productionWeight="1.0" fillTypes="FORAGE"/>
       <foodGroup title="$l10n_fillTypeGroup_bulk" productionWeight="0.75" fillTypes="DRYGRASS_WINDROW SILAGE"/>
-      <foodGroup title="$l10n_fillTypeGroup_grain" productionWeight="0.25" eatWeight="0.15" fillTypes="WHEAT BARLEY"/>
-    </animalFoodGroups>
-    <animalFoodGroups type="HOLSTEIN_CATTLE" consumptionType="SERIAL">
-      <foodGroup title="$l10n_fillTypeGroup_bulk" productionWeight="0.75" fillTypes="DRYGRASS_WINDROW SILAGE"/>
-      <foodGroup title="$l10n_fillTypeGroup_grain" productionWeight="0.25" eatWeight="0.25" fillTypes="WHEAT BARLEY"/>
+      <foodGroup title="$l10n_fillTypeGroup_grain" productionWeight="0.25" fillTypes="WHEAT BARLEY"/>
+      <foodGroup title="$l10n_fillTypeGroup_grass" productionWeight="0.15" fillTypes="GRASS_WINDROW"/>
+      <foodGroup title="$l10n_fillTypeGroup_earth" productionWeight="0.10" eatWeight="0.05" fillTypes="SUGARBEET"/>
     </animalFoodGroups>
   </animals>
 

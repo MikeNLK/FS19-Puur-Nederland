@@ -44,7 +44,7 @@
     <triggerMarker node="0|14"/>
   </triggerMarkers>
 
-  <husbandry saveId="Animals_COW" hasStatistics="false">
+  <husbandry saveId="Animals_COW1" hasStatistics="false">
     <modules>
       <module name="animals">
         <config

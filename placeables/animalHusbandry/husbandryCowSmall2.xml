@@ -42,12 +42,12 @@
   <triggerMarkers>
     <triggerMarker node="0|14"/>
   </triggerMarkers>
-  <husbandry saveId="Animals_COW" hasStatistics="false">
+  <husbandry saveId="Animals_HOLSTEIN" hasStatistics="false">
     <placementRaycast distance="2"/>
     <modules>
       <module name="animals">
         <config
-          type="COW"
+          type="HOLSTEIN"
           navmeshNode="0|8"
           animalLoadTriggerNode="0|0"
           maxNumAnimals="500"
