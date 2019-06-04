@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="43">
-    <author>Mike / www.mike-modding.com</author>
-    <version>2.0</version>
-  
-  <!--  
-  *****************************
-  * Copyright by Mike Modding *
-  *****************************
-  --> 
-
+  <version>2.0</version>
+  <author>Mike (www.mike-modding.com)</author>
   <title>
     <en>Pure Netherlands by Mike-Modding</en>
     <de>Reine Niederlande von Mike-Modding</de>
     <nl>Puur Nederland van Mike-Modding</nl>
   </title>
-
   <description>
     <en>Welcome to Pure Netherlands.</en>
     <de>Willkommen auf Reine Niederlande.</de>
     <nl>Welkom bij Puur Nederland.</nl>
   </description>
+
+  <!--
+  ####################################
+  # Copyright © 2019 by Mike-Modding #
+  ####################################
+  -->
 
   <l10n filenamePrefix="translations/l10n"/>
   <iconFilename>Nederland_icon.png</iconFilename>
@@ -27,8 +25,16 @@
 
   <maps>
     <map id="Nederland" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/Nederland.xml" defaultVehiclesXMLFilename="NederlandVehicles.xml" defaultItemsXMLFilename="NederlandItems.xml">
-      <title>$l10n_puurNederland_modTitle</title>
-      <description>$l10n_puurNederland_mapDesc</description>
+      <title>
+        <en>Pure Netherlands by Mike-Modding</en>
+        <de>Reine Niederlande von Mike-Modding</de>
+        <nl>Puur Nederland van Mike-Modding</nl>
+      </title>
+      <description>
+        <en>The base of the map is a beautiful dutch landscape. There are five animal farms here: |1.BGA & cattle breeding, 2.dairy cattle & chicken farm, 3.pig farm, 4.horse stud, 5.sheep farm|</en>
+        <de>Die Basis der Karte ist eine schöne niederländische Landschaft. Es gibt hier fünf Tierbetriebe: |1.BGA & Viehzucht, 2.Milchvieh & Hühnerfarm, 3.Schweinemast, 4.Pferdegestüt, 5.Schafhof|</de>
+        <nl>De basis van de kaart is een prachtig Nederlands landschap. Er zijn hier vijf dierenfokkerijen: |1.BGA & veeteelt, 2.melkvee- & kippenfokkerij, 3.varkenshouderij, 4.horse stud, 5.sheep farm|</nl>
+      </description>
       <iconFilename>Nederland_preview.png</iconFilename>
     </map>
   </maps>
