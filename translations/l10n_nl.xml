@@ -3,7 +3,7 @@
   <texts>
     <text name="puurNederland_modTitle" text="Puur Nederland van Mike-Modding"/>
     <text name="puurNederland_modDesc" text="Welkom bij Puur Nederland."/>
-    <text name="puurNederland_mapDesc" text="De basis van de kaart is een prachtig Nederlands landschap. Er zijn hier vijf dierenfokkerijen: |1.BGA & veeteelt, 2.melkvee- & kippenfokkerij, 3.varkenshouderij, 4.horse stud, 5.sheep farm|"/>
+    <text name="puurNederland_mapDesc" text="De basis van de kaart is een prachtig Nederlands landschap. Er zijn hier vijf dierenfokkerijen: |1.BGA & veeteelt, 2.melkvee- & kippenfokkerij, 3.varkenshouderij, 4.paardenstoeterji, 5.schapenhouderij|"/>
 
     <text name="puurNederland_hotspot_biogas" text="BGA"/>
     <text name="puurNederland_hotspot_biogas_cow" text="BGA & Veeteelt"/>
@@ -43,22 +43,22 @@
     <text name="puurNederland_placeable_shedMedium" text="Balenloods met twee wanden (medium)"/>
     <text name="puurNederland_placeable_shedLarge" text="Balenloods met twee wanden (groot)"/>
     <text name="puurNederland_placeable_supermarket" text="Dorpswinkel"/>
-    <text name="puurNederland_placeable_vehicleStation" text="Autodealer"/>
+    <text name="puurNederland_placeable_vehicleStation" text="Voertuigdealer"/>
     <text name="puurNederland_placeable_windmill" text="Windmolen"/>
 
-    <text name="puurNederland_input_OPEN_ROLLUPDOOR" text="Rolldeur openen"/>
-    <text name="puurNederland_input_CLOSE_ROLLUPDOOR" text="Rolldeur sluiten"/>
-    <text name="puurNederland_input_OPEN_STABLEGUTTER" text="Open de put"/>
-    <text name="puurNederland_input_CLOSE_STABLEGUTTER" text="Sluit de put"/>
+    <text name="puurNederland_input_OPEN_ROLLUPDOOR" text="Roldeur openen"/>
+    <text name="puurNederland_input_CLOSE_ROLLUPDOOR" text="Roldeur sluiten"/>
+    <text name="puurNederland_input_OPEN_STABLEGUTTER" text="Put openen"/>
+    <text name="puurNederland_input_CLOSE_STABLEGUTTER" text="Put sluiten"/>
 
     <text name="puurNederland_fillType_carrot" text="Wortels"/>
-    <text name="puurNederland_fillType_carrot_haulm" text="Wortel haulm"/>
+    <text name="puurNederland_fillType_carrot_haulm" text="Wortel loof"/>
     <text name="puurNederland_fillType_onion" text="Uien"/>
     <text name="puurNederland_fillType_beetroot" text="Rode biet"/>
-    <text name="puurNederland_fillType_beetroot_haulm" text="Rode biet haulm"/>
+    <text name="puurNederland_fillType_beetroot_haulm" text="Rode bietenblad"/>
 
     <text name="puurNederland_shopItem_holsteinCattle" text="Holstein-Friesian rund"/>
-    <text name="puurNederland_shopItem_holsteinCalf" text="Holstein-Friesian calf"/>
+    <text name="puurNederland_shopItem_holsteinCalf" text="Holstein-Friesian kalf"/>
 
     <text name="puurNederland_closedText_treatmentPlant" text="Gesloten, openingstijden van 6:00 tot 18:00 uur"/>
     <text name="puurNederland_closedText_cornerShop" text="Gesloten, openingstijden van 8:00 tot 20:00 uur"/>
