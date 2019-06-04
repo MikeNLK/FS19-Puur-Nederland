@@ -41,6 +41,7 @@
 
   <extraSourceFiles>
     <sourceFile filename="scripts/FixSpectatorFarm.lua" />
+    <sourceFile filename="scripts/UniversalMapItemsXML_lite.lua" />
   </extraSourceFiles>
 
   <inputBindings>
