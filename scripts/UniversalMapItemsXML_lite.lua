@@ -36,7 +36,7 @@ function UniMIXML_lite:loadMap()
   local baseMapModDir = g_currentMission.baseDirectory
   local pathSep = string.sub( baseMapModDir, -1 )
   local mapModName = Utils.getModNameAndBaseDirectory( baseMapModDir, true )
-  local mapModScriptPath = mapModName .. pathSep .. 'scripts' .. pathSep .. self.scriptFilename
+  local mapModScriptPath = self.scriptFilename
   local baseGameFolderPath = string.sub( string.gsub( baseMapModDir, mapModName, '' ), 1, -7 )
   local configFolderName = self.scriptName .. '_defaultItemsXMLs'
   local configFolderPath = baseGameFolderPath .. configFolderName
