@@ -2,7 +2,7 @@
 
     @name Universal Map Items XML (Lite)
     @description Makes Placeables single- and multiplayer compatible, automatically.
-    @release fs19-0.8a
+    @release fs19-0.9a
 
     @author CREE7EN
     @copyright 2019 Thomas Creeten, CREEATION.de
