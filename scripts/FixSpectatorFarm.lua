@@ -14,8 +14,10 @@ Placeable.hourChanged = Utils.overwrittenFunction(
   Placeable.hourChanged,
   function ( self, superFunc )
     --- skip function execution if placeable belongs to spectator farm
-    if self:getOwnerFarmId() ~= FarmManager.SPECTATOR_FARM_ID then
+    if ( self:getOwnerFarmId() ~= FarmManager.SPECTATOR_FARM_ID ) then
       superFunc( self )
+
     end
+
   end
 )
